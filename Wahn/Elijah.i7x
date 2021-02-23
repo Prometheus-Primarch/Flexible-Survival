@@ -1881,7 +1881,7 @@ to say ElijahSex11: [Get fucked by both Elijah and Fang at once]
 			say "     After Fang and Elijah have pulled out, the wolf raises his hind leg with his dangling cock pointed at you. You moan softly as your alpha's hot urine starts to spray down onto you. His piss sprays across your [bodytype of Player] body and across your face. You open your mouth to catch some, enjoying being covered in your alpha's scent. Hearing Elijah chuckle, you look up see him start to piss over you as well. 'You are such a dirty slut sometimes,' he laughs as he sprays you down. Once they've drained their bladders over you, Elijah gives Fang's ears a scritch, telling the wolf that he's got a fine bitch there. Awash in the strong scent of the two males who just fucked you, you are pleased by he words, loving your place as a submissive slut.";
 			increase Libido of Player by 16; [This will be 8 once halved below]
 			SanLoss 5;
-	infect "Feral Wolf";
+	infect "Feral Wolf Male";
 	now Libido of Player is ( Libido of Player / 2 );
 	decrease humanity of Player by 3;
 
@@ -1903,7 +1903,7 @@ to say ElijahSex12:[Double-penetration by Elijah and Fang]
 			say "     After Fang and Elijah have pulled out, the wolf raises his hind leg with his dangling cock pointed at you. You moan softly as your alpha's hot urine starts to spray down onto you. His piss sprays across your [bodytype of Player] body and across your face. You open your mouth to catch some, enjoying being covered in your alpha's scent. Hearing Elijah chuckle, you look up see him start to piss over you as well. 'You are such a dirty slut sometimes,' he laughs as he sprays you down. Once they've drained their bladders over you, Elijah gives Fang's ears a scritch, telling the wolf that he's got a fine bitch there. Awash in the strong scent of the two males who just fucked you, you are pleased by he words, loving your place as a submissive slut.";
 			increase Libido of Player by 16; [This will be 8 once halved below]
 			SanLoss 5;
-	infect "Feral Wolf";
+	infect "Feral Wolf Male";
 	now Libido of Player is ( Libido of Player / 2 );
 	decrease humanity of Player by 3;
 

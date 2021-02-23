@@ -289,7 +289,7 @@ Part 3 - Feral Wusky
 to say sidney_wusky_cap:
 	say "     Suggesting you try freeing the wusky, you have him lead you to the lair of the wolf holding her captive. Looking over the ruined shop, take a moment to ready yourself before entering. Inside you find the female wolf-dog chained to a water pipe and the large wolf creature between you and her. He snarls at you and approaches with teeth bared.";
 	now showlocale is false;
-	challenge "Feral Wolf";
+	challenge "Feral Wolf Male";
 	now showlocale is true;
 	if fightoutcome >= 10 and fightoutcome <= 19:
 		say "     Defeating and driving off the large wolf, you're free to approach the wusky. Sidney takes out the nanite copying device and jabs the short needle into her side. With a pull of the trigger, a whirring sound and a flutter of indicator lights, it is done. Confirming with Sidney that he's gotten the sample, the two of you then free the wolf-husky hybrid. With a barking thanks and a few licks, she dashes out the door and off into the city.";

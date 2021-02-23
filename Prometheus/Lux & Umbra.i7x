@@ -159,7 +159,7 @@ PenileVirgin of Lux is true.
 SexuallyExperienced of Lux is false.
 TwistedCapacity of Lux is false. [Twisted Characters can take any penetration, no matter the size]
 Sterile of Lux is false. [steriles can't knock people up]
-MainInfection of Lux is "Feral Wolf".
+MainInfection of Lux is "Feral Wolf Bitch".
 Description of Lux is "[Luxdesc]".
 Conversation of Lux is { "Bark! Woof! Woof!" }.
 
@@ -475,7 +475,7 @@ PenileVirgin of Umbra is true.
 SexuallyExperienced of Umbra is false.
 TwistedCapacity of Umbra is false. [Twisted Characters can take any penetration, no matter the size]
 Sterile of Umbra is false. [steriles can't knock people up]
-MainInfection of Umbra is "Feral Wolf".
+MainInfection of Umbra is "Feral Wolf Male".
 Description of Umbra is "[Umbradesc]".
 Conversation of Umbra is { "Bark! Woof! Woof!" }.
 the scent of the Umbra is "     The dark-furred wolf smells rather masculine and wolfy, his musk obvious to the nose.".
@@ -1149,7 +1149,7 @@ instead of going to Grey Abbey Library while hp of Lux is 4 and (TimekeepingVar 
 
 to say Lux&PlayerFirstMatingEvent: [Lux has sex with player] [Evening] [Near Entrance to Library]
 	if player is male: [Male or Herm]
-		if player is pure and (bodyname of player is "Feral Wolf" or bodyname of player is "Alpha Wolf" or bodyname of player is "Dire Wolf"): [Special Wolf Scene]
+		if player is pure and (bodyname of player is "Feral Wolf Male" or bodyname of player is "Feral Wolf Bitch" or bodyname of player is "Alpha Wolf" or bodyname of player is "Dire Wolf"): [Special Wolf Scene]
 			say "     ";
 			say "     ";
 			WaitLineBreak;
@@ -1162,7 +1162,7 @@ to say Lux&PlayerFirstMatingEvent: [Lux has sex with player] [Evening] [Near Ent
 			say "     ";
 			say "     ";
 	else: [Female]
-		if player is pure and (bodyname of player is "Feral Wolf" or bodyname of player is "Alpha Wolf" or bodyname of player is "Dire Wolf"): [Special Wolf Scene]
+		if player is pure and (bodyname of player is "Feral Wolf Male" or bodyname of player is "Feral Wolf Bitch" or bodyname of player is "Alpha Wolf" or bodyname of player is "Dire Wolf"): [Special Wolf Scene]
 			say "     ";
 			say "     ";
 			WaitLineBreak;
@@ -1193,7 +1193,7 @@ instead of going to Grey Abbey Library while hp of Umbra is 4 and (TimekeepingVa
 
 to say Umbra&PlayerFirstMatingEvent: [Umbra has sex with player] [Evening] [Near Entrance to Library]
 	if player is male: [Male or Herm]
-		if player is pure and (bodyname of player is "Feral Wolf" or bodyname of player is "Alpha Wolf" or bodyname of player is "Dire Wolf"): [Special Wolf Scene]
+		if player is pure and (bodyname of player is "Feral Wolf Male" or bodyname of player is "Feral Wolf Bitch" or bodyname of player is "Alpha Wolf" or bodyname of player is "Dire Wolf"): [Special Wolf Scene]
 			if player is submissive: [Player is Penetrated]
 				say "     ";
 				say "     ";
@@ -1220,7 +1220,7 @@ to say Umbra&PlayerFirstMatingEvent: [Umbra has sex with player] [Evening] [Near
 				say "     ";
 				say "     ";
 	else: [female]
-		if player is pure and (bodyname of player is "Feral Wolf" or bodyname of player is "Alpha Wolf" or bodyname of player is "Dire Wolf"): [Special Wolf Scene]
+		if player is pure and (bodyname of player is "Feral Wolf Male" or bodyname of player is "Feral Wolf Bitch" or bodyname of player is "Alpha Wolf" or bodyname of player is "Dire Wolf"): [Special Wolf Scene]
 			say "     ";
 			say "     ";
 			WaitLineBreak;

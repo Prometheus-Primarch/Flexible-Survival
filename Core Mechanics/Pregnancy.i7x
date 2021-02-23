@@ -720,7 +720,7 @@ To impregnate with (x - text):
 					now hunger of Fang is 0;
 				stop the action;
 		now gestation of Child is a random number from 24 to 48;
-		SetInfectionsOf Child to "Feral Wolf";
+		SetInfectionsOf Child to "Feral Wolf Male";
 	else if "Chris's Breeder Slut" is listed in feats of Player:
 		if "Selective Mother" is listed in feats of Player:
 			say "Do you wish to be impregnated with an Orc Warrior child?";
