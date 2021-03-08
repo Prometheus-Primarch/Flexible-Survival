@@ -493,6 +493,17 @@ to say gsopt_start:
 			say "     Having thoroughly proven your dominance as the alpha, you ask [ObjectPro of Fang] what [PosPro of Fang] name is, [SubjectPro of Fang] hesitantly tells you that [SubjectPro of Fang] is unable to remember [PosPro of Fang] name. So you do your first duty as alpha and name [ObjectPro of Fang] a rather uncreative name, the name being Fang. Having given [ObjectPro of Fang], [PosPro of Fang] name, you give [ObjectPro of Fang] [PosPro of Fang] first order and duty, to guard the entrance. Fang barks an affirmative and goes to a nearby spot to lick him/her self clean and watch over the door. You, being incredibly exhausted from everything that went on, pad your way to the bunker where you pass out on one of the cots.";
 			WaitLineBreak;
 			say "     You wake up to your omega sitting on the floor next to your cot, with [PosPro of Fang] paws holding onto one of your paws, [PosPro of Fang] bright yellow eyes filled with worry. Once you open your eyes, [PosPro of Fang] tail starts to wag, as [PosPro of Fang] awaits your eventual morning greeting. Despite being half asleep you still acknowledge Fang with a yawn filled greeting as you try and rub the previous day's exhaustion from your eyes. Fang seeing you now awake, tells you 'things quieted down outside.', after a short silence [PosPro of Fang] continues with 'if you happen to find any survivors while out and about, it would be a good idea to let them know this place is safe.' having made sure you were all right and said [PosPro of Fang] piece, Fang pads [PosPro of Fang] way back to the entrance.";
+		if MaleList is warded or MaleList is banned:
+			turn Player into "Feral Wolf Bitch" silently;
+		else if FemaleList is warded or FemaleList is banned:
+			turn Player into "Feral Wolf Male" silently;
+		else if player is herm:
+			turn Player into "Feral Wolf Male" silently;
+			now Cunt Count of Player is 1;
+		else if player is male:
+			turn Player into "Feral Wolf Male" silently;
+		else if player is female:
+			turn Player into "Feral Wolf Bitch" silently;
 		move Fang to the Grey Abbey Library;
 	else:
 		say "     No one else ever arrived, so you're on your own out here. Ah well, you're an American of the 21st century. What's a little Apocalypse to keep you down? Steeling your nerves and readying what you have, you break the seal and prepare to set out.";
@@ -725,6 +736,81 @@ to newplayercustomizationmenu:
 			else:
 				now charactermenuexit is 1;
 
+to PlayerStartingGenderSetting:
+	now calcnumber is -1;
+	let gsexit be 0;
+	while gsexit is 0:
+		say "[bold type]Select a starting gender: (exact sizes for all parts are randomized in human ranges)[roman type][line break]";
+		say "(1) [link]Male[as]1[end link] - You have a penis and flat chest.";
+		say "(2) [link]Female[as]2[end link] - You have a vagina and breasts.";
+		say "(3) [link]Trans-Woman[as]3[end link] - You have a penis and breasts.";
+		say "(4) [link]Trans-Man[as]4[end link] - You have a vagina and flat chest.";
+		say "(5) [link]Male Herm[as]5[end link] - You have both a vagina and penis, but a flat chest.";
+		say "(6) [link]Female Herm[as]6[end link] - You have a vagina, penis and breasts.";
+		say "[line break]";
+		say "(0) [link]Return to main menu[as]0[end link][line break]";
+		while 1 is 1:
+			say "Choice? (0-6)>[run paragraph on]";
+			get a number;
+			if calcnumber >= 0 and calcnumber <= 6:
+				break;
+			else:
+				say "Invalid Entry";
+		if calcnumber is not 0:
+			now StartingGender is calcnumber;
+			now gsexit is 1;
+		else:
+			now gsexit is 1;
+
+to startgenderget:
+	say "Assigning Gender...";
+	if StartingGender is 1: [male]
+		now Cock Count of Player is 1;
+		now Cock Length of Player is a random number between 4 and 10;
+		now the Ball Size of Player is 3;
+		now Nipple Count of Player is 2;
+		remove womanhood from Player;
+		now Breast Size of Player is 0;
+	else if StartingGender is 2: [female]
+		now Cunt Count of Player is 1;
+		now Cunt Depth of Player is a random number between 4 and 10;
+		now Cunt Tightness of Player is a random number between 3 and 6;
+		now Nipple Count of Player is 2;
+		remove manhood from Player;
+		now Breast Size of Player is a random number between 1 and 5;
+	else if StartingGender is 3: [trans-woman - breasts + cock]
+		now Cock Count of Player is 1;
+		now Cock Length of Player is a random number between 4 and 10;
+		now the Ball Size of Player is 3;
+		now Nipple Count of Player is 2;
+		remove womanhood from Player;
+		now Breast Size of Player is a random number between 1 and 5;
+	else if StartingGender is 4: [trans-man - flat chest + cock]
+		now Cunt Count of Player is 1;
+		now Cunt Depth of Player is a random number between 4 and 10;
+		now Cunt Tightness of Player is a random number between 3 and 6;
+		now Nipple Count of Player is 2;
+		remove manhood from Player;
+		now Breast Size of Player is 0;
+	else if StartingGender is 5: [male herm - flat chest + cock + pussy]
+		now Cock Count of Player is 1;
+		now Cock Length of Player is a random number between 4 and 10;
+		now the Ball Size of Player is 3;
+		now Cunt Count of Player is 1;
+		now Cunt Depth of Player is a random number between 4 and 10;
+		now Cunt Tightness of Player is a random number between 3 and 6;
+		now Nipple Count of Player is 2;
+		now Breast Size of Player is 0;
+	else if StartingGender is 6: [male herm - breasts + cock + pussy]
+		now Cock Count of Player is 1;
+		now Cock Length of Player is a random number between 4 and 10;
+		now the Ball Size of Player is 3;
+		now Cunt Count of Player is 1;
+		now Cunt Depth of Player is a random number between 4 and 10;
+		now Cunt Tightness of Player is a random number between 3 and 6;
+		now Nipple Count of Player is 2;
+		now Breast Size of Player is a random number between 1 and 5;
+
 to playersexsetting: [OralVirgin of Player, Virgin of Player, AnalVirgin of Player, PenileVirgin of Player, SexuallyExperienced of Player]
 	now calcnumber is -1;
 	let menuexit be 0;
@@ -830,8 +916,11 @@ to startgenderlockget:
 			say "Locked to male gender.";
 			add "Male Preferred" to feats of Player;
 		else if GenderLock is 4:
-			say "Locked to female gender.";
-			add "Female Preferred" to feats of Player;
+			say "Locked to female body configuration (breasts, single sexed with a pussy, no cock).";
+			add "Always A Pussy" to feats of Player;
+			add "Single Sexed" to feats of Player;
+			add "Breasts" to feats of Player;
+			now StartingGender is 2;
 		else if GenderLock is 5:
 			say "Locked to shemale configuration.";
 			add "Male Preferred" to feats of Player;
