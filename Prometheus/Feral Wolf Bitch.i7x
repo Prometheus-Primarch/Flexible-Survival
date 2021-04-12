@@ -105,6 +105,7 @@ to say BeatFeralWolfBitch:
 						say "[FeralWolfBitchFemaleSex]";
 					else:
 						say "[FeralWolfBitchNonsexTame]";
+				now Fang is Female;
 				now HP of Fang is 1;
 				now Androginity of Fang is 6;
 				now Cock Count of Fang is 0;
