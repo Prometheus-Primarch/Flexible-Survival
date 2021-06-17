@@ -34,11 +34,9 @@ A person has a number called Lust. [ currently unused for the player; stash vari
 A person has a number called Libido.
 A person has a number called Loyalty.
 A person has a number called Humanity.
-[
 A person has a number called Affection. [TODO: remember to include these in export/import when turning them on]
-A person has a number called Corruption.
-A person has a number called Dom/Sub.
-]
+A person has a number called Depravity.
+A person has a number called SubVsDom. [range from -100 (sub) to 0 (vers) to +100 (dom)]
 A person has a number called Weapon damage. Weapon damage is usually 4.
 A person has a number called Armor.
 A person has a number called Capacity.
@@ -356,7 +354,6 @@ Chapter 2 - Location Based
 A person can be booked. A person is usually not booked.
 
 Definition: A person (Called x) is booked:
-	if x is Player, no;
 	If x is Trixie, no;
 	if x is Velos, no;
 	if the location of x is Grey Abbey Library, yes;
@@ -381,7 +378,6 @@ Definition: A person (Called x) is booked:
 A person can be bunkered. A person is usually not bunkered.
 
 Definition: A person (Called x) is bunkered:
-	if x is Player, no;
 	if x is Velos, no;
 	if the location of x is Bunker, yes;
 	if the location of x is Communal Shower, yes;

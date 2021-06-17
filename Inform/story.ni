@@ -223,7 +223,7 @@ Include New Ewe Store by Luneth.
 Include PIG Frat by Stripes.
 Include Pirate Island by Sarokcat.
 Include Power Plant by Hellerhound.
-Include Qytat a'th Lundrues by Hellerhound.
+Include Qytat a'th Lundrues by SgtPepper234.
 Include Red Light District by Wahn.
 Include Shag Shack by Wahn.
 Include Stablemasters by Sarokcat.
@@ -749,6 +749,7 @@ Include Daisy by Sarokcat n Verath.
 Include Damien by Gherod.
 Include Danny by Wahn.
 Include Darius by Wahn.
+Include Darren by Qazarar.
 Include David by Wahn.
 Include Davies by Wahn.
 Include Deer by Stripes.
@@ -777,17 +778,18 @@ Include Felix by Wahn.
 Include Finn by Wahn.
 Include Flint by Gherod.
 Include Francois by AGentlemanCalledB.
-Include Frank by Stripes.
+Include Frank by Luneth.
 Include Friesian Twin Isaac by Wahn.
 Include Friesian Twin Karel by Wahn.
 Include G-Shep Squad by Rikaeus.
 Include Genevieve by Prometheus.
-Include Garrett by Stripes.
+Include Garrett by SgtPepper234.
 Include Gerty by Qazarar.
 Include Glory by Wahn.
 Include Good Alexandra by Wahn.
 Include Gordon by Rikaeus.
 Include Gregory by Wahn.
+Include Gryphon Characters by SgtPepper234.
 Include Gus by Hyliad.
 Include Gwen by Stripes.
 Include Hadiya by Stripes.
