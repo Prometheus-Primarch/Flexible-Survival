@@ -182,11 +182,11 @@ to say fangdesc: [Note: SubjectPro and similar code is for gender pronoun checks
 				say "     Taking a closer look at Fang, you notice that as she is on the small side compared to the feral wolves that you have encountered, [if scalevalue of Player is 5]her back is at the level of your shins[else if scalevalue of Player is 4]she is at just the right height to wedge herself between your legs[else if scalevalue of Player is 3] her back is about level with your hips[else if scalevalue of Player is 2] your head comes up to her shoulder[else if scalevalue of Player is 1] you barely come up to her thigh[end if]. As Fang is surveying the surrounding area, she notices that you are examining her and rolls onto her back and spreads herself out, allowing you to see her entire body unimpeded and making you resist the urge to laugh as a canine grin appears on her face when she looks up at you. Her fur is a mix of black and dark gray fur that blends into the shadows as she watches you with bright, yellow eyes that compliment her sharp, white, canine teeth, her whole form now seemingly built more for sexual activities than hunting prey since you took her down a peg. Her four digitigrade legs complete with paws are thick and powerful looking with a puffy canine spade nestled between her hind-legs. Her often expressive fluffy tail slips to the side and reveals her anus, the ring slightly parted from her past experiences. Her thick fur is a lot cleaner than when she lived in the urban forest as is her muzzle, revealing the number of scars on her face, giving her a rugged beauty that clashes with her position as your Omega.";
 	else if HP of Fang is 3 or HP of Fang is 4: [Alpha Fang]
 		if Fang is in Grey Abbey Library:
-			say "     The feral wolf is now prowling around freely in the Library, unchained and without a collar[if Lux is in Grey Abbey Library], [PosAdj of Fang] aura of authority only being momentarily lowered to show affection to [PosAdj of Fang] children before moving on with [PosAdj of Fang] patrol[end if]. Your beastly wolf has a mix of black and dark gray fur that blends into the shadows as [SubjectPro of Fang] stands on watch. Fang looks quite assertive as [SubjectPro of Fang] patrols, [PosAdj of Fang] bright, yellow eyes shining with confidence in [PosAdj of Fang] new position as the alpha wolf. [SubjectProCap of Fang] seems bigger now, having grown larger since asserting [ObjectPro of Fang]self over you[if Fang is Male]. And this size growth doesn't seem to be limited to just [PosAdj of Fang] body. [PosAdjCap of Fang] sheath and balls are also plumper and fuller, proper for a virile alpha such as [SubjectPro of Fang]. [end if]You feel a rush of excitement as you look at [ObjectPro of Fang], your alpha wolf, feral instincts making you want to submit to [ObjectPro of Fang] again[if Perception of Fang > 12]. There is a kind of special glow to her, and she seems to be very happy and fulfilled right now[else if Perception of Fang > 0]. Her belly bulges in obvious pregnancy, making her a very content and happy wolf[end if].";
+			say "     The feral wolf is now prowling around freely in the Library, unchained and without a collar[if Lux is in Grey Abbey Library], [PosAdj of Fang] aura of authority only being momentarily lowered to show affection to [PosAdj of Fang] children before moving on with [PosAdj of Fang] patrol[end if]. Your beastly wolf has a mix of black and dark gray fur that blends into the shadows as [SubjectPro of Fang] stands on watch. Fang looks quite assertive as [SubjectPro of Fang] patrols, [PosAdj of Fang] bright, yellow eyes shining with confidence in [PosAdj of Fang] new position as the alpha wolf. [SubjectProCap of Fang] seems bigger now, having grown larger since asserting [ReflexPro of Fang] over you[if Fang is Male]. And this size growth doesn't seem to be limited to just [PosAdj of Fang] body. [PosAdjCap of Fang] sheath and balls are also plumper and fuller, proper for a virile alpha such as [SubjectPro of Fang]. [end if]You feel a rush of excitement as you look at [ObjectPro of Fang], your alpha wolf, feral instincts making you want to submit to [ObjectPro of Fang] again[if Perception of Fang > 12]. There is a kind of special glow to her, and she seems to be very happy and fulfilled right now[else if Perception of Fang > 0]. Her belly bulges in obvious pregnancy, making her a very content and happy wolf[end if].";
 		else if Fang is in Courtyard:
-			say "     The feral wolf strolls freely around the courtyard, unchained and without a collar[if Lux is in Courtyard], watching proudly as [PosAdj of Fang] children play nearby, [PosAdj of Fang] love for them momentarily shining through [PosAdj of Fang] authoritative demeanor[end if]. Your beastly wolf has a mix of black and dark gray fur that blends into the shadows as [SubjectPro of Fang] stands on watch. Fang looks quite assertive as [SubjectPro of Fang] patrols, [PosAdj of Fang] bright, yellow eyes shining with confidence in [PosAdj of Fang] new position as the alpha wolf. [SubjectProCap of Fang] seems bigger now, having grown larger since asserting [ObjectPro of Fang]self over you. And this size growth doesn't seem to be limited to just [PosAdj of Fang] body. [PosAdjCap of Fang] sheath and balls are also plumper and fuller, proper for a virile alpha such as [SubjectPro of Fang]. You feel a rush of excitement as you look at [ObjectPro of Fang], your alpha wolf, feral instincts making you want to submit to [ObjectPro of Fang] again[if Perception of Fang > 12]. There is a kind of special glow to her, and she seems to be very happy and fulfilled right now[else if Perception of Fang > 0]. Her belly bulges in obvious pregnancy, making her a very content and happy wolf[end if].";
+			say "     The feral wolf strolls freely around the courtyard, unchained and without a collar[if Lux is in Courtyard], watching proudly as [PosAdj of Fang] children play nearby, [PosAdj of Fang] love for them momentarily shining through [PosAdj of Fang] authoritative demeanor[end if]. Your beastly wolf has a mix of black and dark gray fur that blends into the shadows as [SubjectPro of Fang] stands on watch. Fang looks quite assertive as [SubjectPro of Fang] patrols, [PosAdj of Fang] bright, yellow eyes shining with confidence in [PosAdj of Fang] new position as the alpha wolf. [SubjectProCap of Fang] seems bigger now, having grown larger since asserting [ReflexPro of Fang] over you. And this size growth doesn't seem to be limited to just [PosAdj of Fang] body. [PosAdjCap of Fang] sheath and balls are also plumper and fuller, proper for a virile alpha such as [SubjectPro of Fang]. You feel a rush of excitement as you look at [ObjectPro of Fang], your alpha wolf, feral instincts making you want to submit to [ObjectPro of Fang] again[if Perception of Fang > 12]. There is a kind of special glow to her, and she seems to be very happy and fulfilled right now[else if Perception of Fang > 0]. Her belly bulges in obvious pregnancy, making her a very content and happy wolf[end if].";
 		else if Fang is in Computer Lab:
-			say "     The feral wolf is curled up protectively in front of Lux and Umbra, looking up at you before settling down again. Your beastly wolf has a mix of black and dark gray fur that blends into the shadows as [SubjectPro of Fang] stands on watch. Fang looks quite assertive as [SubjectPro of Fang] watches you with [PosAdj of Fang] bright, yellow eyes that shine with confidence in [PosAdj of Fang] new position as the alpha wolf. [SubjectProCap of Fang] seems bigger now, having grown larger since asserting [ObjectPro of Fang]self over you. And this size growth doesn't seem to be limited to just [PosAdj of Fang] body. [PosAdjCap of Fang] sheath and balls are also plumper and fuller, proper for a virile alpha such as [SubjectPro of Fang]. You feel a rush of excitement as you look at [ObjectPro of Fang], your alpha wolf, feral instincts making you want to submit to [ObjectPro of Fang] again[if Perception of Fang > 12]. There is a kind of special glow to her, and she seems to be very happy and fulfilled right now[else if Perception of Fang > 0]. Her belly bulges in obvious pregnancy, making her a very content and happy wolf[end if].";
+			say "     The feral wolf is curled up protectively in front of Lux and Umbra, looking up at you before settling down again. Your beastly wolf has a mix of black and dark gray fur that blends into the shadows as [SubjectPro of Fang] stands on watch. Fang looks quite assertive as [SubjectPro of Fang] watches you with [PosAdj of Fang] bright, yellow eyes that shine with confidence in [PosAdj of Fang] new position as the alpha wolf. [SubjectProCap of Fang] seems bigger now, having grown larger since asserting [ReflexPro of Fang] over you. And this size growth doesn't seem to be limited to just [PosAdj of Fang] body. [PosAdjCap of Fang] sheath and balls are also plumper and fuller, proper for a virile alpha such as [SubjectPro of Fang]. You feel a rush of excitement as you look at [ObjectPro of Fang], your alpha wolf, feral instincts making you want to submit to [ObjectPro of Fang] again[if Perception of Fang > 12]. There is a kind of special glow to her, and she seems to be very happy and fulfilled right now[else if Perception of Fang > 0]. Her belly bulges in obvious pregnancy, making her a very content and happy wolf[end if].";
 		else: [Companion]
 			if Fang is Male:
 				say "     Taking a closer look at Fang, you notice that he is on the large side when compared to the feral wolves that you have encountered, [if scalevalue of Player is 5] his back reaching your thigh[else if scalevalue of Player is 4] his face level with your groin[else if scalevalue of Player is 3] his face at eye-level[else if scalevalue of Player is 2] your face level with his sheath[else if scalevalue of Player is 1] your head doesn't even reach his elbow[end if]. As Fang is surveying the surrounding area, he notices that you are eye-humping him and unconsciously adjusts into a commanding pose, allowing you to admire his majesty while you resist the urge to submit as a he looks back at you with a calm expression. His fur is a mix of black and dark gray fur that blends into the shadows as he watches you with intense, yellow eyes that compliment his sharp, white, canine teeth, his whole form obviously built for leading the hunt and defending his pack against rivals. His four digitigrade legs complete with paws are thick and powerful looking with a sheath containing a twelve-inch knotted canine cock complete with two goose-egg sized balls below it hanging between his hind-legs. His often expressive fluffy tail briefly flags to the side to reveals his relatively tight anus. His lush fur is a lot cleaner than when he lived in the urban forest as is his muzzle, revealing the number of scars on his face, giving him a ruggedly-handsome look that enhances his position as your Alpha.";
@@ -194,9 +194,9 @@ to say fangdesc: [Note: SubjectPro and similar code is for gender pronoun checks
 				say "     Taking a closer look at Fang, you notice that she is on the large side when compared to the feral wolves that you have encountered, [if scalevalue of Player is 5] her back reaching your thigh[else if scalevalue of Player is 4] her face level with your groin[else if scalevalue of Player is 3] her face at eye-level[else if scalevalue of Player is 2] your face level with her vulva[else if scalevalue of Player is 1] your head doesn't even reach her elbow[end if]. As Fang is surveying the surrounding area, she notices that you are eye-humping her and unconsciously adjusts into a commanding pose, allowing you to admire her majesty while you resist the urge to submit as a she looks back at you with a calm expression. Her fur is a mix of black and dark gray fur that blends into the shadows as she watches you with intense, yellow eyes that compliment her sharp, white, canine teeth, her whole form obviously built for leading the hunt and defending her pack against rivals. Her four digitigrade legs complete with paws are thick and powerful looking and her often expressive fluffy tail briefly flags to the side to reveals her puffy canine spade and relatively tight anus. Her lush fur is a lot cleaner than when she lived in the urban forest as is her muzzle, revealing the number of scars on her face, giving her a rugged beauty that enhances her position as your Alpha.";
 	else if HP of Fang is 5: [Beta Fang]
 		if Fang is in Grey Abbey Library:
-			say "     The feral wolf is now prowling around freely in the Library, unchained and without a collar[if Lux is in Grey Abbey Library], often accompanied by both Lux and Umbra as [SubjectPro of Fang] patrols, the three wolves walking side by side, talking softly and brushing against each other affectionately[end if]. Your beastly wolf has a mix of black and dark gray fur that blends into the shadows as [SubjectPro of Fang] stands on watch. Fang looks quite relaxed as [SubjectPro of Fang] patrols, [PosAdj of Fang] bright, yellow eyes shining with confidence in [PosAdj of Fang] position as your beta, answering to no one but you. While [SubjectPro of Fang] isn't any larger, [PosAdj of Fang] posture seems to have changed making [ObjectPro of Fang] look more impressive and filled with vigor. When [SubjectPro of Fang] sees you, [SubjectPro of Fang] begins to wag wildly and dips [PosAdj of Fang] ears in greeting before approaching you, pressing [ObjectPro of Fang]self up against your side and giving you a friendly lick[if Lux is in Grey Abbey Library], a reaction that is mirrored by [PosAdj of Fang] children[end if][if Perception of Fang > 12]. There is a kind of special glow to her, and she seems to be very happy and fulfilled right now[else if Perception of Fang > 0]. Her belly bulges in obvious pregnancy, making her a very content and happy wolf[end if].";
+			say "     The feral wolf is now prowling around freely in the Library, unchained and without a collar[if Lux is in Grey Abbey Library], often accompanied by both Lux and Umbra as [SubjectPro of Fang] patrols, the three wolves walking side by side, talking softly and brushing against each other affectionately[end if]. Your beastly wolf has a mix of black and dark gray fur that blends into the shadows as [SubjectPro of Fang] stands on watch. Fang looks quite relaxed as [SubjectPro of Fang] patrols, [PosAdj of Fang] bright, yellow eyes shining with confidence in [PosAdj of Fang] position as your beta, answering to no one but you. While [SubjectPro of Fang] isn't any larger, [PosAdj of Fang] posture seems to have changed making [ObjectPro of Fang] look more impressive and filled with vigor. When [SubjectPro of Fang] sees you, [SubjectPro of Fang] begins to wag wildly and dips [PosAdj of Fang] ears in greeting before approaching you, pressing [ReflexPro of Fang] up against your side and giving you a friendly lick[if Lux is in Grey Abbey Library], a reaction that is mirrored by [PosAdj of Fang] children[end if][if Perception of Fang > 12]. There is a kind of special glow to her, and she seems to be very happy and fulfilled right now[else if Perception of Fang > 0]. Her belly bulges in obvious pregnancy, making her a very content and happy wolf[end if].";
 		else if Fang is in Courtyard:
-			say "     The feral wolf calmly pads around the courtyard, unchained and without a collar[if Lux is in Courtyard], playing with [PosAdj of Fang] children without hesitation when invited, a very canine smile on [PosAdj of Fang] face as [SubjectPro of Fang] bounces and runs with them[end if]. Your beastly wolf has a mix of black and dark gray fur that blends into the shadows as [SubjectPro of Fang] walks. Fang looks quite relaxed, [PosAdj of Fang] bright, yellow eyes shining with confidence in [PosAdj of Fang] position as your beta, answering to no one but you. While [SubjectPro of Fang] isn't any larger, [PosAdj of Fang] posture seems to have changed making [ObjectPro of Fang] look more impressive and filled with vigor. When [SubjectPro of Fang] sees you, [SubjectPro of Fang] begins to wag wildly and dips [PosAdj of Fang] ears in greeting before approaching you, pressing [ObjectPro of Fang]self up against your side and giving you a friendly lick[if Lux is in Grey Abbey Library], a reaction that is mirrored by [PosAdj of Fang] children[end if][if Perception of Fang > 12]. There is a kind of special glow to her, and she seems to be very happy and fulfilled right now[else if Perception of Fang > 0]. Her belly bulges in obvious pregnancy, making her a very content and happy wolf[end if].";
+			say "     The feral wolf calmly pads around the courtyard, unchained and without a collar[if Lux is in Courtyard], playing with [PosAdj of Fang] children without hesitation when invited, a very canine smile on [PosAdj of Fang] face as [SubjectPro of Fang] bounces and runs with them[end if]. Your beastly wolf has a mix of black and dark gray fur that blends into the shadows as [SubjectPro of Fang] walks. Fang looks quite relaxed, [PosAdj of Fang] bright, yellow eyes shining with confidence in [PosAdj of Fang] position as your beta, answering to no one but you. While [SubjectPro of Fang] isn't any larger, [PosAdj of Fang] posture seems to have changed making [ObjectPro of Fang] look more impressive and filled with vigor. When [SubjectPro of Fang] sees you, [SubjectPro of Fang] begins to wag wildly and dips [PosAdj of Fang] ears in greeting before approaching you, pressing [ReflexPro of Fang] up against your side and giving you a friendly lick[if Lux is in Grey Abbey Library], a reaction that is mirrored by [PosAdj of Fang] children[end if][if Perception of Fang > 12]. There is a kind of special glow to her, and she seems to be very happy and fulfilled right now[else if Perception of Fang > 0]. Her belly bulges in obvious pregnancy, making her a very content and happy wolf[end if].";
 		else if Fang is in Computer Lab:
 			say "     The feral wolf is curled up against Lux and Umbra, all of their faces pressed together as they sleep peacefully. Your beastly wolf has a mix of black and dark gray fur that blends into the shadows of the room. While you can't currently see them, [PosAdj of Fang] bright, yellow eyes usually shine with confidence in [PosAdj of Fang] position as your beta, answering to no one but you. While [SubjectPro of Fang] isn't any larger, [PosAdj of Fang] posture seems to have changed making [ObjectPro of Fang] look more impressive and filled with vigor. You smile to yourself at the heart-warming sight in front of you, the three fully grown wolves feeling safe when together like this, breathing almost in unison. It's at times like this that you can really see the bond within this family and you are glad to be a part of it[if Perception of Fang > 12]. There is a kind of special glow to her, and she seems to be very happy and fulfilled right now[else if Perception of Fang > 0]. Her belly bulges in obvious pregnancy, making her a very content and happy wolf[end if].";
 		else: [Companion]
@@ -218,13 +218,13 @@ to say FangTalkMenu:
 	[]
 	choose a blank row in table of fucking options;
 	now title entry is "Discuss Your Day";
-	now sortorder entry is 0;
+	now sortorder entry is 1;
 	now description entry is "Tell Fang about some of your exploits in the city (PLACEHOLDER)";
 	[]
 	if hp of Fang > 1 and Fang is not listed in companionList of Player:
 		choose a blank row in table of fucking options;
 		now title entry is "Take Fang With You";
-		now sortorder entry is 1;
+		now sortorder entry is 2;
 		now description entry is "Discuss taking Fang with you out into the city";
 	[]
 	repeat with y running from 1 to number of filled rows in table of fucking options:
@@ -245,6 +245,7 @@ to say FangTalkMenu:
 					say "[FangTalk1]";
 				else if (nam is "Take Fang With You"):
 					say "[FangTalk2]";
+				wait for any key;
 		else if calcnumber is 0:
 			now sextablerun is 1;
 			say "     You step back from the feral wolf, shaking your head slightly as he gives a questioning look.";
@@ -263,21 +264,21 @@ to say FangTalk1:
 to say FangTalk2: [Take as Companion]
 	if Intelligence of Fang is 1:
 		if HP of Fang is 2: [Omega]
-			say "     You tell [ObjectPro of Fang] that [SubjectPro of Fang] will be accompanying you around the city until you dismiss [ObjectPro of Fang]. [SubjectProCap of Fang] looks up at you, [PosAdj of Fang] tail wagging in excitement that [SubjectPro of Fang] will be going with you, before manically jumping around and pressing [ObjectPro of Fang]self against your side. For a moment you wonder whether to attach a proper collar and leash, but decide that the wolf may need freedom of movement if [SubjectPro of Fang] is to defend you.";
+			say "     You tell [ObjectPro of Fang] that [SubjectPro of Fang] will be accompanying you around the city until you dismiss [ObjectPro of Fang]. [SubjectProCap of Fang] looks up at you, [PosAdj of Fang] tail wagging in excitement that [SubjectPro of Fang] will be going with you, before manically jumping around and pressing [ReflexPro of Fang] against your side. For a moment you wonder whether to attach a proper collar and leash, but decide that the wolf may need freedom of movement if [SubjectPro of Fang] is to defend you.";
 		else if (HP of Fang is 3 or HP of Fang is 4): [Alpha]
 			say "     You ask [ObjectPro of Fang] whether [SubjectPro of Fang] would be willing to accompany you around the city. [SubjectProCap of Fang] looks at you, slowly wagging [PosAdj of Fang] tail before pressing [PosAdj of Fang] mouth to your ear. 'Mine to protect,' [SubjectPro of Fang] whispers, agreeing to follow you for as long as you need [ObjectPro of Fang]. You will have to do your best not to disappoint your Alpha and it would be remiss of you not to show your gratitude when you get the chance.";
 		else if HP of Fang is 5: [Beta]
 			if a random chance of 1 in 10 succeeds: [Funny alternative]
 				say "     Looking Fang squarely in the eye you merely ask 'Walkies?' earning a brief roll of the eyes before [SubjectPro of Fang] plays along with you. Dashing around you repeatedly, what you thought to be a wolf, squeaks and whines like some sort of lapdog, bringing a smile to your face at [PosAdj of Fang] willingness to be silly from time to time. Patting [ObjectPro of Fang] on the head, you thank [ObjectPro of Fang] for [PosAdj of Fang] ability to take a joke and ask if [SubjectPro of Fang] wants to come and protect you in the city. Huffing happily, [SubjectPro of Fang] accepts your offer and waits for you to be ready to go.";
 			else:
-				say "     You ask whether [SubjectPro of Fang] would be interested in coming with you out into the city. [SubjectProCap of Fang] looks up at you affectionately, [PosAdj of Fang] tail wagging at the prospect of exploring with you, before pressing [ObjectPro of Fang]self against you. You chuckle at the thought of being one of the few people in the city who is accompanied by a devoted guard wolf, putting hand down to scritch [ObjectPro of Fang] behind the ears.";
+				say "     You ask whether [SubjectPro of Fang] would be interested in coming with you out into the city. [SubjectProCap of Fang] looks up at you affectionately, [PosAdj of Fang] tail wagging at the prospect of exploring with you, before pressing [ReflexPro of Fang] against you. You chuckle at the thought of being one of the few people in the city who is accompanied by a devoted guard wolf, putting hand down to scritch [ObjectPro of Fang] behind the ears.";
 	else: [First Time]
 		if HP of Fang is 2: [Omega]
-			say "     Wondering whether Fang's talents are wasted by only protecting the library, you decide that [SubjectPro of Fang] might be more effective if [SubjectPro of Fang] accompanied you around the city and guarded [PosAdj of Fang] Alpha more directly. Your mind made up, you tell [ObjectPro of Fang] that [SubjectPro of Fang] will be accompanying you around the city until you dismiss [ObjectPro of Fang]. [SubjectProCap of Fang] looks up at you, [PosAdj of Fang] tail wagging in excitement that [SubjectPro of Fang] will be going with you, before manically jumping around and pressing [ObjectPro of Fang]self against your side. For a moment you wonder whether to attach a proper collar and leash, but decide that the wolf may need freedom of movement if [SubjectPro of Fang] is to defend you.";
+			say "     Wondering whether Fang's talents are wasted by only protecting the library, you decide that [SubjectPro of Fang] might be more effective if [SubjectPro of Fang] accompanied you around the city and guarded [PosAdj of Fang] Alpha more directly. Your mind made up, you tell [ObjectPro of Fang] that [SubjectPro of Fang] will be accompanying you around the city until you dismiss [ObjectPro of Fang]. [SubjectProCap of Fang] looks up at you, [PosAdj of Fang] tail wagging in excitement that [SubjectPro of Fang] will be going with you, before manically jumping around and pressing [ReflexPro of Fang] against your side. For a moment you wonder whether to attach a proper collar and leash, but decide that the wolf may need freedom of movement if [SubjectPro of Fang] is to defend you.";
 		else if (HP of Fang is 3 or HP of Fang is 4): [Alpha]
 			say "     Contemplating the strange sense of loneliness that you feel when away from your Alpha, you decide that you might be able to persuade [ObjectPro of Fang] to come with you when you next leave the library. With this in mind, you ask [ObjectPro of Fang] whether [SubjectPro of Fang] would be willing to accompany you around the city. [SubjectProCap of Fang] looks at you, slowly wagging [PosAdj of Fang] tail before pressing [PosAdj of Fang] mouth to your ear. 'Mine to protect,' [SubjectPro of Fang] whispers, agreeing to follow you for as long as you need [ObjectPro of Fang]. You will have to do your best not to disappoint your Alpha and it would be remiss of you not to show your gratitude when you get the chance.";
 		else if HP of Fang is 5: [Beta]
-			say "     Deciding that you would like to give Fang a chance to explore with you for a bit, you ask whether [SubjectPro of Fang] would be interested in coming with you out into the city. [SubjectProCap of Fang] looks up at you affectionately, [PosAdj of Fang] tail wagging at the prospect of exploring with you, before pressing [ObjectPro of Fang]self against you. You chuckle at the thought of being one of the few people in the city who is accompanied by a devoted guard wolf, putting hand down to scritch [ObjectPro of Fang] behind the ears.";
+			say "     Deciding that you would like to give Fang a chance to explore with you for a bit, you ask whether [SubjectPro of Fang] would be interested in coming with you out into the city. [SubjectProCap of Fang] looks up at you affectionately, [PosAdj of Fang] tail wagging at the prospect of exploring with you, before pressing [ReflexPro of Fang] against you. You chuckle at the thought of being one of the few people in the city who is accompanied by a devoted guard wolf, putting hand down to scritch [ObjectPro of Fang] behind the ears.";
 		now Intelligence of Fang is 1;
 		now Best Wolf is tamed;
 		add "Tamed" to Traits of Best Wolf;
@@ -293,7 +294,7 @@ Best Wolf	"Best Wolf"
 Best Wolf is a pet.
 NPCObject of Best Wolf is Fang.
 understand "Fang" as Best Wolf.
-IDList of Best Wolf is { "Fang", "fang", "feral wolf" }.
+IDList of Best Wolf is { "Fang", "fang", "Feral Wolf", "feral wolf", "Best Wolf", "best wolf" }.
 printed name of Best Wolf is "Fang".
 Description of Best Wolf is "[FangDesc]".
 Weapon Damage of Best Wolf is 15.
@@ -301,17 +302,17 @@ The level of Best Wolf is 1.
 Dexterity of Best Wolf is 15.
 The summondesc of Best Wolf is "[SummonFang]".
 The dismissdesc of Best Wolf is "[DismissFang]".
-The assault of Best Wolf is "[one of]Fang leaps into the fray, [PosAdj of Fang] teeth snapping shut on your enemy as they leave themselves vulnerable attacking you.[or]Coordinating [PosAdj of Fang] movements with yours, Fang circles behind your opponent and bites them while they are distracted.[or]A fierce snarl from Fang distracts your enemy a moment - long enough for you to score a quick hit![or]Using the full weight of [PosAdj of Fang] body, Fang hurls [ObjectPro of Fang]self against your opponent as they leave themselves open, knocking them flat on their back.[or]Fang manages to grab onto your opponent, relentlessly maintaining [PosAdj of Fang] grip, providing you with an opening![or]Fang charges into the melee to protect you, your opponent seeming so startled at the ferocious appearance of this new combatant that they leave themselves open to attack.[at random]".
+The assault of Best Wolf is "[one of]Fang leaps into the fray, [PosAdj of Fang] teeth snapping shut on your enemy as they leave themselves vulnerable attacking you.[or]Coordinating [PosAdj of Fang] movements with yours, Fang circles behind your opponent and bites them while they are distracted.[or]A fierce snarl from Fang distracts your enemy a moment - long enough for you to score a quick hit![or]Using the full weight of [PosAdj of Fang] body, Fang hurls [ReflexPro of Fang] against your opponent as they leave themselves open, knocking them flat on their back.[or]Fang manages to grab onto your opponent, relentlessly maintaining [PosAdj of Fang] grip, providing you with an opening![or]Fang charges into the melee to protect you, your opponent seeming so startled at the ferocious appearance of this new combatant that they leave themselves open to attack.[at random]".
 the fuckscene of Best Wolf is "[sexwithFang]".
 
 to say SummonFang:
 	if Fang is visible: [summoning while standing next to him]
 		if HP of Fang is 2: [Omega]
-			say "     Walking over to where Fang is currently lying, you tell [ObjectPro of Fang] that [SubjectPro of Fang] will be accompanying you around the city until you dismiss [ObjectPro of Fang]. [SubjectProCap of Fang] looks up at you, [PosAdj of Fang] tail thumping against the floor in excitement that [SubjectPro of Fang] will be going with you, before lurching to [PosAdj of Fang] feet and pressing [ObjectPro of Fang]self against your side. For a moment you wonder whether to attach a proper collar and leash, but decide that the wolf may need freedom of movement if [SubjectPro of Fang] is to defend you.";
+			say "     Walking over to where Fang is currently lying, you tell [ObjectPro of Fang] that [SubjectPro of Fang] will be accompanying you around the city until you dismiss [ObjectPro of Fang]. [SubjectProCap of Fang] looks up at you, [PosAdj of Fang] tail thumping against the floor in excitement that [SubjectPro of Fang] will be going with you, before lurching to [PosAdj of Fang] feet and pressing [ReflexPro of Fang] against your side. For a moment you wonder whether to attach a proper collar and leash, but decide that the wolf may need freedom of movement if [SubjectPro of Fang] is to defend you.";
 		else if (HP of Fang is 3 or HP of Fang is 4): [Alpha]
 			say "     Walking over to where Fang is currently lying, you ask [ObjectPro of Fang] whether [SubjectPro of Fang] would be willing to accompany you around the city. [SubjectProCap of Fang] looks at you, slowly wagging [PosAdj of Fang] tail against the floor before placidly climbing to [PosAdj of Fang] feet and pressing [PosAdj of Fang] mouth to your ear. 'Mine to protect,' [SubjectPro of Fang] whispers, agreeing to follow you for as long as you need [ObjectPro of Fang]. You will have to do your best not to disappoint your Alpha and it would be remiss of you not to show your gratitude when you get the chance.";
 		else if HP of Fang is 5: [Beta]
-			say "     Walking over to where Fang is currently lying, you ask whether [SubjectPro of Fang] would be interested in coming with you out into the city. [SubjectProCap of Fang] looks up at you affectionately, [PosAdj of Fang] tail thumping against the floor, before smoothly regaining [PosAdj of Fang] feet and pressing [ObjectPro of Fang]self against you. You chuckle at the thought of being one of the few people in the city who is accompanied by a devoted guard wolf, putting hand down to scritch [ObjectPro of Fang] behind the ears.";
+			say "     Walking over to where Fang is currently lying, you ask whether [SubjectPro of Fang] would be interested in coming with you out into the city. [SubjectProCap of Fang] looks up at you affectionately, [PosAdj of Fang] tail thumping against the floor, before smoothly regaining [PosAdj of Fang] feet and pressing [ReflexPro of Fang] against you. You chuckle at the thought of being one of the few people in the city who is accompanied by a devoted guard wolf, putting hand down to scritch [ObjectPro of Fang] behind the ears.";
 	else: [regular summoning]
 		say "     Fang for all [PosAdj of Fang] many qualities doesn't possess the ability to hear you when you aren't in earshot. Perhaps you should try again when you can see [ObjectPro of Fang].";
 
@@ -323,14 +324,14 @@ to say DismissFang:
 		else if (HP of Fang is 3 or HP of Fang is 4): [Alpha]
 			say "     Touching Fang's flank to signal that you wish to talk, [SubjectPro of Fang] turns around and waits for you to speak. After you tell [ObjectPro of Fang] that you don't wish to take any more of [PosAdj of Fang] time and that you should be able to manage alone for now, [SubjectPro of Fang] looks you over before giving a nod and padding down the middle of the street, almost daring anyone to attack [ObjectPro of Fang]. Once [SubjectPro of Fang] has turned a corner, you continue on your way.";
 		else if HP of Fang is 5: [Beta]
-			say "     With a word, you get Fang's attention and tell [ObjectPro of Fang] that you would prefer to continue on without [ObjectPro of Fang] for now. [SubjectProCap of Fang] looks a little disappointed, but nods [PosAdj of Fang] acceptance nonetheless. [SubjectProCap of Fang] walks at a leisurely pace of to the side of the road, unconcerned about attracting attention to [ObjectPro of Fang]self, but not actively seeking it either. Comfortable to let [ObjectPro of Fang] travel back at [PosAdj of Fang] own pace, you continue on your way.";
+			say "     With a word, you get Fang's attention and tell [ObjectPro of Fang] that you would prefer to continue on without [ObjectPro of Fang] for now. [SubjectProCap of Fang] looks a little disappointed, but nods [PosAdj of Fang] acceptance nonetheless. [SubjectProCap of Fang] walks at a leisurely pace of to the side of the road, unconcerned about attracting attention to [ReflexPro of Fang], but not actively seeking it either. Comfortable to let [ObjectPro of Fang] travel back at [PosAdj of Fang] own pace, you continue on your way.";
 	else: [dismissing Fang in the abbey]
 		if HP of Fang is 2: [Omega]
 			say "     Putting a hand on Fang's shoulder, you tell [ObjectPro of Fang] that you can manage without [ObjectPro of Fang] for now and that [SubjectPro of Fang] should return to guard duty. With little more than a nod, the wolf slinks away between the shelves, [PosAdj of Fang] backside shaking as [SubjectPro of Fang] moves. Soon [SubjectPro of Fang] has disappeared from sight, leaving you to decide what to do next.";
 		else if (HP of Fang is 3 or HP of Fang is 4): [Alpha]
 			say "     After you tentatively make a sound to signal that you wish to talk, Fang turns around and waits for you to speak. You tell [ObjectPro of Fang] that you don't wish to take any more of [PosAdj of Fang] time and that you should be able to manage alone for now, [SubjectPro of Fang] looks you over before giving a nod, remeaining where [SubjectPro of Fang] is while watching you unflinchingly. Recognizing that you have been dismissed, you decide what to do next.";
 		else if HP of Fang is 5: [Beta]
-			say "     With a word, you get Fang's attention and tell [ObjectPro of Fang] that [SubjectPro of Fang] should remain here at the library. [SubjectProCap of Fang] looks a little disappointed, but nods [PosAdj of Fang] acceptance nonetheless before padding over to [PosAdj of Fang] usual position by the door. With a sigh, [SubjectPro of Fang] eases [ObjectPro of Fang]self to lie down with a clear view outside, [PosAdj of Fang] hind-legs splayed in a manner that displays [PosAdj of Fang] [if Fang is Male]plump sheath and balls[else]puffy canine vulva[end if]. With a snort at [PosAdj of Fang] cunning attempt to entice you, you decide what to do next.";
+			say "     With a word, you get Fang's attention and tell [ObjectPro of Fang] that [SubjectPro of Fang] should remain here at the library. [SubjectProCap of Fang] looks a little disappointed, but nods [PosAdj of Fang] acceptance nonetheless before padding over to [PosAdj of Fang] usual position by the door. With a sigh, [SubjectPro of Fang] eases [ReflexPro of Fang] to lie down with a clear view outside, [PosAdj of Fang] hind-legs splayed in a manner that displays [PosAdj of Fang] [if Fang is Male]plump sheath and balls[else]puffy canine vulva[end if]. With a snort at [PosAdj of Fang] cunning attempt to entice you, you decide what to do next.";
 
 
 Section 2 - Sexxxings
@@ -347,18 +348,21 @@ to say sexwithFang:
 			break;
 	if lastfuck of Fang - turns < ( 9 - HP of Fang ):
 		say "     Fang got off fairly recently, so you'd probably have a better time with [ObjectPro of Fang] if you give [ObjectPro of Fang] a little longer to recover.";
-	if (Fang is not in Grey Abbey Library and Fang is not in Courtyard and Fang is not in Computer Lab):
+	else if (Fang is not in Grey Abbey Library and Fang is not in Courtyard and Fang is not in Computer Lab):
 		say "     Perhaps you should find somewhere safer to do this. You never know who might be waiting for you to be vulnerable... (WIP)";
 	else if Fang is Male: [Male Fang]
-		say "     What kind of fun were you looking to have with your big, bad wolf?";
+		if hp of Fang is 3 or hp of Fang is 4: [Alpha]
+			say "     You wonder how your Alpha will want to use you today...";
+		else: [Not Alpha]
+			say "     What kind of fun were you looking to have with your big, bad wolf?";
 		wait for any key;
 		if HP of Fang is 2:
 			say "[MaleFangOmegaSexMenu]";
 		else if HP of Fang is 3:
-			say "[MaleFangAlphaSex1]";
+			say "[MaleFangAlphaSexMenu]";
 			FangInfect;
 		else if HP of Fang is 4:
-			say "[MaleFangAlphaSex2]";
+			say "[MaleFangAlphaSexMenu]";
 			FangInfect;
 		else if HP of Fang is 5:
 			say "[MaleFangBetaSexMenu]";
@@ -368,7 +372,10 @@ to say sexwithFang:
 		else:
 			say "     Lacking any sexual organs of your own, you content yourself with snuggling the wolf and scritching his ears. He nuzzles you in return and licks your face.";
 	else if Fang is Female: [Female Fang]
-		say "     What kind of fun were you looking to have with your big, bad wolfess?";
+		if hp of Fang is 3 or hp of Fang is 4: [Alpha]
+			say "     You wonder how your Alpha will want to use you today...";
+		else: [Not Alpha]
+			say "     What kind of fun were you looking to have with your big, bad wolfess?";
 		wait for any key;
 		if HP of Fang is 2:
 			say "[FemaleFangOmegaSexMenu]";
@@ -385,8 +392,6 @@ to say sexwithFang:
 			say "[FemaleFangSexMenu]";
 		else:
 			say "     Lacking any sexual organs of your own, you content yourself with snuggling the wolf and scritching her ears. She nuzzles you in return and lick your face.";
-	if HP of Fang is 3 or HP of Fang is 4:
-		FangInfect;
 
 to FangInfect:
 	if FemaleList is warded or FemaleList is banned:
@@ -398,15 +403,12 @@ to FangInfect:
 	else if Fang is female:
 		infect "Feral Wolf Male";
 
-[to say FemaleFangAlphaSexMenu:
-	say "-----This is a placeholder-----";]
 
 Section 2.1.1 - Male Omega Fang Sexxxings [Sort of Placeholders]
 
 to say MaleFangOmegaSexMenu:
 	if debugactive is 1:
 		say "     DEBUG -> Omega Fang Sex Menu";
-	setmonster "Feral Wolf Male";
 	now sextablerun is 0;
 	blank out the whole of table of fucking options;
 	[]
@@ -479,12 +481,13 @@ to say MaleFangOmegaSexMenu:
 					say "[MaleFangOmegaSex6]";
 				else if nam is "Fang and Sandra":
 					say "[MaleFangSandraSex]";
+				wait for any key;
 		else if calcnumber is 0:
 			now sextablerun is 1;
 			say "     You step back from the wolf, shaking your head slightly as he gives a questioning look.";
+			wait for any key;
 		else:
 			say "Invalid Option. Pick between 1 and [the number of filled rows in the table of fucking options].";
-	wait for any key;
 	clear the screen and hyperlink list;
 
 to say MaleFangOmegaSex1: [suck wolf cock]
@@ -555,7 +558,6 @@ Section 2.1.2 - Female Omega Fang Sexxxings [Sort of Placeholders]
 to say FemaleFangOmegaSexMenu:
 	if debugactive is 1:
 		say "     DEBUG -> Omega Female Fang Sex Menu";
-	setmonster "Feral Wolf Bitch";
 	now sextablerun is 0;
 	blank out the whole of table of fucking options;
 	[]
@@ -620,12 +622,13 @@ to say FemaleFangOmegaSexMenu:
 					say "[FemaleFangOmegaSex5]";
 				else if nam is "SBL Fuck":
 					say "[FemaleFangOmegaSex6]";
+				wait for any key;
 		else if calcnumber is 0:
 			now sextablerun is 1;
 			say "     You step back from the wolf, shaking your head slightly as she gives a questioning look.";
+			wait for any key;
 		else:
 			say "Invalid Option. Pick between 1 and [the number of filled rows in the table of fucking options].";
-	wait for any key;
 	clear the screen and hyperlink list;
 
 to say FemaleFangOmegaSex1: [Cuddle the wolf]
@@ -680,6 +683,81 @@ to say FemaleFangOmegaSex6: [assfuck Fang as Skunkbeast]
 	NPCSexAftermath Fang receives "AssFuck" from Player;
 
 Section 2.2.1 - Male Alpha Fang Sexxxings [Sort of Placeholders]
+
+to say MaleFangAlphaSexMenu:
+	if a random chance of 1 in 2 succeeds:
+		if hp of Fang is 3:
+			say "[MaleFangAlphaSex1]";
+		else if hp of Fang is 4:
+			say "[MaleFangAlphaSex2]";
+	else:
+		if debugactive is 1:
+			say "     DEBUG -> Alpha Fang Sex Menu";
+		now sextablerun is 0;
+		blank out the whole of table of fucking options;
+		[]
+		choose a blank row in table of fucking options;
+		now title entry is "Suck Wolf Cock";
+		now sortorder entry is 1;
+		now description entry is "Please your Alpha with your mouth";
+		[]
+		choose a blank row in table of fucking options;
+		now title entry is "Be Mounted";
+		now sortorder entry is 2;
+		now description entry is "Let your Alpha mount you";
+		[]
+		choose a blank row in table of fucking options;
+		now title entry is "Threesome with Sandra";
+		now sortorder entry is 3;
+		now description entry is "Invite the bunny-girl in on the action";
+		[]
+		if HyperSerumTracker is 2 and player is not neuter and Fang is in Courtyard:
+			choose a blank row in table of fucking options;
+			now title entry is "Hyper Sex";
+			now sortorder entry is 4;
+			now description entry is "Have some hyper-dicked fun with your Alpha";
+		[]
+		choose a blank row in table of fucking options;
+		now title entry is "Fang's Choice";
+		now sortorder entry is 3;
+		now description entry is "Let your Alpha choose";
+		[]
+		sort the table of fucking options in sortorder order;
+		repeat with y running from 1 to number of filled rows in table of fucking options:
+			choose row y from the table of fucking options;
+			say "[link][y] - [title entry][as][y][end link][line break]";
+		say "[link]0 - Nevermind[as]0[end link][line break]";
+		while sextablerun is 0:
+			say "Pick the corresponding number> [run paragraph on]";
+			get a number;
+			if calcnumber > 0 and calcnumber <= the number of filled rows in table of fucking options:
+				now current menu selection is calcnumber;
+				choose row calcnumber in table of fucking options;
+				say "[title entry]: [description entry]?";
+				if Player consents:
+					let nam be title entry;
+					now sextablerun is 1;
+					if nam is "Suck Wolf Cock":
+						say "[MaleFangAlphaOral]";
+					else if nam is "Be Mounted":
+						say "[MaleFangAlphaFucked]";
+					else if nam is "Threesome with Sandra":
+						say "[MaleFangAlphaTrio]";
+					else if nam is "Hyper Sex":
+						say "[MaleFangAlphaHyperSex]";
+					else if nam is "Fang's Choice":
+						if hp of Fang is 3:
+							say "[MaleFangAlphaSex1]";
+						else if hp of Fang is 4:
+							say "[MaleFangAlphaSex2]";
+					wait for any key;
+			else if calcnumber is 0:
+				now sextablerun is 1;
+				say "     You step back from the wolf, shaking your head slightly as he gives a questioning look.";
+				wait for any key;
+			else:
+				say "Invalid Option. Pick between 1 and [the number of filled rows in the table of fucking options].";
+		clear the screen and hyperlink list;
 
 to say MaleFangAlphaSex1:
 	if debugactive is 1:
@@ -779,6 +857,81 @@ to say MaleFangAlphaFuckedSBL:
 		NPCSexAftermath Player receives "AssFuck" from Fang;
 	FangInfect;
 
+to say MaleFangAlphaHyperSex:
+	say "     Remembering your past experience with your Alpha being hyper-endowed, you find yourself peering hopefully beneath him in case his cock has regained its prodigious size. Unfortunately, it is still its regular size, a part of your mind finding amusement at a foot-long penis being disappointingly small. You let out a sigh at the conundrum that you find yourself in, catching Fang's attention. He looks at you in askance and you embarrassedly explain your thoughts, avoiding meeting his eye in case you cause offense. His response is to push you over on your side with his head[if size of player > 3], your superior size meaning little against his projection of authority[end if], leaving you to sprawl across the floor unceremoniously to look up at your Alpha with some trepidation. What is he going to do to you? Have you insulted him despite your best efforts? Surprisingly, he merely growls, 'Hands. Rub. Now.'";
+	say "     You quickly comply, shuffling beneath him to carry out his order, or at least what you think his order was, beginning to caress and stroke his fuzzy sheath and balls. The air around you is laden with his pheromones, the scent of his sweat and natural musk flooding your nose with each breath to the point of being able to taste your Alpha's aroma in the back of your mouth, making you feel strangely settled and safe. You hope that he will let you suck him off soon so that you can sample his flavor even more intimately, but for now you settle for merely running your hands over his junk. You can feel the weight of his orbs in your palm, the promise of their potent load conveyed by how they fill your hands with their warmth. Meanwhile your other hand strokes up and down his plump sheath, coaxing his cock as it slides out and slides wetly over your fingers, leaving a thin film of pre in its wake. You find your mouth involuntarily watering at the sight of it, your earlier thoughts of blowing him returning. 'Suck,' you hear Fang command, almost as if rewarding your impure desires.";
+	WaitLineBreak;
+	say "     Bringing your tongue to the point of his cock, you begin by softly suckling the tip, dribbles of pre coating your tongue as you swirl it around, the flavor so much more intense than what you could gain by just inhaling his scent. Your Alpha shifts around restlessly as you continue, making you smile that you could cause such a reaction with how gently you are treating him. However, you decide that it is not your place to tease Fang and soon engulf as much of his shaft as you can in your mouth, bobbing your head back and forth at a moderate pace, the wolf occasionally thrusting slightly in time with your movements. You find your nose pressed into the thick, fluffy fur of his tummy, the scent of sex overlapping with his potent natural pheremones. While such cloying smells might have once caused you to gag, now you close your eyes and almost revel in them as they are smeared across your face as you blow your Alpha, leaving an olfactory marker of his claim on you.";
+	say "     Each time you bring your head forward and swallow more of Fang's penis, you are sure that you must soon be about to reach the base, especially with how it seems to be squeezing farther and farther down your throat. It takes you a moment to realize that not only does it feel like it is longer than you remember, but that your jaw seems to be struggling to contain its girth too. Upon opening your eyes, you have an epiphany; your Alpha has been hyper-fied again. You doubt that you have even half of his length buried in your maw, especially if the size of his magnificent balls are anything to go by, but you are conscious that there is nothing to say that he has finished growing either so after a few more seconds of blowing him, you hastily pull your mouth from his turgid erection so as to avoid choking, having to crawl back just so that you can do so. As you look up into Fang's eyes, you find him wolfishly smirking down at you. 'Large enough yet?' he asks, swaying so that the head of his penis slaps you in the cheek. All you can do is nod as you look at him excitedly. 'Good. Present,' he barks.";
+	WaitLineBreak;
+	say "     Rolling onto all fours, you wait for your Alpha to mount you, your shivers of anticipation indistinguishable from your quivers of fear. You may know that you are going to enjoy this, but you are also conscious that there will be pain too. A shadow falls over you, swiftly being followed by the soft sensation of fur against the back of your thighs and a damp feeling within the cleft of your ass. You can guess what this is by the way it pulses and throbs and by the occasional splatter of wetness against the base of your spine. [if size of player < 5]Though you are sure that Fang could mount you without resting his weight atop you, he nonetheless clambers on top of you to assert his authority[else]Fang clambers on top of you, his weight atop you a reminder of his authority[end if], his front paws around your shoulders while his cock probes for the entrance into your most intimate depths. No less eager to mate with you than you are to be bred by him, Fang licks your ear with a deep carnal passion, the tickle of his breath a sharp contrast to the intense feeling of penetration that you are sure is only seconds away.";
+	if player is female: [Female and Herm]
+		say "     [bold type]Do you wish Fang to penetrate your pussy or your ass?[roman type][line break]";
+		LineBreak;
+		say "     ([link]Y[as]y[end link]) - Pussy.";
+		say "     ([link]N[as]n[end link]) - Ass.";
+		if Player consents: [Vaginal Penetration] [Subject to change to make it more different from the anal scenes]
+			say "     Shifting your body slightly, you ensure that his next tentative thrust catches on the entrance to your slickened cunt, gasping as the distinctive shape of his cock momentarily brushes over your engorged clit [if player is herm]and the underside of your own pulsing shaft [end if]before plunging into the warm, wet embrace of your vagina, its girth causing you to grunt in pain before the pleasure smothers it, turning your exclamation into a moan of ecstasy at the intense feeling of being stretched. The heady aroma of his musk surrounds the pair of you as he pounds into you, the motion of your bodies doing little to dispel and spread the pheromones that his exertion only further produces. Were someone watching, which is always a possibility, they would see the rapturous expression on your face, the strands of saliva spilling from the corners of your mouth that threaten to snap with each frenzied thrust, and the possessive manner in which your Alpha grasps the nape of your neck between his teeth, not hard enough to break the skin, but definitely firm enough that it will leave a mark for the nanites to repair.";
+			if "Twisted Capacity" is listed in the feats of Player:
+				say "     Despite the feeling of rapturous torture that it elicits in your body, Fang's cock plunges impossibly deep into your body and you silently thank the nanites for ensuring that he doesn't tear you in half or otherwise harm you. Despite the occasional jab of pain as his cock forces your birth canal, and maybe even your womb, to shift to suit him, the experience is largely one of euphoria and soul-jarring ecstasy. Eventually you feel the weight of his balls bump against the back of your legs and Fang pauses for a few moments, signaling that your Alpha has hilted himself bar his knot within you. Almost hesitantly, you look down to see how much your stomach is bulging with the imposing bone that has been buried in your pussy. Though it is nowhere near as gargantuan as you might expect, your tummy is nevertheless significantly domed from Fang's cock and you tentatively rub a hand over it, softly laughing when you feel his penis stir and shift as you push against it from the outside.";
+				WaitLineBreak;
+				say "     A nip to one of your ears conveys a command from your Alpha to prepare yourself for him to resume thrusting, giving you time to press your chest to the ground and brace your arms. Not a second later, he begins to hammer himself into you, feral snarls mixing with the muffled slap of his groin against your flank, battering his knot against the lips of your vulva and [if player is herm]causing your shaft to sway in time and [end if]forcing another stream of juices from your pussy past his invading member. You push back against his thrusts as best you can, frantically egging him on to breed you and to satisfy all of his lusts with your body. Perhaps reacting to your goading words, Fang presses a paw to the back of your head, pushing your face more firmly into the ground, growling possessively into your ear, 'Mine.' At his words, you feel your [if player is herm]own cock throb and jerk up to slap against your tummy while your pussy clenches in sympathetic [else]pussy clench in [end if]excitement. His thrusts becoming more erratic and irregular, you surmise that Fang is rapidly approaching orgasm, a primal delight flooding your mind at fulfilling the needs of your Alpha.";
+				say "     Knowing what is to come and that you are capable of taking his obscenely-sized knot, you brace yourself against the ground, groaning from the bottom of your lungs each time he grinds it against your hole. Repeatedly, he pummels your cunt , relentlessly trying to gain entry, confident that eventually your body will submit to him whether it wants to or not. Eventually, with an accompanying euphoric wail from you, he forces your pussy to surrender to his will and you feel it stretch to inhuman proportions as his knot squeezes through, saliva dripping from your mouth as you are momentarily put into an almost catatonic state. As you feel his cock swell and pulse as his climax breaks, you instinctually spread your legs even further, now almost flat against the ground. Soon gouts of hot, virile seed flood into your womb with enough force that you can feel it against the palm of your hand on your tummy as the volume of it begins to cause you to swell, his knot preventing even a single drop to leak as it molds your vaginal walls around it.";
+				WaitLineBreak;
+				say "     The combination of the pressure from his cum filling every corner of your womb, the satisfaction of having brought your Alpha to orgasm, and the friction of his every movement soon causes you to climax as well, each clench of your pussy around his cock hopefully heightening his own pleasure. [if player is herm]Trapped between your body and the ground, your cock shoots its load, semen smearing over your chest and through the dirt, making quite a mess of you, though this will no doubt pale in comparison the the deluge that will inevitably spill when Fang eventually pulls out of your vagina. [end if]Even after you have finished, he continues to pump more and more inside your struggling body, memories of your first coupling with him after he found the briefcase and how it spilled from your mouth when there was nowhere else for it to go. Unfortunately, or perhaps fortunately, he is in a different hole and the flow of his seed into your womb seems to stop just short of anything so drastic and you are left to lie there and come to terms with your ballooned belly while your Alpha rests on top of you, no doubt exhausted from your vigorous mating.";
+				say "     Fatigued, but still holding onto consciousness, you exchange a few kisses with you Alpha as you wait for his tie to fade and for the resulting ocean of semen to flow forth from your cunt. So engrossed in this thought, you don't realize how much time has passed when you are stirred by Fang shifting on top of you, his movements causing a sharp tugging from where the two of you are joined. With an obscene slurp, his cock slips from your now gaping pussy, its original proportions restored. The same can not be said for the surge of pearlescent fluid that follows, the potent scent undeniably his as it splashes onto the ground, coating your legs and groin even as the pool rapidly begins to spread. Though it coats his paws, Fang for the most part manages to avoid being bathed in his own essence, imperiously looking down at you with some relish as you allow his seed to mark you as having been bred by him. Thankfully, with being outside, the ground soon hungrily absorbs this excess of fluids, allowing you to enjoy your post-coital moment with Fang before cleaning yourself off under a hosepipe in preparation for what you want to do next.";
+			else: [No Twisted capacity][Subject to change]
+				say "     Despite the feeling of rapturous torture that it elicits in your body, Fang's cock plunges impossibly deep into your body and you silently thank the nanites for ensuring that he doesn't tear you in half or otherwise harm you. Despite the occasional jab of pain as his cock forces your birth canal, and possibly your womb, to shift to suit him, the experience is largely one of euphoria and soul-jarring ecstasy. Eventually however, you feel a sharp pain as he collides with your cervix, making you grit your teeth in order to avoid crying out and Fang pauses, contemplating what to do. Almost hesitantly, still recovering from being filled to capacity, you look down to see how much your stomach is bulging with the imposing bone that has been buried in your pussy. Though it is nowhere near as gargantuan as you might expect, your tummy is nevertheless significantly domed from Fang's cock and you tentatively rub a hand over it, softly laughing when you feel his penis stir and shift as you push against it from the outside.";
+				WaitLineBreak;
+				say "     Having come to a conclusion, a nip to one of your ears conveys a command from your Alpha to prepare yourself for him to resume thrusting, giving you time to press your chest to the ground and brace your arms. Not a second later, he begins to hammer himself into you as much as he can without hurting you too much, feral snarls mixing with the muffled slap of his balls swinging forward to collide with your thighs, [if player is herm]causing your shaft to sway in time and [end if]forcing another stream of juices from your pussy past his invading member. You push back against his thrusts as best you can, frantically egging him on to breed you and to satisfy all of his lusts with your body. Perhaps reacting to your goading words, Fang presses a paw to the back of your head, pushing your face more firmly into the ground, growling possessively into your ear, 'Mine.' At his words, you feel your [if player is herm]own cock throb and jerk up to slap against your tummy while your pussy clenches in sympathetic [else]pussy clench in [end if]excitement. His thrusts becoming more erratic and irregular, you surmise that Fang is rapidly approaching orgasm, a primal delight flooding your mind at fulfilling the needs of your Alpha.";
+				say "     Knowing what is to come and that you aren't going to have to handle his obscenely-sized knot, you brace yourself against the ground, groaning from the bottom of your lungs each time he grinds deep in your cunt. Repeatedly, he slams into you, vainly hoping to fit just a little more inside of you and that eventually your body will submit to him whether it wants to or not. Eventually, with an accompanying euphoric wail from you, he relents and accepts your body's limits, settling for shoving as much of his swollen shaft into the tight embrace of your pussy, saliva dripping from your mouth as you are momentarily put into an almost catatonic state. As you feel his cock swell and pulse as his climax breaks, you instinctually spread your legs even further, now almost flat against the ground. Soon gouts of hot, virile seed flood into your womb with enough force that you can feel it against the palm of your hand on your tummy as the volume of it begins to cause you to swell, his shaft swollen enough itself to prevent even a single drop to leak, further demonstrating its girth.";
+				WaitLineBreak;
+				say "     The combination of the pressure from his cum filling every corner of your womb, the satisfaction of having brought your Alpha to orgasm, and the friction of his every movement soon causes you to climax as well, each clench of your pussy around his cock hopefully heightening his own pleasure. [if player is herm]Trapped between your body and the ground, your cock shoots its load, semen smearing over your chest and through the dirt, making quite a mess of you, though this will no doubt pale in comparison the the deluge that will inevitably spill when Fang eventually pulls out of your vagina. [end if]Even after you have finished, he continues to pump more and more inside your struggling body, memories of your first coupling with him after he found the briefcase and how it spilled from your mouth when there was nowhere else for it to go. Unfortunately, or perhaps fortunately, he is in a different hole and the flow of his seed into your womb seems to stop just short of anything so drastic and you are left to lie there and come to terms with your ballooned belly while your Alpha rests on top of you, no doubt exhausted from your vigorous mating.";
+				say "     Fatigued, but still holding onto consciousness, you exchange a few kisses with you Alpha as you wait for him to pull out and for the resulting ocean of semen to flow forth from your cunt. So engrossed in this thought, you don't realize how much time has passed when you are stirred by Fang shifting on top of you, his movements causing a sharp tugging from where the two of you are joined. With an obscene slurp, his cock slips from your now gaping pussy, its original proportions restored. The same can not be said for the surge of pearlescent fluid that follows, the potent scent undeniably his as it splashes onto the ground, coating your legs and groin even as the pool rapidly begins to spread. Though it coats his paws, Fang for the most part manages to avoid being bathed in his own essence, imperiously looking down at you with some relish as you allow his seed to mark you as having been bred by him. Thankfully, with being outside, the ground soon hungrily absorbs this excess of fluids, allowing you to enjoy your post-coital moment with Fang before cleaning yourself off under a hosepipe in preparation for what you want to do next.";
+			NPCSexAftermath Player receives "OralCock" from Fang;
+			NPCSexAftermath Player receives "PussyFuck" from Fang;
+		else: [Anal Penetration]
+			say "     Shifting your body slightly, you ensure that his next tentative thrust catches on the ring of your sphincter, gasping as the distinctive shape of his cock spears into the depths of your heated bowels, its girth causing you to grunt in pain before the pleasure smothers it, turning your exclamation into a moan of ecstasy at the intense feeling of being stretched[if player is herm]. The pressure against your prostate causes your own erection to momentarily harden further, your arousal being heightened by the manner in which you are being claimed[end if].The heady aroma of his musk surrounds the pair of you as he pounds into you, the motion of your bodies doing little to dispel and spread the pheromones that his exertion only further produces. Were someone watching, which is always a possibility, they would see the rapturous expression on your face, the strands of saliva spilling from the corners of your mouth that threaten to snap with each frenzied thrust, and the possessive manner in which your Alpha grasps the nape of your neck between his teeth, not hard enough to break the skin, but definitely firm enough that it will leave a mark for the nanites to repair.";
+			if "Twisted Capacity" is listed in the feats of Player:
+				say "     Despite the feeling of rapturous torture that it elicits in your body, Fang's cock plunges impossibly deep into your body and you silently thank the nanites for ensuring that he doesn't tear you in half or otherwise harm you. Despite the occasional jab of pain as his cock forces your bowels to shift to suit him, the experience is largely one of euphoria and soul-jarring ecstasy. Eventually you feel the weight of his balls bump against the back of your legs and Fang pauses for a few moments, signaling that your Alpha has hilted himself bar his knot within you. Almost hesitantly, you look down to see how much your stomach is bulging with the imposing bone that has been buried in your ass. Though it is nowhere near as gargantuan as you might expect, your tummy is nevertheless significantly domed from Fang's cock and you tentatively rub a hand over it, softly laughing when you feel his penis stir and shift as you push against it from the outside.";
+				WaitLineBreak;
+				say "     A nip to one of your ears conveys a command from your Alpha to prepare yourself for him to resume thrusting, giving you time to press your chest to the ground and brace your arms. Not a second later, he begins to hammer himself into you, feral snarls mixing with the muffled slap of his groin against your flank, battering his knot against your sphincter and [if player is herm]causing your shaft to sway in time and [end if]forcing another stream of juices from your pussy. You push back against his thrusts as best you can, frantically egging him on to ravage you and to satisfy all of his lusts with your body. Perhaps reacting to your goading words, Fang presses a paw to the back of your head, pushing your face more firmly into the ground, growling possessively into your ear, 'Mine.' At his words, you feel your [if player is herm]own cock throb and jerk up to slap against your tummy while your pussy clenches in sympathetic [else]pussy clench in [end if]excitement. His thrusts becoming more erratic and irregular, you surmise that Fang is rapidly approaching orgasm, a primal delight flooding your mind at fulfilling the needs of your Alpha.";
+				say "     Knowing what is to come and that you are capable of taking his obscenely-sized knot, you brace yourself against the ground, groaning from the bottom of your lungs each time he grinds it against your hole. Repeatedly, he slams against your entrance, relentlessly trying to gain entry, confident that eventually your body will submit to him whether it wants to or not. Eventually, with an accompanying euphoric wail from you, he forces your asshole to surrender to his will and you feel it stretch to inhuman proportions as his knot squeezes through, saliva dripping from your mouth as you are momentarily put into an almost catatonic state. As you feel his cock swell and pulse as his climax breaks, you instinctually spread your legs even further, now almost flat against the ground. Soon gouts of hot, virile seed flood into your bowels with enough force that you can feel it against the palm of your hand on your tummy as the volume of it begins to cause you to swell, his knot preventing even a single drop to leak as it molds your passage around it.";
+				WaitLineBreak;
+				say "     The combination of the pressure from his cum filling every cavity of your guts, the satisfaction of having brought your Alpha to orgasm, and the friction of his every movement soon causes you to climax as well, each clench of your ass around his cock as your cunt squeezes [if player is herm]and you shoot your load [end if]hopefully heightening his own pleasure. [if player is herm]Trapped between your body and the ground, your semen smears over your chest and through the dirt, making quite a mess of you, though this will no doubt pale in comparison the the deluge that will inevitably spill when Fang eventually pulls out of your ass. [end if]Even after you have finished, he continues to pump more and more inside your struggling body, memories of your first coupling with him after he found the briefcase and how it spilled from your mouth when there was nowhere else for it to go. Unfortunately, or perhaps fortunately, the flow of his seed into your bowels seems to stop just short of this and you are left to lie there and come to terms with your ballooned belly while your Alpha rests on top of you, no doubt exhausted from your vigorous mating.";
+				say "     Fatigued, but still holding onto consciousness, you exchange a few kisses with you Alpha as you wait for his tie to fade and for the resulting ocean of semen to flow forth from your ass. So engrossed in this thought, you don't realize how much time has passed when you are stirred by Fang shifting on top of you, his movements causing a sharp tugging from where the two of you are joined. With an obscene slurp, his cock slips from your now gaping anus, its original proportions restored. The same can not be said for the surge of pearlescent fluid that follows, the potent scent undeniably his as it splashes onto the ground, coating your legs and groin even as the pool rapidly begins to spread. Though it coats his paws, Fang for the most part manages to avoid being bathed in his own essence, imperiously looking down at you with some relish as you allow his seed to mark you as having been bred by him. Thankfully, with being outside, the ground soon hungrily absorbs this excess of fluids, allowing you to enjoy your post-coital moment with Fang before cleaning yourself off under a hosepipe in preparation for what you want to do next.";
+			else: [No Twisted capacity][Subject to change]
+				say "     Despite the feeling of rapturous torture that it elicits in your body, Fang's cock plunges impossibly deep into your body and you silently thank the nanites for ensuring that he doesn't tear you in half or otherwise harm you. Despite the occasional jab of pain as his cock forces your bowels to shift to suit him, the experience is largely one of euphoria and soul-jarring ecstasy. Eventually however, you feel a sharp pain as he reaches as far into you as he can, making you grit your teeth in order to avoid crying out and Fang pauses, contemplating what to do. Almost hesitantly, still recovering from being filled to capacity, you look down to see how much your stomach is bulging with the imposing bone that has been buried in your ass. Though it is nowhere near as gargantuan as you might expect, your tummy is nevertheless significantly domed from Fang's cock and you tentatively rub a hand over it, softly laughing when you feel his penis stir and shift as you push against it from the outside.";
+				WaitLineBreak;
+				say "     Having come to a conclusion, a nip to one of your ears conveys a command from your Alpha to prepare yourself for him to resume thrusting, giving you time to press your chest to the ground and brace your arms. Not a second later, he begins to hammer himself into you as much as he can without hurting you too much, feral snarls mixing with the muffled slap of his balls swinging forward to collide with your thighs, [if player is herm]causing your shaft to sway in time and [end if]forcing another stream of juices from your pussy. You push back against his thrusts as best you can, frantically egging him on to ravage you and to satisfy all of his lusts with your body. Perhaps reacting to your goading words, Fang presses a paw to the back of your head, pushing your face more firmly into the ground, growling possessively into your ear, 'Mine.' At his words, you feel your [if player is herm]own cock throb and jerk up to slap against your tummy while your pussy clenches in sympathetic [else]pussy clench in [end if]excitement. His thrusts becoming more erratic and irregular, you surmise that Fang is rapidly approaching orgasm, a primal delight flooding your mind at fulfilling the needs of your Alpha.";
+				say "     Knowing what is to come and that you aren't going to have to handle his obscenely-sized knot, you brace yourself against the ground, groaning from the bottom of your lungs each time he grinds deep in your gut. Repeatedly, he slams into you, vainly hoping to fit just a little more inside of you and that eventually your body will submit to him whether it wants to or not. Eventually, with an accompanying euphoric wail from you, he relents and accepts your body's limits, settling for shoving as much of his swollen shaft into the tight embrace of your anus, saliva dripping from your mouth as you are momentarily put into an almost catatonic state. As you feel his cock swell and pulse as his climax breaks, you instinctually spread your legs even further, now almost flat against the ground. Soon gouts of hot, virile seed flood into your bowels with enough force that you can feel it against the palm of your hand on your tummy as the volume of it begins to cause you to swell, his shaft swollen enough itself to prevent even a single drop to leak, further demonstrating its girth.";
+				WaitLineBreak;
+				say "     The combination of the pressure from his cum filling every cavity of your guts, the satisfaction of having brought your Alpha to orgasm, and the friction of his every movement soon causes you to climax as well, each clench of your ass around his cock as your cunt squeezes [if player is herm]and you shoot your load [end if]hopefully heightening his own pleasure. [if player is herm]Trapped between your body and the ground, your semen smears over your chest and through the dirt, making quite a mess of you, though this will no doubt pale in comparison the deluge that will inevitably spill when Fang eventually pulls out of your ass. [end if]Even after you have finished, he continues to pump more and more inside your struggling body, memories of your first coupling with him after he found the briefcase and how it spilled from your mouth when there was nowhere else for it to go. Unfortunately, or perhaps fortunately, the flow of his seed into your bowels seems to stop just short of this and you are left to lie there and come to terms with your ballooned belly while your Alpha rests on top of you, no doubt exhausted from your vigorous mating.";
+				say "     Fatigued, but still holding onto consciousness, you exchange a few kisses with you Alpha as you wait for him to pull out and for the resulting ocean of semen to flow forth from your ass. So engrossed in this thought, you don't realize how much time has passed when you are stirred by Fang shifting on top of you, his movements causing a sharp tugging from where the two of you are joined. With an obscene slurp, his cock slips from your now gaping anus, its original proportions restored. The same can not be said for the surge of pearlescent fluid that follows, the potent scent undeniably his as it splashes onto the ground, coating your legs and groin even as the pool rapidly begins to spread. Though it coats his paws, Fang for the most part manages to avoid being bathed in his own essence, imperiously looking down at you with some relish as you allow his seed to mark you as having been bred by him. Thankfully, with being outside, the ground soon hungrily absorbs this excess of fluids, allowing you to enjoy your post-coital moment with Fang before cleaning yourself off under a hosepipe in preparation for what you want to do next.";
+			NPCSexAftermath Player receives "OralCock" from Fang;
+			NPCSexAftermath Player receives "AssFuck" from Fang;
+	else: [Male]
+		WaitLineBreak;
+		say "     Shifting your body slightly, you ensure that his next tentative thrust catches on the ring of your sphincter, gasping as the distinctive shape of his cock spears into the depths of your heated bowels, its girth causing you to grunt in pain before the pleasure smothers it, turning your exclamation into a moan of ecstasy at the intense feeling of being stretched. The pressure against your prostate causes your own erection to momentarily harden further, your arousal being heightened by the manner in which you are being claimed. The heady aroma of his musk surrounds the pair of you as he pounds into you, the motion of your bodies doing little to dispel and spread the pheromones that his exertion only further produces. Were someone watching, which is always a possibility, they would see the rapturous expression on your face, the strands of saliva spilling from the corners of your mouth that threaten to snap with each frenzied thrust, and the possessive manner in which your Alpha grasps the nape of your neck between his teeth, not hard enough to break the skin, but definitely firm enough that it will leave a mark for the nanites to repair.";
+		if "Twisted Capacity" is listed in the feats of Player:
+			say "     Despite the feeling of rapturous torture that it elicits in your body, Fang's cock plunges impossibly deep into your body and you silently thank the nanites for ensuring that he doesn't tear you in half or otherwise harm you. Despite the occasional jab of pain as his cock forces your bowels to shift to suit him, the experience is largely one of euphoria and soul-jarring ecstasy. Eventually you feel the weight of his balls bump against the back of your legs and Fang pauses for a few moments, signaling that your Alpha has hilted himself bar his knot within you. Almost hesitantly, you look down to see how much your stomach is bulging with the imposing bone that has been buried in your ass. Though it is nowhere near as gargantuan as you might expect, your tummy is nevertheless significantly domed from Fang's cock and you tentatively rub a hand over it, softly laughing when you feel his penis stir and shift as you push against it from the outside.";
+			WaitLineBreak;
+			say "     A nip to one of your ears conveys a command from your Alpha to prepare yourself for him to resume thrusting, giving you time to press your chest to the ground and brace your arms. Not a second later, he begins to hammer himself into you, feral snarls mixing with the muffled slap of his groin against your flank, battering his knot against your sphincter and causing your shaft to sway in time. You push back against his thrusts as best you can, frantically egging him on to ravage you and to satisfy all of his lusts with your body. Perhaps reacting to your goading words, Fang presses a paw to the back of your head, pushing your face more firmly into the ground, growling possessively into your ear, 'Mine.' At his words, you feel your own cock throb and jerk up to slap against your tummy. His thrusts becoming more erratic and irregular, you surmise that Fang is rapidly approaching orgasm, a primal delight flooding your mind at fulfilling the needs of your Alpha.";
+			say "     Knowing what is to come and that you are capable of taking his obscenely-sized knot, you brace yourself against the ground, groaning from the bottom of your lungs each time he grinds it against your hole. Repeatedly, he slams against your entrance, relentlessly trying to gain entry, confident that eventually your body will submit to him whether it wants to or not. Eventually, with an accompanying euphoric wail from you, he forces your asshole to surrender to his will and you feel it stretch to inhuman proportions as his knot squeezes through, saliva dripping from your mouth as you are momentarily put into an almost catatonic state. As you feel his cock swell and pulse as his climax breaks, you instinctually spread your legs even further, now almost flat against the ground. Soon gouts of hot, virile seed flood into your bowels with enough force that you can feel it against the palm of your hand on your tummy as the volume of it begins to cause you to swell, his knot preventing even a single drop to leak as it molds your passage around it.";
+			WaitLineBreak;
+			say "     The combination of the pressure from his cum filling every cavity of your guts, the satisfaction of having brought your Alpha to orgasm, and the friction of his every movement soon causes you to climax as well, each clench of your ass around his cock as you shoot your load hopefully heightening his own pleasure. Trapped between your body and the ground, your semen smears over your [if breast size of Player > 0]breasts [end if]chest and through the dirt, making quite a mess of you, though this will no doubt pale in comparison the the deluge that will inevitably spill when Fang eventually pulls out of your ass. Even after you have finished cumming, he continues to pump more and more inside your struggling body, memories of your first coupling with him after he found the briefcase and how it spilled from your mouth when there was nowhere else for it to go. Unfortunately, or perhaps fortunately, the flow of his seed into your bowels seems to stop just short of this and you are left to lie there and come to terms with your ballooned belly while your Alpha rests on top of you, no doubt exhausted from your vigorous mating.";
+			say "     Fatigued, but still holding onto consciousness, you exchange a few kisses with you Alpha as you wait for his tie to fade and for the resulting ocean of semen to flow forth from your ass. So engrossed in this thought, you don't realize how much time has passed when you are stirred by Fang shifting on top of you, his movements causing a sharp tugging from where the two of you are joined. With an obscene slurp, his cock slips from your now gaping anus, its original proportions restored. The same can not be said for the surge of pearlescent fluid that follows, the potent scent undeniably his as it splashes onto the ground, coating your legs and groin even as the pool rapidly begins to spread. Though it coats his paws, Fang for the most part manages to avoid being bathed in his own essence, imperiously looking down at you with some relish as you allow his seed to mark you as having been bred by him. Thankfully, with being outside, the ground soon hungrily absorbs this excess of fluids, allowing you to enjoy your post-coital moment with Fang before cleaning yourself off under a hosepipe in preparation for what you want to do next.";
+		else: [No Twisted capacity][Subject to change]
+			say "     Despite the feeling of rapturous torture that it elicits in your body, Fang's cock plunges impossibly deep into your body and you silently thank the nanites for ensuring that he doesn't tear you in half or otherwise harm you. Despite the occasional jab of pain as his cock forces your bowels to shift to suit him, the experience is largely one of euphoria and soul-jarring ecstasy. Eventually however, you feel a sharp pain as he reaches as far into you as he can, making you grit your teeth in order to avoid crying out and Fang pauses, contemplating what to do. Almost hesitantly, still recovering from being filled to capacity, you look down to see how much your stomach is bulging with the imposing bone that has been buried in your ass. Though it is nowhere near as gargantuan as you might expect, your tummy is nevertheless significantly domed from Fang's cock and you tentatively rub a hand over it, softly laughing when you feel his penis stir and shift as you push against it from the outside.";
+			WaitLineBreak;
+			say "     Having come to a conclusion, a nip to one of your ears conveys a command from your Alpha to prepare yourself for him to resume thrusting, giving you time to press your chest to the ground and brace your arms. Not a second later, he begins to hammer himself into you as much as he can without hurting you too much, feral snarls mixing with the muffled slap of his balls swinging forward to collide with your thighs, your shaft swaying in time. You push back against his thrusts as best you can, frantically egging him on to ravage you and to satisfy all of his lusts with your body. Perhaps reacting to your goading words, Fang presses a paw to the back of your head, pushing your face more firmly into the ground, growling possessively into your ear, 'Mine.' At his words, you feel your own cock throb and jerk up to slap against your tummy. His thrusts becoming more erratic and irregular, you surmise that Fang is rapidly approaching orgasm, a primal delight flooding your mind at fulfilling the needs of your Alpha.";
+			say "     Knowing what is to come and that you aren't going to have to handle his obscenely-sized knot, you brace yourself against the ground, groaning from the bottom of your lungs each time he grinds deep in your gut. Repeatedly, he slams into you, vainly hoping to fit just a little more inside of you and that eventually your body will submit to him whether it wants to or not. Eventually, with an accompanying euphoric wail from you, he relents and accepts your body's limits, settling for shoving as much of his swollen shaft into the tight embrace of your anus, saliva dripping from your mouth as you are momentarily put into an almost catatonic state. As you feel his cock swell and pulse as his climax breaks, you instinctually spread your legs even further, now almost flat against the ground. Soon gouts of hot, virile seed flood into your bowels with enough force that you can feel it against the palm of your hand on your tummy as the volume of it begins to cause you to swell, his shaft swollen enough itself to prevent even a single drop to leak, further demonstrating its girth.";
+			WaitLineBreak;
+			say "     The combination of the pressure from his cum filling every cavity of your guts, the satisfaction of having brought your Alpha to orgasm, and the friction of his every movement soon causes you to climax as well, each clench of your ass around his cock as you shoot your load hopefully heightening his own pleasure. Trapped between your body and the ground, your semen smears over your [if breast size of Player > 0]breasts [end if]chest and through the dirt, making quite a mess of you, though this will no doubt pale in comparison the the deluge that will inevitably spill when Fang eventually pulls out of your ass. Even after you have finished cumming, he continues to pump more and more inside your struggling body, memories of your first coupling with him after he found the briefcase and how it spilled from your mouth when there was nowhere else for it to go. Unfortunately, or perhaps fortunately, the flow of his seed into your bowels seems to stop just short of this and you are left to lie there and come to terms with your ballooned belly while your Alpha rests on top of you, no doubt exhausted from your vigorous mating.";
+			say "     Fatigued, but still holding onto consciousness, you exchange a few kisses with you Alpha as you wait for him to pull out and for the resulting ocean of semen to flow forth from your ass. So engrossed in this thought, you don't realize how much time has passed when you are stirred by Fang shifting on top of you, his movements causing a sharp tugging from where the two of you are joined. With an obscene slurp, his cock slips from your now gaping anus, its original proportions restored. The same can not be said for the surge of pearlescent fluid that follows, the potent scent undeniably his as it splashes onto the ground, coating your legs and groin even as the pool rapidly begins to spread. Though it coats his paws, Fang for the most part manages to avoid being bathed in his own essence, imperiously looking down at you with some relish as you allow his seed to mark you as having been bred by him. Thankfully, with being outside, the ground soon hungrily absorbs this excess of fluids, allowing you to enjoy your post-coital moment with Fang before cleaning yourself off under a hosepipe in preparation for what you want to do next.";
+		NPCSexAftermath Player receives "OralCock" from Fang;
+		NPCSexAftermath Player receives "AssFuck" from Fang;
+
 to say MaleFangWSContent:
 	if FangWS is 0:
 		say "     As Fang pads off, you notice his cock still stiff and leaking between his legs as he pads towards [if Fang is in Courtyard]one of the trees[else]the door to slip outside[end if]. Surmising that he must be [if Fang is in Courtyard]about to mark his territory[else]slipping out to mark his territory around the outside of the library[end if], an idea pops into your head to have the wolf mark something else that belongs to him.";
@@ -806,6 +959,60 @@ to say MaleFangWSContent:
 Section 2.2.2 - Female Alpha Fang Sexxxings [Sort of Placeholders]
 
 to say FemaleFangAlphaSexMenu:
+	if a random chance of 1 in 2 succeeds:
+		say "[FemaleFangAlphaSex1]";
+	else:
+		if debugactive is 1:
+			say "     DEBUG -> Alpha Fang Sex Menu";
+		now sextablerun is 0;
+		blank out the whole of table of fucking options;
+		[]
+		choose a blank row in table of fucking options;
+		now title entry is "Eat Her Out";
+		now sortorder entry is 1;
+		now description entry is "Please your Alpha with your mouth";
+		[]
+		choose a blank row in table of fucking options;
+		now title entry is "Wolf Mating";
+		now sortorder entry is 2;
+		now description entry is "Let your Alpha ride you";
+		[]
+		choose a blank row in table of fucking options;
+		now title entry is "Fang's Choice";
+		now sortorder entry is 3;
+		now description entry is "Let your Alpha choose";
+		[]
+		sort the table of fucking options in sortorder order;
+		repeat with y running from 1 to number of filled rows in table of fucking options:
+			choose row y from the table of fucking options;
+			say "[link][y] - [title entry][as][y][end link][line break]";
+		say "[link]0 - Nevermind[as]0[end link][line break]";
+		while sextablerun is 0:
+			say "Pick the corresponding number> [run paragraph on]";
+			get a number;
+			if calcnumber > 0 and calcnumber <= the number of filled rows in table of fucking options:
+				now current menu selection is calcnumber;
+				choose row calcnumber in table of fucking options;
+				say "[title entry]: [description entry]?";
+				if Player consents:
+					let nam be title entry;
+					now sextablerun is 1;
+					if nam is "Eat Her Out":
+						say "[FemaleFangAlphaOral]";
+					else if nam is "Wolf Mating":
+						say "[FemaleFangAlphaFucked]";
+					else if nam is "Fang's Choice":
+						say "[FemaleFangAlphaSex1]";
+					wait for any key;
+			else if calcnumber is 0:
+				now sextablerun is 1;
+				say "     You step back from the wolf, shaking your head slightly as he gives a questioning look.";
+				wait for any key;
+			else:
+				say "Invalid Option. Pick between 1 and [the number of filled rows in the table of fucking options].";
+		clear the screen and hyperlink list;
+
+to say FemaleFangAlphaSex1:
 	if debugactive is 1:
 		say "     DEBUG -> Female Alpha Fang Sex";
 	if lust of Fang is even:
@@ -840,6 +1047,7 @@ to say FemaleFangAlphaFucked:
 		else:
 			say "lick you with soft lupine kisses, however even that comes to an end as Fang gets up to return to her usual spot watching the door as you clean up and return to what you were doing before.";
 		now Libido of Player is ( ( Libido of Player * 4 ) / 5 );
+		NPCSexAftermath Fang receives "PussyFuck" from Player;
 		if player is male:
 			if Perception of Fang is 0:
 				let FangPregchance be a random number from 1 to 20;
@@ -855,6 +1063,7 @@ to say FemaleFangAlphaFuckedSBL:
 	say "     The feral wolf fucks you with considerable zeal, enjoying dominating the master of the forest skunks. The thought of the skunk girls seeing you like this, submissive plaything to one of their territorial rivals makes you blush beneath your fur[if skrp is 1]. Your mephit co-inhabitor teases you about it between her lustful moans[end if]. The wolf's lupine pussy ginds against you again and again as she continues to nip and play-bite you, reinforcing her dominance. Your [if Player is female]juicy cunt[else]mesphit cock[end if] throbs and pulses entwined with that lupine cunt every time it's pushed into you. Your Fecund alpha slams her juicy pussy against your sore [if Player is female]pussy[else]mesphit cock[end if] until it finally gets to be too much for you feel your orgasm go off like the top of a shaken carbonated beverage. Fang howls triumphantly when this happens, as you unleash a hot rush of liquid [if Player is female]onto her tummy[else]into her womb from your ample load as she drains your balls[end if]. You [if skrp is 1]and your lower skunk head [end if]release a chirring moan as you feel your lupine master milking you of your fluids.";
 	say "     When her orgasm subsides, she removes herself from you only to shove it back onto you and start fucking you again. She ends up taking you several times, relishing asserting her dominance over you. By the time she's finally done, your belly is soaked with her lupine dew[if Player is male] and you've drained your balls until you are dry[else if Player is female] and your crotchfur is soaked and sticky with her girlcum and your female juices[end if]. When she does dismount, you can barely roll onto your side to recover. You release a sated moan while her glistening girlcum drips off of your outstretched body. Its scent lingers upon you for some time, overpowering even that of your mighty skunkbeast form.";
 	now Libido of Player is ( ( Libido of Player * 2 ) / 3 );
+	NPCSexAftermath Fang receives "PussyFuck" from Player;
 	SanLoss 5;
 	FangInfect;
 
@@ -864,7 +1073,6 @@ Section 2.3.1 - Male Beta Fang Sexxxings [Sort of Placeholders]
 to say MaleFangBetaSexMenu:
 	if debugactive is 1:
 		say "     DEBUG -> Beta Fang Sex Menu";
-	setmonster "Feral Wolf Male";
 	now sextablerun is 0;
 	blank out the whole of table of fucking options;
 	[]
@@ -902,6 +1110,11 @@ to say MaleFangBetaSexMenu:
 		now sortorder entry is 6;
 		now description entry is "See if Sandra wants to play with the big, bad wolf again";
 	[]
+	choose a blank row in table of fucking options;
+	now title entry is "Wolf Cuddles";
+	now sortorder entry is 7;
+	now description entry is "In the mood to cuddle with the big wolf";
+	[]
 	sort the table of fucking options in sortorder order;
 	repeat with y running from 1 to number of filled rows in table of fucking options:
 		choose row y from the table of fucking options;
@@ -929,12 +1142,15 @@ to say MaleFangBetaSexMenu:
 					say "[MaleFangBetaSex5]";
 				else if nam is "Fang and Sandra":
 					say "[MaleFangSandraSex]";
+				else if nam is "Wolf Cuddles":
+					say "[MaleFangBetaSex7]";
+				wait for any key;
 		else if calcnumber is 0:
 			now sextablerun is 1;
 			say "     You step back from the wolf, shaking your head slightly as he gives a questioning look.";
+			wait for any key;
 		else:
 			say "Invalid Option. Pick between 1 and [the number of filled rows in the table of fucking options].";
-	wait for any key;
 	clear the screen and hyperlink list;
 
 to say MaleFangBetaSex1: [suck wolf cock]
@@ -983,6 +1199,11 @@ to say MaleFangBetaSex5: [assfuck Fang]
 	now Libido of Player is ( ( Libido of Player * 2 ) / 5 );
 	NPCSexAftermath Fang receives "AssFuck" from Player;
 
+to say MaleFangBetaSex7: [wolf cuddling]
+	if debugactive is 1:
+		say "     DEBUG -> Cuddle Vanilla Fang";
+	say "     Feeling tired from the many trials, encounters, debauchery, and pressure from surviving in the midst of a nanite apocalypse, your body, heavy from the weight of it all, your mind, sluggish from the cold reality that seems to cover every corner of life no matter where you turn, you find your gaze wandering to focus on your guard wolf, on that warm, soft fur coat, those luminous amber eyes, four springy padded paws, complete with a soft fluffy tail. The more you look at him, the more you think that some cuddling is just what the doctor ordered. With that in mind, you call Fang over to you. Not even a minute has passed after Fang sat in front of you, before finding yourself face-deep in his fur coat, your head rubbing against his furry form and your nose snuffling, attempting to rub his scent all over so as to capture some of the warm fuzzies contained within. Your limbs however seem tohave a life of their own as they move this way and that, stroking and petting, fondling fur and letting it glide across your many wandering digits. You find your lower body attempting to push yourself into Fang's fur, almost attempting to jump into it as if to try and become one with the fluff. After a few minutes of being overwhelmed by the need to snuggle, you get a hold of yourself enough to finish by giving Fang a loving embrace, feeling much better about yourself and about life. You look back at Fang, slightly disheveled, yet his tail wagging like mad. However, you can't stay and cuddle forever, instead proceeding to go about what you were planning before mental exhaustion struck.";
+
 [See Section 3 for Fang & Sandra Sex]
 
 
@@ -991,7 +1212,6 @@ Section 2.3.2 - Female Beta Fang Sexxxings [Sort of Placeholders]
 to say FemaleFangBetaSexMenu:
 	if debugactive is 1:
 		say "     DEBUG -> Beta Female Fang Sex Menu";
-	setmonster "Feral Wolf Bitch";
 	now sextablerun is 0;
 	blank out the whole of table of fucking options;
 	[]
@@ -1048,18 +1268,19 @@ to say FemaleFangBetaSexMenu:
 					say "[FemaleFangBetaSex4]";
 				else if nam is "Mount Fang":
 					say "[FemaleFangBetaSex5]";
+				wait for any key;
 		else if calcnumber is 0:
 			now sextablerun is 1;
 			say "     You step back from the wolf, shaking your head slightly as she gives a questioning look.";
+			wait for any key;
 		else:
 			say "Invalid Option. Pick between 1 and [the number of filled rows in the table of fucking options].";
-	wait for any key;
 	clear the screen and hyperlink list;
 
 to say FemaleFangBetaSex1: [wolf cuddles]
 	if debugactive is 1:
 		say "     DEBUG -> Cuddle Beta Fang";
-	say "     Feeling tired from the many trials, encounters, debauchery, and pressure from surviving in the midst of a nanite apocolypse, your body, heavy from the weight of it all, your mind, sluggish from the cold reality that seems to cover every corner of life no matter where you turn. You find your gaze wandering to focus on your guard wolf, on that warm, soft fur coat, those luminous amber eyes, four springy padded paws, complete with a soft fluffy tail. The more you look at her, the more you think that some cuddling is just what the doctor ordered, with that in mind you call Fang over to you. Not even a minute had passed after Fang sat in front of you, before finding yourself face-deep in her fur coat, your head rubbing against her furry form and your nose snuffling as if attempting to rub her scent all over as to capture some of the warm fuzzies contained within. Your limbs however seem to move with a life of their own as they move this way and that, stroking and petting, fondeling fur and letting it glide across your many wandering digits. You find your lower body attempting to push yourself into Fang's fur as if attempting to jump into it, as if to try and become one with the fluff. After a few minutes of being overwhelmed by the need to snuggle, you get a hold of yourself enough to finish by giving Fang a loving embrace, feeling much better about yourself and about life. You look back at Fang, slightly disheveled but yet her tail wagging like mad, you however can't stay and cuddle forever, you proceed to go about what you were planning before depression struck";
+	say "     Feeling tired from the many trials, encounters, debauchery, and pressure from surviving in the midst of a nanite apocalypse, your body, heavy from the weight of it all, your mind, sluggish from the cold reality that seems to cover every corner of life no matter where you turn, you find your gaze wandering to focus on your guard wolf, on that warm, soft fur coat, those luminous amber eyes, four springy padded paws, complete with a soft fluffy tail. The more you look at her, the more you think that some cuddling is just what the doctor ordered. With that in mind you call Fang over to you. Not even a minute had passed after Fang sat in front of you, before finding yourself face-deep in her fur coat, your head rubbing against her furry form and your nose snuffling, attempting to rub her scent all over so as to capture some of the warm fuzzies contained within. Your limbs however seem to have a life of their own as they move this way and that, stroking and petting, fondling fur and letting it glide across your many wandering digits. You find your lower body attempting to push yourself into Fang's fur, almost attempting to jump into it as if to try and become one with the fluff. After a few minutes of being overwhelmed by the need to snuggle, you get a hold of yourself enough to finish by giving Fang a loving embrace, feeling much better about yourself and about life. You look back at Fang, slightly disheveled, yet her tail wagging like mad. However, you can't stay and cuddle forever, instead proceeding to go about what you were planning before mental exhaustion struck.";
 	increase Libido of Player by 10;
 	if Libido of Player > 100, now Libido of Player is 100;
 
@@ -1067,7 +1288,7 @@ to say FemaleFangBetaSex1: [wolf cuddles]
 to say FemaleFangBetaSex2: [Give vaginal Fingering to Fang]
 	if debugactive is 1:
 		say "     DEBUG -> Give Vaginal Fingering to Beta Fang";
-	say "     Seeing your guard wolf be so diligent in her duty of gurding the library, you can't help but smile in happiness and just a little bit of pride. In fact she has been such a good worker you think that it would be a good idea to reward her for services rendered. You call Fang to sit before you, giving her an appraising look as she looks at you, silently pondering your need, you begin making your demands known, as you motion to Fang to lay down and roll over, which she does with only a minor grumble at being treated like a domesticated canine. Now that Fang is in postion, you move down to postion yourself comfortably, stopping for a moment only to admire Fang's body outstretched and vulnerable, using your one of your hands you begin to stroke her underside softly, causing Fang to wag her tail in spite of herself. After the few minutes of giving Fang the pets she has been in dire need of, using your other hand, you put a finger into her pussy, causing her to lightly gasp in suprise at the invading member, you however add a second one in after that, moving them around Fang's inner wall and watching her reaction as you look for her sweet spot. One excited moan later and you know you've found it, making sure to focus your fingers, you aim them, then push in and then withdraw before pushing back in, keeping the motion as Fang lets out a series of oh's and ah's everytime your fingers pass over her spot. After a good while of fingering Fang, she lets out a a cry as her muscles begin to tense up from her orgasm finally hitting, soaking your fingers as her body goes limp from the force of it. Having given Fang her treat you can't help but chuckle a little at how adorable she looks as you get up to return to what you were doing before.";
+	say "     Seeing your guard wolf be so diligent in her duty of gurding the library, you can't help but smile in happiness and just a little bit of pride. In fact she has been such a good worker you think that it would be a good idea to reward her for services rendered. You call Fang to sit before you, giving her an appraising look as she looks at you, silently pondering your need, you begin making your demands known, as you motion to Fang to lay down and roll over, which she does with only a minor grumble at being treated like a domesticated canine. Now that Fang is in postion, you move down to postion yourself comfortably, stopping for a moment only to admire Fang's body outstretched and vulnerable, using your one of your hands you begin to stroke her underside softly, causing Fang to wag her tail in spite of herself. After the few minutes of giving Fang the pets she has been in dire need of, using your other hand, you put a finger into her pussy, causing her to lightly gasp in suprise at the invading member, you however add a second one in after that, moving them around Fang's inner wall and watching her reaction as you look for her sweet spot. One excited moan later and you know you've found it, making sure to focus your fingers, you aim them, then push in and then withdraw before pushing back in, keeping the motion as Fang lets out a series of oh's and ah's every time your fingers pass over her spot. After a good while of fingering Fang, she lets out a a cry as her muscles begin to tense up from her orgasm finally hitting, soaking your fingers as her body goes limp from the force of it. Having given Fang her treat you can't help but chuckle a little at how adorable she looks as you get up to return to what you were doing before.";
 	increase Libido of Player by 10;
 	if Libido of Player > 100, now Libido of Player is 100;
 
@@ -1105,7 +1326,6 @@ Section 2.4.1 - Male Vanilla Fang Sexxxings [Sort of Placeholders]
 to say MaleFangSexMenu:
 	if debugactive is 1:
 		say "     DEBUG -> Vanilla Fang Sex Menu";
-	setmonster "Feral Wolf Male";
 	now sextablerun is 0;
 	blank out the whole of table of fucking options;
 	[]
@@ -1149,6 +1369,11 @@ to say MaleFangSexMenu:
 		now sortorder entry is 7;
 		now description entry is "See if Sandra wants to play with the big, bad wolf again";
 	[]
+	choose a blank row in table of fucking options;
+	now title entry is "Wolf Cuddles";
+	now sortorder entry is 8;
+	now description entry is "In the mood to cuddle with the big wolf";
+	[]
 	sort the table of fucking options in sortorder order;
 	repeat with y running from 1 to number of filled rows in table of fucking options:
 		choose row y from the table of fucking options;
@@ -1178,12 +1403,15 @@ to say MaleFangSexMenu:
 					say "[MaleFangSex6]";
 				else if nam is "Fang and Sandra":
 					say "[MaleFangSandraSex]";
+				else if nam is "Wolf Cuddles":
+					say "[MaleFangSex8]";
+				wait for any key;
 		else if calcnumber is 0:
 			now sextablerun is 1;
 			say "     You step back from the wolf, shaking your head slightly as he gives a questioning look.";
+			wait for any key;
 		else:
 			say "Invalid Option. Pick between 1 and [the number of filled rows in the table of fucking options].";
-	wait for any key;
 	clear the screen and hyperlink list;
 
 to say MaleFangSex1: [suck wolf cock]
@@ -1258,13 +1486,20 @@ to say MaleFangSex6: [assfuck Fang as Skunkbeast]
 	now Libido of Player is Libido of Player / 2;
 	NPCSexAftermath Fang receives "AssFuck" from Player;
 
+to say MaleFangSex8: [wolf cuddling]
+	if debugactive is 1:
+		say "     DEBUG -> Cuddle Vanilla Fang";
+	say "     Feeling tired from the many trials, encounters, debauchery, and pressure from surviving in the midst of a nanite apocalypse, your body, heavy from the weight of it all, your mind, sluggish from the cold reality that seems to cover every corner of life no matter where you turn, you find your gaze wandering to focus on your guard wolf, on that warm, soft fur coat, those luminous amber eyes, four springy padded paws, complete with a soft fluffy tail. The more you look at him, the more you think that some cuddling is just what the doctor ordered. With that in mind, you call Fang over to you. Not even a minute has passed after Fang sat in front of you, before finding yourself face-deep in his fur coat, your head rubbing against his furry form and your nose snuffling, attempting to rub his scent all over so as to capture some of the warm fuzzies contained within. Your limbs however seem tohave a life of their own as they move this way and that, stroking and petting, fondling fur and letting it glide across your many wandering digits. You find your lower body attempting to push yourself into Fang's fur, almost attempting to jump into it as if to try and become one with the fluff. After a few minutes of being overwhelmed by the need to snuggle, you get a hold of yourself enough to finish by giving Fang a loving embrace, feeling much better about yourself and about life. You look back at Fang, slightly disheveled, yet his tail wagging like mad. However, you can't stay and cuddle forever, instead proceeding to go about what you were planning before mental exhaustion struck.";
+	if HP of Fang < 2:
+		increase FangBetaCounter by 1;
+		say "     [Bold type]You get the impression that Fang likes you a little more.[roman type][line break]";
+
 
 Section 2.4.2 - Female Vanilla Fang Sexxxings [Sort of Placeholders]
 
 to say FemaleFangSexMenu:
 	if debugactive is 1:
 		say "     DEBUG -> Vanilla Fang Sex Menu";
-	setmonster "Feral Wolf Bitch";
 	now sextablerun is 0;
 	blank out the whole of table of fucking options;
 	[]
@@ -1329,18 +1564,19 @@ to say FemaleFangSexMenu:
 					say "[FemaleFangSex5]";
 				else if nam is "SBL Fuck":
 					say "[FemaleFangSex6]";
+				wait for any key;
 		else if calcnumber is 0:
 			now sextablerun is 1;
 			say "     You step back from the wolf, shaking your head slightly as she gives a questioning look.";
+			wait for any key;
 		else:
 			say "Invalid Option. Pick between 1 and [the number of filled rows in the table of fucking options].";
-	wait for any key;
 	clear the screen and hyperlink list;
 
 to say FemaleFangSex1: [wolf cuddling]
 	if debugactive is 1:
 		say "     DEBUG -> Cuddle Vanilla Fang";
-	say "     Feeling tired from the many trials, encounters, debauchery, and pressure from surviving in the midst of a nanite apocalypse, your body, heavy from the weight of it all, your mind, sluggish from the cold reality that seems to cover every corner of life no matter where you turn. You find your gaze wandering to focus on your guard wolf, on that warm, soft fur coat, those luminous amber eyes, four springy padded paws, complete with a soft fluffy tail. The more you look at her, the more you think that some cuddling is just what the doctor ordered, with that in mind you call Fang over to you. Not even a minute had passed after Fang sat in front of you, before finding yourself face-deep in her fur coat, your head rubbing against her furry form and your nose snuffling as if attempting to rub her scent all over as to capture some of the warm fuzzies contained within. Your limbs however seem to move with a life of their own as they move this way and that, stroking and petting, fondling fur and letting it glide across your many wandering digits. You find your lower body attempting to push yourself into Fang's fur as if attempting to jump into it, as if to try and become one with the fluff. After a few minutes of being overwhelmed by the need to snuggle, you get a hold of yourself enough to finish by giving Fang a loving embrace, feeling much better about yourself and about life. You look back at Fang, slightly disheveled but yet her tail wagging like mad, you however can't stay and cuddle forever, you proceed to go about what you were planning before depression struck.";
+	say "     Feeling tired from the many trials, encounters, debauchery, and pressure from surviving in the midst of a nanite apocalypse, your body, heavy from the weight of it all, your mind, sluggish from the cold reality that seems to cover every corner of life no matter where you turn, you find your gaze wandering to focus on your guard wolf, on that warm, soft fur coat, those luminous amber eyes, four springy padded paws, complete with a soft fluffy tail. The more you look at her, the more you think that some cuddling is just what the doctor ordered. With that in mind you call Fang over to you. Not even a minute had passed after Fang sat in front of you, before finding yourself face-deep in her fur coat, your head rubbing against her furry form and your nose snuffling, attempting to rub her scent all over so as to capture some of the warm fuzzies contained within. Your limbs however seem to have a life of their own as they move this way and that, stroking and petting, fondling fur and letting it glide across your many wandering digits. You find your lower body attempting to push yourself into Fang's fur, almost attempting to jump into it as if to try and become one with the fluff. After a few minutes of being overwhelmed by the need to snuggle, you get a hold of yourself enough to finish by giving Fang a loving embrace, feeling much better about yourself and about life. You look back at Fang, slightly disheveled, yet her tail wagging like mad. However, you can't stay and cuddle forever, instead proceeding to go about what you were planning before mental exhaustion struck.";
 	if HP of Fang < 2:
 		increase FangBetaCounter by 1;
 		say "     [Bold type]You get the impression that Fang likes you a little more.[roman type][line break]";
@@ -1348,7 +1584,7 @@ to say FemaleFangSex1: [wolf cuddling]
 to say FemaleFangSex2: [Vaginal Fingering Fang]
 	if debugactive is 1:
 		say "     DEBUG -> Give Vaginal Fingering to Vanilla Fang";
-	say "     Seeing your guard wolf be so diligent in her duty of guarding the library, you can't help but smile in happiness and just a little bit of pride. In fact she has been such a good worker you think that it would be a good idea to reward her for services rendered. You call Fang to sit before you, giving her an appraising look as she looks at you, silently pondering your need, you begin making your demands known, as you motion to Fang to lay down and roll over, which she does with only a minor grumble at being treated like a domesticated canine. Now that Fang is in position, you move down to position yourself comfortably, stopping for a moment only to admire Fang's body outstretched and vulnerable, using your one of your hands you begin to stroke her underside softly, causing Fang to wag her tail in spite of herself. After the few minutes of giving Fang the pets she has been in dire need of, using your other hand, you put a finger into her pussy, causing her to lightly gasp in surprise at the invading member, you however add a second one in after that, moving them around Fang's inner wall and watching her reaction as you look for her sweet spot. One excited moan later and you know you've found it, making sure to focus your fingers, you aim them, then push in and then withdraw before pushing back in, keeping the motion as Fang lets out a series of oh's and ah's everytime your fingers pass over her spot. After a good while of fingering Fang, she lets out a a cry as her muscles begin to tense up from her orgasm finally hitting, soaking your fingers as her body goes limp from the force of it. Having given Fang her treat you can't help but chuckle a little at how adorable she looks as you get up to return to what you were doing before.";
+	say "     Seeing your guard wolf be so diligent in her duty of guarding the library, you can't help but smile in happiness and just a little bit of pride. In fact she has been such a good worker you think that it would be a good idea to reward her for services rendered. You call Fang to sit before you, giving her an appraising look as she looks at you, silently pondering your need, you begin making your demands known, as you motion to Fang to lay down and roll over, which she does with only a minor grumble at being treated like a domesticated canine. Now that Fang is in position, you move down to position yourself comfortably, stopping for a moment only to admire Fang's body outstretched and vulnerable, using your one of your hands you begin to stroke her underside softly, causing Fang to wag her tail in spite of herself. After the few minutes of giving Fang the pets she has been in dire need of, using your other hand, you put a finger into her pussy, causing her to lightly gasp in surprise at the invading member, you however add a second one in after that, moving them around Fang's inner wall and watching her reaction as you look for her sweet spot. One excited moan later and you know you've found it, making sure to focus your fingers, you aim them, then push in and then withdraw before pushing back in, keeping the motion as Fang lets out a series of oh's and ah's every time your fingers pass over her spot. After a good while of fingering Fang, she lets out a a cry as her muscles begin to tense up from her orgasm finally hitting, soaking your fingers as her body goes limp from the force of it. Having given Fang her treat you can't help but chuckle a little at how adorable she looks as you get up to return to what you were doing before.";
 	now Libido of Player is ( ( Libido of Player * 2 ) / 5 );
 	if HP of Fang < 2:
 		increase FangBetaCounter by 1;
@@ -1861,11 +2097,20 @@ Section 4.3.1 - Male Beta Fang
 instead of going to Grey Abbey Library while (( lastfuck of Fang - turns >= 16 and HP of Fang is 1 and Fang is Male) and (FangBetaCounter > 5) and (player is not neuter)):	[ignored for 2+ days]
 	project the Figure of Fang_face_icon;
 	say "     As you enter the library, you feel the familiar warmth of Fang up against your thigh. With a smile, you ruffle the fur on his back in a show of affection before attempting to continue on your way. To your surprise, the wolf continues to impede you before lightly grasping your hand in his mouth and guiding you to a secluded corner. Expecting to have to reprimand him for overstepping his place, you clear your throat only to be shocked when he does the same. 'I am sorry. I wanted to talk. Away from others,' Fang apologizes, his voice soft, raspy, and a little stilted from disuse. You decide to let him continue, especially when you consider how seldom he speaks. 'You have shown concern for me. I am grateful. You treat me as person. Not mindless beast. When we met, you called me your beta but I have not earned this place. Allow me to do so now. As long as you treat me as a person, I will be your beta. Protect you. Love you. Please you. But I will be your beta, not your bitch. I have own desires too. I may not always agree with you, but I will still respect you as Alpha.'";
-	say "     [bold type]Do you wish to allow him to properly assume his position as your [']Beta['], your second in command, and mate even though it will grant him a little more freedom?[roman type][line break]";
+	say "     [bold type]Do you wish to allow him to properly assume his position as your [']Beta['], your second in command, and mate even though it will grant him a little more freedom? Or do you want more time to decide? Or perhaps you would prefer for him to take the role of Alpha now that he has learnt more compassion?[roman type][line break]";
 	LineBreak;
-	say "     ([link]Y[as]y[end link]) - Yes. You trust him enough for that.";
-	say "     ([link]N[as]n[end link]) - No. That is not the position that you had in mind for him.";
-	if Player consents:
+	say "     ([link](1)[as]1[end link]) - Have Fang become your Beta.";
+	say "     ([link](2)[as]2[end link]) - Keep Fang in his current position while you come to a decision.";
+	say "     ([link](3)[as]3[end link]) - Ask Fang to be your Alpha.";
+	now calcnumber is 0;
+	while calcnumber < 1 or calcnumber > 3:
+		say "Choice? (1-3)>[run paragraph on]";
+		get a number;
+		if calcnumber is 1 or calcnumber is 2 or calcnumber is 3:
+			break;
+		else:
+			say "Invalid choice. Type [link]1[end link], [link]2[end link], or [link]3[end link].";
+	if calcnumber is 1:
 		LineBreak;
 		say "     You look Fang in the eye before [one of]solemnly [or]enthusiastically [or]cheerfully [at random]accepting his proposition. He wags his tail and bumps against your leg, saying, 'Thank you. Through this, bonds of the pack are strengthened.' You stifle a snort at this, considering Fang hasn't exactly got many members of his pack[if HP of Lux > 0] other than Lux and Umbra[end if], but you don't wish to insult the wolf so soon after he has reaffirmed his loyalty to you (or insult him at all for that matter). Despite noticing this he doesn't seem to take offence. 'The pack will grow. All creatures have advantages. Diversity will be beneficial.' You take this to mean that he will accept non-canines too[if bodyname of player is listed in infections of CanineList], in interesting idea that you are curious to see how it turns out[else], an idea that doesn't particularly surprise you considering that you aren't canine yourself[end if].";
 		say "     Considering the conversation over for now, you scratch the wolf behind the ears and begin to turn to leave, but once again Fang softly grasps your hand between his teeth. When you face him again, he looks mildly embarrassed, his ears lowered slightly and his eyes cast down, before he takes a deep breath and looks you in the eye. 'I wish for us to mate. To further seal this bond. I will still respect you either way, but I desire to feel you against me,' your Beta requests, the start of an erection peeking from beneath his undercarriage. You think for a moment, looking into Fang's warm amber eyes as you decide whether you want to have sex with him now or not.";
@@ -2113,10 +2358,16 @@ instead of going to Grey Abbey Library while (( lastfuck of Fang - turns >= 16 a
 			say "     While you are happy for Fang to be your Beta, you don't feel that having sex with him is necessary to cement his position, nor do you have any interest in fornicating with him at the moment. Therefore, you gently refuse his request, the wolf disappointed but accepting of your decision. 'As my Alpha wishes,' Fang replies before loping off, likely to resume guarding the front door. Overall, you are pleased with the outcome of this exchange and return to the entrance hall too so as to continue what you were doing before Fang took you aside.";
 		now HP of Fang is 5; [Beta Fang]
 		now vmusedone of Fang is false; [Open for fresh musings]
-	else:
+	else if calcnumber is 2:
 		LineBreak;
 		say "     You begin to shake your head, earning a quizzical look from the wolf before you begin to explain that while you may have called him your beta then, it was more of a spur of the moment offer in order to convince him to go with you than a proper understanding of roles within a wolf pack. Considering how many people you meet in the city, who would be to say that you wouldn't find someone that you thought would fulfil the role better? 'I understand. You wish for strong pack. Focused on physical strength, not pack bonds. We shall await the result,' he rumbles, taking the refusal surprisingly well. You let out a sigh and thank him, relieved that the situation didn't turn ugly. Even if he can't be your beta, he is still a valuable resident of the library guarding the door. After giving him a pat, he lopes off again, leaving you to decide what to do next.";
 		now FangBetaCounter is 0;
+	else if calcnumber is 3:
+		LineBreak;
+		say "     Unsure how he is going to receive it, you ask Fang whether he would be willing to be your Alpha instead. He cocks his head for a moment, looking into your eyes while he considers. 'Interesting. I did not expect this. I would be leader instead?' he ponders before bumping up against you. 'I accept. I will be Alpha. Learned much while here. Will benefit me. Through this, bonds of the pack are strengthened.' You stifle a snort at this, considering Fang hasn't exactly got many members of his pack[if HP of Lux > 0] other than Lux and Umbra[end if], but you don't wish to insult your new Alpha so soon after he has gained his position (or insult him at all for that matter). Despite this, he seems to notice, but takes it in good humor. 'Behave,' he gently growls. 'The pack will grow. All creatures have advantages. Diversity will be beneficial.' You take this to mean that he will accept non-canines too[if bodyname of player is listed in infections of CanineList], in interesting idea that you are curious to see how it turns out[else], an idea that doesn't particularly surprise you considering that you aren't canine yourself[end if].";
+		say "     Before you have a chance to leave, Fang fixes his amber eyes upon you, communicating that your conversation is not yet over. When you look at him, he stares back with a newfound confidence, ears upright and unflinching with his gaze. 'To seal pact. We will mate. Mark you as mine and me as yours,' he says, the statement leaving no room for disagreement now that you have surrendered authority to him. You spy the beginning of an erection beneath his undercarriage and come to the conclusion that even if you had the choice that you wouldn't wish to avoid this chance at being the first to be mounted by the wolf now that he has reached the top of the hierarchy.";
+		WaitLineBreak;
+		say "     ";
 
 
 Section 4.3.2 - Female Beta Fang
@@ -2124,11 +2375,20 @@ Section 4.3.2 - Female Beta Fang
 instead of going to Grey Abbey Library while (( lastfuck of Fang - turns >= 16 and HP of Fang is 1 and Fang is Female) and (FangBetaCounter > 5) and (player is not neuter)):	[ignored for 2+ days]
 	project the Figure of Fang_face_icon;
 	say "     As you enter the library, you feel the familiar warmth of Fang up against your thigh. With a smile, you ruffle the fur on her back in a show of affection before attempting to continue on your way. To your surprise, the wolf continues to impede you before lightly grasping your hand in her mouth and guiding you to a secluded corner. Expecting to have to reprimand her for overstepping her place, you clear your throat only to be shocked when she does the same. 'I am sorry. I wanted to talk. Away from others,' Fang apologizes, her voice soft, raspy, and a little stilted from disuse. You decide to let her continue, especially when you consider how seldom she speaks. 'You have shown concern for me. I am grateful. You treat me as person. Not mindless beast. When we met, you called me your beta but I have not earned this place. Allow me to do so now. As long as you treat me as a person, I will be your beta. Support you. Love you. Please you. I wish be your beta and mate, not an onahole to dump your lust into. I have own desires too. I may not always agree with you, but I will still respect you as Alpha.'";
-	say "     [bold type]Do you wish to allow her to properly assume her position as your [']Beta['], your second in command, and mate even though it will grant her a little more freedom?[roman type][line break]";
+	say "     [bold type]Do you wish to allow her to properly assume her position as your [']Beta['], your second in command, and mate even though it will grant her a little more freedom? Or do you want more time to decide? Or perhaps you would prefer for her to take the role of Alpha now that she has learnt more compassion?[roman type][line break]";
 	LineBreak;
-	say "     ([link]Y[as]y[end link]) - Yes. You trust her enough for that.";
-	say "     ([link]N[as]n[end link]) - No. That is not the position that you had in mind for her.";
-	if Player consents:
+	say "     ([link](1)[as]1[end link]) - Have Fang become your Beta.";
+	say "     ([link](2)[as]2[end link]) - Keep Fang in her current position while you come to a decision.";
+	say "     ([link](3)[as]3[end link]) - Ask Fang to be your Alpha.";
+	now calcnumber is 0;
+	while calcnumber < 1 or calcnumber > 3:
+		say "Choice? (1-3)>[run paragraph on]";
+		get a number;
+		if calcnumber is 1 or calcnumber is 2 or calcnumber is 3:
+			break;
+		else:
+			say "Invalid choice. Type [link]1[end link], [link]2[end link], or [link]3[end link].";
+	if calcnumber is 1:
 		LineBreak;
 		say "     You look Fang in the eye before [one of]solemnly [or]enthusiastically [or]cheerfully [at random]accepting her proposition. She wags her tail and bumps against your leg, saying, 'Thank you. Through this, bonds of the pack are strengthened.' You stifle a snort at this, considering Fang hasn't exactly got many members of her pack[if HP of Lux > 0] other than Lux and Umbra[end if], but you don't wish to insult the wolf so soon after she has reaffirmed her loyalty to you (or insult her at all for that matter). Despite noticing this she doesn't seem to take offence. 'The pack will grow. All creatures have advantages. Diversity will be beneficial.' You take this to mean that she will accept non-canines too[if bodyname of player is listed in infections of CanineList], in interesting idea that you are curious to see how it turns out[else], an idea that doesn't particularly surprise you considering that you aren't canine yourself[end if].";
 		say "     Considering the conversation over for now, you scratch the wolf behind the ears and begin to turn to leave, but once again Fang softly grasps your hand between her teeth. When you face her again, she looks mildly embarrassed, her ears lowered slightly and her eyes cast down, before she takes a deep breath and looks you in the eye. 'I wish for us to mate. To further seal this bond. I will still respect you either way, but I desire to feel you inside me,' your Beta requests, the sounds of lubricant slightly dripping from beneath her undercarriage further signaling her desire. You think for a moment, looking into Fang's warm amber eyes as you decide whether you want to have sex with her now or not.";
@@ -2174,7 +2434,7 @@ instead of going to Grey Abbey Library while (( lastfuck of Fang - turns >= 16 a
 						say "     Your partner holds still for a moment, languishing in the filling sensation of the feeling of your cock splitting open her pussy, a feeling that you too are enjoying. However, with your desire to feel Fang ramp up the pressure by riding you, you move your head upwards and give her a pleading look. It would seem that she too is eager for more, the wolf hunching over you, pressing her muzzle to your lips as her tongue invades your mouth while at the same time she slowly slides your penis in and out of her, the tender and sensuous behavior coming as a surprise to you considering her animalistic appearance and usual vigor. While she isn't hammering away at you yet, the slow yet firm humping is nonetheless satisfying, the sensual yet rough ride building you up in just the right way to cause your shaft to pulse and stimulating an increased volume of viscous pre to mix with Fang's already flooding juices that overflow and drip to the floor beneath you. in a moment of tenderness, you reach with both of your arms to hug and stroke her sides, feeling her heartbeat and breathing as she mates with you, the wolf further wrapping her tongue with yours in response, her breath exiting from the sides of her muzzle and playing across your ears as she does so.";
 						WaitLineBreak;
 						say "     As Fang accelerates her downward thrusts, you can feel the tempo being set by her sopping wet vaginal entrance slipping more often than not, worried that she might be close, but not being close to orgasm yourself, you implore her not to cum until your own climax is imminent. She gives a reassuring murmur in acceptance, too busy taking the breeding that she wants from you to make much more of a reply. Despite your request, the wolf doesn't show any inclination to slow down, putting as much force and speed into her tempo as her back legs will allow, the slap of fleshy music ringing in your ears. Fang eagerly whines, using solely willpower to hold back her orgasm, the delay likely to make her eventual release that much more copious. As you begin to approach climax, you vocally encourage her to put more force into her downward thrusts and show you what a strong beta she is. Your partner seems to find a hidden reserve of energy in order to comply, driving her pussy down onto the hilt of your cock, causing your balls to hit her anus with a loud smack as you let out several euphoric moans, unashamed at the expression of the pleasure that she is able to elicit from you.";
-						say "     Your orgasm fast approaching, you cry out for Fang to drive her motherly hips harder onto you and slather you with her fem-cum. With a growl of dominance, the wolf drives the tender lips of her sopping pussy harder on your cock than she ever has before, obviously taking your words to heart. Not a moment later, you feel a jet of semen gush forth as your balls tighten, flooding her vaginal passage on its way to Fang's womb and sloshing around the base of your cock as she maintains the tempo of short downward thrusts. This sends you further over the edge, almost going limp from the force of your second climax in a row, your cock sending a another round, while not as large as your first, your cum splatters to add to the already filled womb on top of you, this sets off Fang's climax as well mixing with her pussy juices as it drips downwards making your hands and knees sticky and soaking into the carpet. To your surprise, Fang lifts herself off of you with her legs still slightly unsteady, taking a moment to stretch a bit before draping herself over you with her head laying on top of yours, making a rather unexpected maternal cuddling position. While she may be your beta, the primal feeling of you being wrapped in the warmth and security that this position invokes fills you with satisfaction and contentment as you recover from having commited such a thorough breeding.";
+						say "     Your orgasm fast approaching, you cry out for Fang to drive her motherly hips harder onto you and slather you with her fem-cum. With a growl of dominance, the wolf drives the tender lips of her sopping pussy harder on your cock than she ever has before, obviously taking your words to heart. Not a moment later, you feel a jet of semen gush forth as your balls tighten, flooding her vaginal passage on its way to Fang's womb and sloshing around the base of your cock as she maintains the tempo of short downward thrusts. This sends you further over the edge, almost going limp from the force of your second climax in a row, your cock sending a another round, while not as large as your first, your cum splatters to add to the already filled womb on top of you, this sets off Fang's climax as well mixing with her pussy juices as it drips downwards making your hands and knees sticky and soaking into the carpet. To your surprise, Fang lifts herself off of you with her legs still slightly unsteady, taking a moment to stretch a bit before draping herself over you with her head laying on top of yours, making a rather unexpected maternal cuddling position. While she may be your beta, the primal feeling of you being wrapped in the warmth and security that this position invokes fills you with satisfaction and contentment as you recover from having committed such a thorough breeding.";
 						WaitLineBreak;
 						say "     Laying on the library floor together, you can feel the beat of Fang's heart continue steadily  until you move away from her in an effort to recover after the messy orgasms from your cock and pussy, a minute amount of cum still drizzling from the tip of your dick. In comparison the amount of semen that gushes from her vagina is substantial, spilling across the carpet and ensuring that evidence will remain of your coupling. While content to allow a memento of her becoming your beta, Fang quickly moves in and licks at your still moist cunt and semen leaking penis, each passage of her tongue drawing your sperm into her mouth to swallow. Finding the flavor not unpleasant, the wolf continues washing the remaining stickiness from your form before lying down to wash herself too. She whispers a soft 'thank you' and gives an exaggerated lick of her lips as you stand up and give her a quick hug before [if player is naked]walking off as naked as before [else]redressing yourself before walking away [end if]to continue with your day, pleased with the new bond that you have formed with Fang today. You are sure that she knows how much you enjoyed it but it wouldn't hurt to reinforce it at a later point when she isn't busy cleaning up after your coupling.";
 					else: [Neither Dominant nor Submissive] []
@@ -2376,10 +2636,13 @@ instead of going to Grey Abbey Library while (( lastfuck of Fang - turns >= 16 a
 			say "     While you are happy for Fang to be your Beta, you don't feel that having sex with her is necessary to cement her position, nor do you have any interest in fornicating with her at the moment. Therefore, you gently refuse her request, the wolf disappointed but accepting of your decision. 'As my Alpha wishes,' Fang replies before loping off, likely to resume guarding the front door. Overall, you are pleased with the outcome of this exchange and return to the entrance hall too so as to continue what you were doing before Fang took you aside.";
 		now HP of Fang is 5; [Beta Female Fang]
 		[now vmusedone of Fang is false; [Open for fresh musings]]
-	else:
+	else if calcnumber is 2:
 		LineBreak;
 		say "     You begin to shake your head, earning a quizzical look from the wolf before you begin to explain that while you may have called her your beta then, it was more of a spur of the moment offer in order to convince her to go with you than a proper understanding of roles within a wolf pack. Considering how many people you meet in the city, who would be to say that you wouldn't find someone that you thought would fulfil the role better? 'I understand. You wish for strong pack. Focused on physical strength, not pack bonds. We shall await the result,' she rumbles, taking the refusal surprisingly well. You let out a sigh and thank her, relieved that the situation didn't turn ugly. Even if she can't be your beta, she is still a valuable resident of the library guarding the door. After giving her a pat, she lopes off again, leaving you to decide what to do next.";
 		now FangBetaCounter is 0;
+	else if calcnumber is 3:
+		LineBreak;
+		say "     ";
 
 
 Section 5 - Alpha, Beta, and Omega Events
@@ -2540,7 +2803,7 @@ to say FemaleFangLux&UmbraBirth:
 	say "     As you find yourself in the entrance of the library, you feel an odd feeling that tells you that you should check on a certain pregnant wolf and see how she is doing. Almost with a mind of their own, your feet continuing to move you to Fang's position amidst the bookshelves until you finally arrive to crouch down at her side. It seems that you made it in time as a rush of liquid begins to escape her nether region as she grunts in obvious distress, you get into a better position and gently help Fang move until she is laying on her back in order to make the exit easier as well as to lessen the burden. You hold your hands at ready as Fang's face constricts with pain and her breath heavy, as her children exit her womb and make their way down her passage until finally a tiny head pokes out, then the rest of the body, with her being tailed by her sibling as he exits as well until they are both safely out into the world.";
 	say "     Fang gets up and presses herself against your side, laying down next to you as you both sit while leaning onto a nearby bookcase, unable to do anything but gaze adoringly at the two bundles of fur that are held in your hands after sharing a brief but intense kiss. The second one born seems to be grasping the other's tail in his mouth, bringing a small smile to your face. [if scalevalue of Player > 1]You hold them against your chest, their mouths eagerly searching for a nipple. [else]They appear to still be growing, and you are forced to place them on the ground as they reach a size similar to your own, and they nuzzle at you, mouths eagerly searching for a nipple while you pet them. [end if]Fang nudges your hand aside and begins to wash her children, her tongue clearing the excess slime from them and smearing her scent over their fur, re-marking them as her children. You haven't seen her look at anyone as tenderly and with as much care as she is doing so now to her puppies.";
 	WaitLineBreak;
-	say "     You place the twin pups down facing towards Fang's exposed nipples as you begin to caress your children's heads while they greedily drink. Fang rests her head on your knee, keenly watching the children with wide eyes as she takes in their shape and movements, committing them to memory. With a final suck, your daughter detaches from her nipple and curls into a ball that you set on your lap, her face pressed against her mother's. A few moments later, her brother joins her, curling himself around her side so that his head is beside Fang's too. The view in front of you fills you with such love for both of your children as well as your mate, and you relax to enjoy the moment while listening to the pups small breaths contrasting against the deeper sound of Fang's. You'll have to come up with a name for them, perhaps something to do with the shades of their fur? A memory of some Latin that you had learnt when you were younger comes back to you, remembering the words for light and shadow: Lux and Umbra. They seem good enough names for now, and you doubt that Fang will have much to say either way.";
+	say "     You place the twin pups down facing towards Fang's exposed nipples as you begin to caress your children's heads while they greedily drink. Fang rests her head on your knee, keenly watching the children with wide eyes as she takes in their shape and movements, committing them to memory. A quick inspection reveals that one of your puppies is male while the other is female, your son having dark-gray fur and being slightly larger than his pale-gray-furred sister. 1With a final suck, your daughter detaches from her nipple and curls into a ball that you set on your lap, her face pressed against her mother's. A few moments later, her brother joins her, curling himself around her side so that his head is beside Fang's too. The view in front of you fills you with such love for both of your children as well as your mate, and you relax to enjoy the moment while listening to the pups small breaths contrasting against the deeper sound of Fang's. You'll have to come up with a name for them, perhaps something to do with the shades of their fur? A memory of some Latin that you had learnt when you were younger comes back to you, remembering the words for light and shadow: Lux and Umbra. They seem good enough names for now, and you doubt that Fang will have much to say either way.";
 	say "     You look up from gazing over your sleeping children to meet the yellow eyes of Fang, staring intently at you over the top of her pups. You can see the struggle she is facing to express everything she wants to say in just a look, not wanting to say anything that might disturb the children, and you're not sure whether she would have the vocabulary anyway. To your surprise, she gently eases her head from between your knee and Lux's face and stands up before approaching you. She tenderly licks your face, showing her appreciation and adoration for siring her puppies and being her mate. She sits down beside you before speaking, 'Ours.' You earnestly agree with her. They are as much yours as they are hers, two children that you both love, for both of you to raise, though you wonder whether you will have to stay at the library to do so, looking to Fang to see her opinion. She seems to know what you are thinking and shakes her head. 'I feed. I teach.' You understand that as her saying that she will look after them while you are away, feeding and protecting them.";
 	WaitLineBreak;
 	say "     You rest there together for several hours, content to idly watch your children breathe and twitch in their sleep while you stroke Fang's side. Eventually they wake though, crawling around on the ground, letting out pitiful whines and squeaks as they blindly explore their surroundings. They seem to be staying together, though as they stray slightly further from you, it is Umbra in the lead, his sister determinedly staying near him but slightly behind. Feeling that they have strayed far enough, Fang walks over to them and lightly grasps them by their scruffs and carries them back to you, placing them on your lap again. You give your children a quick kiss before standing up, deciding that you should get back to doing something. The puppies seem sad, but Fang snuffles at them, settling them down easily. Telling your family that you'll see them soon, Fang escorts Lux and Umbra away. She'll likely keep them near to her in the library, but you should still visit them from time to time as they grow so that you can be part of their lives. They are both your children after all. Dusting yourself off and arranging yourself, you are ready to continue exploring the city.";
@@ -2550,7 +2813,7 @@ to say FemaleFangLux&UmbraBirth:
 	now HP of Umbra is 1;
 	now LuxUmbraMaturityCounter is 120;
 	increase score by a random number between 5 and 10;
-	now Charisma of Fang is 0;
+	now Perception of Fang is 0;
 	remove "Fang's Mate" from feats of player;
 
 Section 19 - Endings

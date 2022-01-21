@@ -10,19 +10,19 @@ Use slow route-finding.
 Use MAX_INDIV_PROP_TABLE_SIZE of 500000.
 Use MAX_PROP_TABLE_SIZE of 51000000.
 use MAX_STATIC_DATA of 12500000.
-Use MAX_OBJ_PROP_COUNT of 1280.
+Use MAX_OBJ_PROP_COUNT of 1700.
 use MAX_SYMBOLS of 13000000. ["Compiler finished with code 10"]
 use MAX_NUM_STATIC_STRINGS of 370000. [ Code 10 ]
 use SYMBOLS_CHUNK_SIZE of 250000. [ Code 10 ]
 use ALLOC_CHUNK_SIZE of 1450000.
-use MAX_OBJECTS of 4000.
-use MAX_ACTIONS of 2000.
-use MAX_VERBS of 2000.
+use MAX_OBJECTS of 5000.
+use MAX_ACTIONS of 3000.
+use MAX_VERBS of 3000.
 use MAX_VERBSPACE of 50000.
 use MAX_ARRAYS of 100000.
 [Use MAX_ZCODE_SIZE of 1000000.]
-Use MAX_DICT_ENTRIES OF 5000.
-Use maximum text length of at least 2000.
+Use MAX_DICT_ENTRIES OF 6000.
+Use maximum text length of at least 4000.
 Use Scoring.
 [ End compiler settings. ]
 
@@ -41,6 +41,7 @@ Include Basic Help Menu by Emily Short.
 Include Basic Screen Effects by Emily Short.
 Include Glulx Entry Points by Emily Short.
 Include Glulx Text Effects by Emily Short.
+[Include Glulx Status Window Control by Erik Temple.]
 Include Simple Graphical Window by Emily Short.
 [New Graphics Handler]
 Include Graphics Director by Core Mechanics.
@@ -161,24 +162,33 @@ Include Fighting by Core Mechanics.
 Include Fucking by Core Mechanics.
 Include Game Endings by Core Mechanics.
 Include Gender Pronouns by Core Mechanics.
+Include giving in by Core Mechanics.
+Include Inventory by Core Mechanics.
 Include Masturbate by Core Mechanics.
 Include Microwave by Core Mechanics.
+Include Microwaveable Objects by Core Mechanics.
 Include Milking by Core Mechanics.
 Include Misc Items by Core Mechanics.
 Include Navigation by Core Mechanics.
 Include Notes by Core Mechanics.
 Include Needy Heat by Core Mechanics.
+Include Patreon Menu by Core Mechanics.
 Include Patron Credits by Nuku Valente.
+Include Pepperspray by Core Mechanics.
 Include Pets by Core Mechanics.
 Include Quest Log by Core Mechanics.
+Include Settings Menus by Core Mechanics.
 Include Sex and Infection Functions by Core Mechanics.
+Include Smell by Core Mechanics.
 Include Status View by Core Mechanics.
+Include Storage Locker by Core Mechanics.
 Include Store Mechanics by Core Mechanics.
 Include Special Merchandize by Core Mechanics.
 Include Tape Inventory by Core Mechanics.
 Include Text Capture by Eric Eve.
 Include Vending Machine by Core Mechanics.
 Include Weapons by Core Mechanics.
+Include Zephyr Phone by Core Mechanics.
 
 Book 3 - Loading the Main Game Content
 
@@ -214,11 +224,13 @@ Include Hospital by Stripes.
 Include Hyena Hideout by Stripes.
 Include Junkyard and Warehouse by Wahn.
 Include Kitsune Hideaway by Shadowwolf94.
+Include Lair Of The Lupines by Gherod.
 Include Mall Community Center by Wahn.
 Include Mall Residents by Rikaeus.
 Include Medical Checkups by Stripes.
 Include Milking Facility by Kernog.
 Include Museum by Sarokcat.
+Include Museum Roman Wing by Gherod.
 Include New Ewe Store by Luneth.
 Include PIG Frat by Stripes.
 Include Pirate Island by Sarokcat.
@@ -226,6 +238,7 @@ Include Power Plant by Hellerhound.
 Include Qytat a'th Lundrues by SgtPepper234.
 Include Red Light District by Wahn.
 Include Shag Shack by Wahn.
+Include SlutStorage by Wahn.
 Include Stablemasters by Sarokcat.
 Include Stables Hotel by Sarokcat.
 Include State Fair by Sarokcat.
@@ -286,7 +299,6 @@ Include Forest Events by Aureas Gigas.
 Include Forest Events by Defth.
 Include Forest Gang Bang by Defth.
 Include Gildwing Kobold Events by Taelyn.
-Include giving in by Core Mechanics.
 Include Greek Mythos by Prometheus.
 Include HellHound by Speedlover.
 Include High Rise Events by Stripes.
@@ -300,7 +312,6 @@ Include Hyper Serum by Prometheus.
 [Include Important Research Quests by Kaleem Mcintyre.]
 Include Infected Pool by Hellerhound.
 Include Inner Mall Events by Wahn.
-Include Inventory by Core Mechanics.
 Include Ironscale Items by Taelyn.
 Include Junkyard Events by Stripes.
 Include Kitsune by Shadowwolf94.
@@ -309,7 +320,7 @@ Include Latex Quad Husky by Stripes.
 Include Leonard Events by Stripes.
 Include Little Old Woman by Kaleem mcintyre.
 Include Lizard Parlor by Kaleem Mcintyre.
-Include Main Storyline by Stripes.
+Include Main Storyline by Wahn.
 Include Male Dorm Events by Rikaeus.
 Include Mall Events by Sarokcat.
 Include Mall Expansion by Wahn.
@@ -328,14 +339,14 @@ Include Museum Events by Sarokcat.
 Include Museum Rounds by Stripes.
 Include Nemean Lion by Prometheus.
 Include New Events by Sarokcat.
+Include Ninja Events by Tanaka.
 Include Odd Weapons by Hellerhound.
 Include Old BoomBox by Kaleem mcintyre.
+Include Orcs And Ogres by Gherod.
 Include Orc Events by Wahn.
 Include Orc Researcher by Luneth.
 Include Origins by Luneth.
 Include Park Events by Sarokcat.
-Include Patreon Menu by Stripes.
-Include Pepperspray by Stripes.
 Include Pet Shop by Wahn.
 Include Qytat Shifters by Hellerhound.
 Include Random Events by Guest Writers.
@@ -349,17 +360,14 @@ Include Save the Dame by Kaleem Mcintyre.
 Include Scavevents by Stripes.
 Include Sea Lion and Orca by Stripes.
 Include Sex Ed by Prometheus.
-Include Settings Menus by Core Mechanics.
 Include Shifting by Hellerhound.
 Include Shrinking Shrooms by Defth.
-Include Smell by Core Mechanics.
 Include Smith Haven Mall by Wahn.
 Include Soldier Events by Wahn.
 Include SpartanVikingCouple by Rikaeus.
 Include Special Forces Events by Vinickus.
 Include Stable Related Events by Sarokcat.
 Include Stable Related Quests by Sarokcat.
-Include Storage Locker by Core Mechanics.
 Include Sugar Feud by AGentlemanCalledB.
 Include TFTG Feats by Luneth.
 Include Tidepool Event by Guest Writers.
@@ -371,7 +379,6 @@ Include Warehouse Events by StripeGuy.
 Include Wereraptor by Stripes.
 Include Werewolf by CrimsonAsh.
 Include Xeno Nest by Kernog.
-Include Zephyr Phone by Guest Writers.
 Include Zoo Events by Sarokcat.
 Include Zoo Events by Wahn.
 
@@ -406,6 +413,7 @@ Include Blob by Kaleem Mcintyre.
 Include Blue Chaffinch by Stripes.
 Include Latex Bobcat by Stripes.
 Include Bottlenose Toy by Stripes.
+Include Bouncy Succubus by Qazarar.
 Include Bovine by Damaged.
 Include Breederslut by Stripes.
 Include Brown Rat by Wahn.
@@ -436,7 +444,7 @@ Include Demon Brute by Wahn.
 Include Demon Fox by Dys.
 Include Dino Pack by Qazarar.
 Include Dire Wolf by Qazarar.
-Include Doberman Cop by Stripes.
+Include Doberman Cop by Wahn.
 Include Doberman Male by Wahn.
 Include Donkeyman by Sarokcat n Verath.
 Include Donkeywoman by Sarokcat n Verath.
@@ -526,6 +534,7 @@ Include Hyperskunk by Stripes.
 Include Imp by Wahn.
 Include Impala by UrsaOmega.
 Include Incubus by Stripes.
+Include Inflatable Snake by Kernog.
 Include Inflatable Vulpine by Stripes.
 Include Jackal Alpha by Gherod.
 Include Jackal Femboy by Gherod.
@@ -544,6 +553,7 @@ Include Koghh by Wahn.
 Include Komodo Dragon by Stripes.
 Include Latex Ermine by Stripes.
 Include Latex Fox by Nuku Valente.
+Include Latex Frog by Soggi.
 Include Latex Mistress by Stripes.
 Include Latex Wolf by Stripes.
 Include Leopardman by Vinickus.
@@ -666,6 +676,7 @@ Include Tigress Hooker by Stripes.
 Include Toven by Wahn.
 Include Trash Coon by Stripes.
 Include Triceratops by Stripes.
+Include Triceratops Male by Gherod.
 Include Twisted Pimp by Sarokcat.
 Include Tyrannosaurus Male by Gherod.
 Include Unicorn by Sarokcat.
@@ -684,6 +695,7 @@ Include Wolftaur by Sarokcat.
 Include Wolverine Guard by Stripes.
 Include Wrestling Wolf by Guest Writers.
 Include Wyvern by Damaged.
+Include Wyvern Patriarch by Gherod.
 Include Xeno by Stripes.
 Include Yamato Dragon by Blue Bishop.
 Include Yamato Dragoness by Blue Bishop.
@@ -723,11 +735,12 @@ Include Azari by Dys.
 Include Bastet by Wahn.
 Include Bjorn by Rikaeus.
 Include Blake by Wahn.
-Include Blanche by Stripes.
+Include Blanche by Prometheus.
 Include Blue by Wahn.
 Include Boghrim by Wahn.
 Include Bradford by Stripes.
 Include Brennan by Wahn.
+Include Brennan's Wolves by Wahn.
 Include Brian by Vinickus.
 Include Brooke by Stripes.
 Include Bryony by Song.
@@ -742,7 +755,7 @@ Include Cherry by Gherod.
 Include Chris by Wahn.
 Include Cindy by Stripes.
 Include College Guards by Rikaeus.
-Include Colleen by Sarokcat.
+Include Colleen by Prometheus.
 Include Corbin by Wahn.
 Include Coura by Wahn.
 Include Daisy by Sarokcat n Verath.
@@ -752,7 +765,7 @@ Include Darius by Wahn.
 Include Darren by Qazarar.
 Include David by Wahn.
 Include Davies by Wahn.
-Include Deer by Stripes.
+Include Deer by Wahn.
 Include Denise by Wahn.
 Include Demonologist by Gherod.
 Include Desperate Bunny by Nuku Valente.
@@ -814,7 +827,7 @@ Include Janice by Sarokcat.
 Include Jake by Rikaeus.
 Include Jay by Wahn.
 Include Jenna by Rikaeus.
-Include Jimmy by Stripes.
+Include Jimmy by Prometheus.
 Include Joanna by Stripes.
 Include Joey by Qazarar.
 Include Joshiro by Wahn.
@@ -854,6 +867,7 @@ Include Midnight by Luneth.
 Include Milo by CrimsonAsh.
 Include Mogdraz by Gherod.
 Include Monty by Wahn.
+Include Moreau by Wahn.
 Include Mouse Taur by Nuku Valente.
 Include Pet Mutt by CrimsonAsh.
 Include Nadia by Wahn.
@@ -868,10 +882,10 @@ Include Oliver by Rikaeus.
 Include Onyx by Sarokcat n Verath.
 Include Orc Female by Wahn.
 Include Orc Lair by Wahn.
-Include Orthas by Stripes.
+Include Orthas by Wahn.
 Include Otto Fuchs by Prometheus.
 Include Palomino by Verath.
-Include Paula by Stripes.
+Include Paula by Prometheus.
 Include Percy by Taelyn.
 Include Pericles by Rikaeus.
 Include Phantom Dolphin by Blue Bishop.
@@ -892,6 +906,7 @@ Include Sam by Stripes.
 Include Santa Claws by Wahn.
 Include Sarah by Wahn.
 Include Savina by Kurainyx.
+Include Segis by Gherod.
 Include Serafino by Rikaeus.
 Include Seraphis by Vinickus.
 Include Serenity by Kurainyx.
@@ -908,6 +923,7 @@ Include Stag by Wahn.
 Include Stella by Stripes.
 Include Stewart by Rikaeus.
 Include Stuck Dragon by Stripes.
+Include Sturm by Prometheus.
 Include Sven by Stripes.
 Include Sylvia by Prometheus.
 Include Tanuki by Nuku Valente.
@@ -995,7 +1011,16 @@ When play begins:
 When play begins (this is the graphics window construction rule):
 	if NewGraphics is true: [Build window regardless in case player decides to turn it on later]
 		now the graphics window proportion is NewGraphicsRatio;
-		build graphics window;
+		if NewGraphicsPosition is:
+			-- 0:
+				now graphics window position is g-right;
+			-- 1:
+				now graphics window position is g-left;
+			-- 2:
+				now graphics window position is g-above;
+			-- 3:
+				now graphics window position is g-below;
+		reconstruct graphics window;
 		[now the graphics window pixel count is 1;]
 		follow the ngraphics_blank rule;
 		follow the current graphics drawing rule;

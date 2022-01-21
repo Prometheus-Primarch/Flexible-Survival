@@ -47,82 +47,6 @@ instead of sniffing Warehouse Door:
 
 Section 2 - Entering the Warehouse
 
-Definition: a person is facially human:
-	if FaceName of Player is "Human", yes;
-	if FaceName of Player is "Herm Human", yes;
-	if FaceName of Player is "Pod Person", yes;
-	if FaceName of Player is "Siren", yes;
-	if FaceName of Player is "Greek Nymph", yes;
-	if FaceName of Player is "Spartan Warrior", yes;
-	if FaceName of Player is "Helot Manservant", yes;
-	if FaceName of Player is "Amazonian", yes;
-	if FaceName of Player is "Naiad", yes;
-	if FaceName of Player is "Math Teacher", yes;
-	if FaceName of Player is "Viking Woman", yes;
-	if FaceName of Player is "Knight", yes;
-	if FaceName of Player is "Squire", yes;
-	if HeadName of Player is "Human", yes;
-	if HeadName of Player is "Herm Human", yes;
-	if HeadName of Player is "Pod Person", yes;
-	if HeadName of Player is "Siren", yes;
-	if HeadName of Player is "Greek Nymph", yes;
-	if HeadName of Player is "Spartan Warrior", yes;
-	if HeadName of Player is "Helot Manservant", yes;
-	if HeadName of Player is "Amazonian", yes;
-	if HeadName of Player is "Naiad", yes;
-	if HeadName of Player is "Math Teacher", yes;
-	if HeadName of Player is "Viking Woman", yes;
-	if HeadName of Player is "Knight", yes;
-	if HeadName of Player is "Squire", yes;
-	no;
-
-Definition: a person is skintone human:
-	if SkinName of Player is "Human", yes;
-	if SkinName of Player is "Herm Human", yes;
-	if SkinName of Player is "Pod Person", yes;
-	if SkinName of Player is "City Sprite", yes;
-	if SkinName of Player is "Wood Elf", yes;
-	if SkinName of Player is "Elven Hunter", yes;
-	if SkinName of Player is "Harpy", yes;
-	if SkinName of Player is "Siren", yes;
-	if SkinName of Player is "Succubus", yes;
-	if SkinName of Player is "Incubus", yes;
-	if SkinName of Player is "Greek Nymph", yes;
-	if SkinName of Player is "Spartan Warrior", yes;
-	if SkinName of Player is "Helot Manservant", yes;
-	if SkinName of Player is "Amazonian", yes;
-	if SkinName of Player is "Naiad", yes;
-	if SkinName of Player is "Caveman", yes;
-	if SkinName of Player is "Math Teacher", yes;
-	if SkinName of Player is "Viking Woman", yes;
-	if SkinName of Player is "Knight", yes;
-	if SkinName of Player is "Squire", yes;
-	if SkinName of Player is "Gunbunny", yes;
-	no;
-
-Definition: a person is bodily human:
-	if BodyName of Player is "Human", yes;
-	if BodyName of Player is "Herm Human", yes;
-	if BodyName of Player is "Wood Elf", yes;
-	if BodyName of Player is "Elven Hunter", yes;
-	if BodyName of Player is "Pod Person", yes;
-	if BodyName of Player is "Greek Nymph", yes;
-	if BodyName of Player is "Spartan Warrior", yes;
-	if BodyName of Player is "Helot Manservant", yes;
-	if BodyName of Player is "Amazonian", yes;
-	if BodyName of Player is "Naiad", yes;
-	if BodyName of Player is "Math Teacher", yes;
-	if BodyName of Player is "Viking Woman", yes;
-	if BodyName of Player is "Knight", yes;
-	if BodyName of Player is "Squire", yes;
-	no;
-
-Definition: a person is fully human:
-	if person is not facially human, no;
-	if person is not skintone human, no;
-	if person is not bodily human, no;
-	yes;
-
 Instead of entering the Storage Room:
 	try going south;
 
@@ -139,7 +63,7 @@ Instead of going south from the Abandoned Lot:
 			if StevenSwayed is 1: [gave Steven soda before]
 				say "A person you recognize as Steven looks out at you for a moment, startled by your change in appearance. 'I'm sorry,' he whispers, 'but I [italic type]really[roman type] can't let you in here looking like that. Try changing your appearance somehow, okay?' Giving you an apologetic look, he quickly closes the slat again right after that.";
 			else:
-				say "You barely see a pair of eyes look out at you before a man cries, 'Yikes!' and the slat closes rapidly. Perhaps it was your [FaceName of Player] face.";
+				say "You barely see a pair of eyes look out at you before a man cries, 'Yikes!' and the slat closes rapidly. Perhaps it was your [FaceSpeciesName of Player in lower case] face.";
 		else if scalevalue of Player is 1 or scalevalue of Player > 3 or BodyName of Player is listed in infections of Taurlist: [small or large player, or taurs]
 			if StevenSwayed is 1: [gave Steven soda before]
 				say "A person you recognize as Steven looks out at you for a moment, startled by your change in appearance. 'I'm sorry,' he whispers, 'but there's [italic type]no[roman type] way to hide [if BodyName of Player is listed in infections of Taurlist]those four feet of yours. You're going to have to at least be humanoid, okay[else if scalevalue of Player is 1]just how small you are. They're sure to know something's up. Try to find a way to get back to normal size, okay[else]big you've gotten. Try to find a way to shrink back down somehow, okay[end if]?' Giving you an apologetic look, he quickly closes the slat again right after that.";

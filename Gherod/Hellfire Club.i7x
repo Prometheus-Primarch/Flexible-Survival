@@ -252,7 +252,6 @@ Hellfire Lounge	"Hellfire Lounge"
 
 Hellfire Lounge is a room.
 Hellfire Lounge is inside of Hellfire Club. It is sleepsafe.
-The earea of Hellfire Lounge is "Red".
 Description of Hellfire Lounge is "[HellfireLoungeDesc]".
 
 to say HellfireLoungeDesc:
@@ -269,7 +268,6 @@ Hellfire Restroom	"Hellfire Restroom"
 
 Hellfire Restroom is a room.
 Hellfire Restroom is north of Hellfire Lounge. It is sleepsafe.
-The earea of Hellfire Restroom is "Red".
 Description of Hellfire Restroom is "[Hellfire RestroomDesc]".
 
 to say Hellfire RestroomDesc:
@@ -286,7 +284,6 @@ Hellfire Storage	"Hellfire Storage"
 
 Hellfire Storage is a room.
 Hellfire Storage is east of Hellfire Lounge. It is sleepsafe.
-The earea of Hellfire Storage is "Red".
 Description of Hellfire Storage is "[HellfireStorageDesc]".
 
 to say HellfireStorageDesc:
@@ -303,7 +300,6 @@ Hellfire VIP Floor	"Hellfire VIP Floor"
 
 Hellfire VIP Floor is a room.
 Hellfire VIP Floor is above Hellfire Lounge. It is sleepsafe.
-The earea of Hellfire VIP Floor is "Red".
 Description of Hellfire VIP Floor is "[HellfireVIPFloorDesc]".
 
 to say HellfireVIPFloorDesc:
@@ -323,7 +319,6 @@ Object	Name
 Hellfire Corridor	"Hellfire Corridor"
 
 Hellfire Corridor is a room. Hellfire Corridor is private. It is sleepsafe.
-The earea of Hellfire Corridor is "Red".
 Description of Hellfire Corridor is "[HellfireCorridorDesc]".
 
 to say HellfireCorridorDesc:
@@ -348,7 +343,6 @@ Hellfire Unknown	"Hellfire Unknown"
 
 Hellfire Unknown is a room.
 Hellfire Unknown is north of Hellfire Corridor. It is sleepsafe.
-The earea of Hellfire Unknown is "Red".
 Description of Hellfire Unknown is "[HellfireUnknownDesc]".
 
 to say HellfireUnknownDesc:
@@ -367,7 +361,6 @@ Hellfire VR	"Hellfire VR"
 
 Hellfire VR is a room.
 Hellfire VR is north of Hellfire Unknown.
-The earea of Hellfire VR is "Red".
 Description of Hellfire VR is "[HellfireVRDesc]".
 
 to say HellfireVRDesc:
@@ -384,7 +377,6 @@ Hellfire Dungeon	"Hellfire Dungeon"
 
 Hellfire Dungeon is a room.
 Hellfire Dungeon is below Hellfire Corridor. It is sleepsafe.
-The earea of Hellfire Dungeon is "Red".
 Description of Hellfire Dungeon is "[HellfireDungeonDesc]".
 
 to say HellfireDungeonDesc:
@@ -404,7 +396,6 @@ Object	Name
 Hellfire Cell One	"Hellfire Cell One"
 
 Hellfire Cell One is a room. It is sleepsafe.
-The earea of Hellfire Cell One is "Red".
 Description of Hellfire Cell One is "[HellfireCellOneDesc]".
 
 to connect Hellfire Cell One:
@@ -1435,7 +1426,7 @@ to HellfireClubEscortNormal1cAssFuck:
 			increase HCEClientSatisfaction by 1;
 			say "(+1)[line break]";
 		WaitLineBreak;
-	say "     With the deed done, the red devil leaves you on the bed, his demonic seed leaking out of your ass as he takes just one more time to appreciate the view. 'Make sure you keep thinking of me entering your ass like that again, yeah?' he says in a tease, as he proceeds to leave the room, as naked as he arrived. Now, you should clean yourself off before Mogdraz arrives, as it would be very embarassing to meet him while you make a trail of cum with all that is leaking out of it.";
+	say "     With the deed done, the red devil leaves you on the bed, his demonic seed leaking out of your ass as he takes just one more time to appreciate the view. 'Make sure you keep thinking of me entering your ass like that again, yeah?' he says in a tease, as he proceeds to leave the room, as naked as he arrived. Now, you should clean yourself off before Mogdraz arrives, as it would be very embarrassing to meet him while you make a trail of cum with all that is leaking out of it.";
 	HCEFinalSatisfactionBonus;
 
 [ NORMAL 1 D - DOM FEMALE HELLDEMON ---------------------------------------------------- ]
@@ -1868,7 +1859,7 @@ to HellfireClubEscortNormal3aHandjob:
 
 to HellfireClubEscortNormal3aBlowjob:
 	say "     Placing both your hands around his already rock hard and throbbing dark equine cock, you give him a gentle rub across the shaft, keeping the solid meatstick between your palms as your mouth begins to descend upon his member. Such a massive rod would certainly prove a challenge to even the most expert cocksuckers, but you are determined to accomplish your task with efficiency. Putting your tongue to work, you give the tip a lick, then have it run around his girth as you prepare to wrap your soft lips around it. The stallion observes you with quite a lot of interest, watching your every move around his long horsedick, throbbing and pulsing as it keeps on leaking. The taste of his precum is incredibly sweet and warm, so demonic in nature that you just feel compelled to take more and more...";
-	say "     Though that is something you were going to do, anyway, taking more of his shaft inside your mouth, letting it fill you with bliss. He lets out a moan as he otherwise silently appreciates your efforts, allowing you to service his throbbing manhood as you please. Twirling your tongue all around the girth of his cock, twisting your head everytime you slide your mouth down and back up, and sucking him good as you seal your lips around the shaft, their softness rubbing against the rock hard, warm pulsing surface of his dong... You do it all, while your hands provide enough support for the areas you cannot reach. Stroking and sucking him seems to be the answer to satisfy that massive horsecock...";
+	say "     Though that is something you were going to do, anyway, taking more of his shaft inside your mouth, letting it fill you with bliss. He lets out a moan as he otherwise silently appreciates your efforts, allowing you to service his throbbing manhood as you please. Twirling your tongue all around the girth of his cock, twisting your head every time you slide your mouth down and back up, and sucking him good as you seal your lips around the shaft, their softness rubbing against the rock hard, warm pulsing surface of his dong... You do it all, while your hands provide enough support for the areas you cannot reach. Stroking and sucking him seems to be the answer to satisfy that massive horsecock...";
 	WaitLineBreak;
 	say "     It must be your good work that seems to get the nightmare horseman going, as you cannot help but notice that his hips have become stiff, as well as his abs, while he keeps on taking deep breaths. Looking at how his balls have raised, you go for a gentle grab as you fondle them tenderly, with your remaining hand stroking his cock while your mouth remains attached to the tip of his penis. Further jerkings, strokings and suckings quickly send him closer to the edge, and he urges you to push your head away. 'I'm really, really close... Y-you'd better just...' he tries to warn you, without finishing his sentence, but you realize that it must be because he is about to cum, and given the fact he is a demon carrying a massive load in his balls, you would probably want to play safe.";
 	say "     But this means you are close to satisfy the stallion. A few more strokes, quickly, while standing at a safe distance, is enough to set him off the edge. Soon, there is cum being shot everywhere, and you are unable to escape the deluge that comes raining on top of you. Not daring to let go of that big horsecock, you continue to stroke it until the stallion reaches his last spurts, which still looks comparable to an average person's load. 'Mmmy... Your mouth is so soft inside, I could keep you there for hours and hours... Servicing me to no end like a good little slave... Ohh, this was most satisfying.' he compliments you, as you realize he made a huge mess all over the bed, the floor and yourselves.";
@@ -1915,7 +1906,7 @@ to HellfireClubEscortNormal3aMassage:
 	WaitLineBreak;
 	say "     'I... normally don't allow anyone to touch me down there, but... It does feel relaxing...' he says, as you grab each glute and squeeze them underneath your palms, giving them a generous grabbing and rubbing all over. But you dare to venture in deeper, as you slide your fingers between his buttocks, not all at once, but slowly, only rubbing at the inner side of his asscheeks. Then, your finger happens to brush against his pucker, then again... and again... and each time making the stallion raise his ass up just a little more... 'That feels so good...' he says, as now you find your fingers rubbing at his dark hole, tentatively at first, but more deeply later on, the tip of your thumb circling around his pucker tenderly.";
 	say "     It does look very tight, and you feel it clenched as you rub at it. It shows that the stallion never had anyone fuck him from behind, but he does not seem to mind you touching and caressing it. In fact, he seems particularly aroused at this. 'A... Ahh... Uhh... I...' You dismiss these as simply moans, but for some reason, it feels like he is trying to tell you something. Nevertheless, you continue your anal massage, providing him with a very good moment that sends him moaning loudly for the next minute... Wait a second. Why is he moaning so much and jerking his hips like... Oh, you see. You made the stallion cum all over the sheets as you continued to pleasure his backdoor. It goes on and on for a good long minute!";
-	say "     'O-oh, no... I... I'm so embarassed. I'm not used to sensations focused on my... rear. T-that was most unexpected!' he says, as he turns around and away from the messy puddle of spunk and drenched sheets. 'You are really good at that. I... I may have to... request your services more often. This one will, most certainly, keep me... thinking.'";
+	say "     'O-oh, no... I... I'm so embarrassed. I'm not used to sensations focused on my... rear. T-that was most unexpected!' he says, as he turns around and away from the messy puddle of spunk and drenched sheets. 'You are really good at that. I... I may have to... request your services more often. This one will, most certainly, keep me... thinking.'";
 	increase HCEClientSatisfaction by 2;
 	say "(+2)[line break]";
 	WaitLineBreak;
@@ -2112,7 +2103,7 @@ to HellfireClubEscortNormal3bHandjob:
 
 to HellfireClubEscortNormal3bBlowjob:
 	say "     Placing both your hands around her already rock hard and throbbing dark equine cock, you give her a gentle rub across the shaft, keeping the solid meatstick between your palms as your mouth begins to descend upon her member. Such a massive rod would certainly prove a challenge to even the most expert cocksuckers, but you are determined to accomplish your task with efficiency. Putting your tongue to work, you give the tip a lick, then have it run around her girth as you prepare to wrap your soft lips around it. The herm mare observes you with quite a lot of interest, watching your every move around her long horsedick, throbbing and pulsing as it keeps on leaking. The taste of her precum is incredibly sweet and warm, so demonic in nature that you just feel compelled to take more and more...";
-	say "     Though that is something you were going to do, anyway, taking more of her shaft inside your mouth, letting it fill you with bliss. She lets out a moan as he otherwise silently appreciates your efforts, allowing you to service her throbbing dong as you please. Twirling your tongue all around the girth of her cock, twisting your head everytime you slide your mouth down and back up, and sucking her good as you seal your lips around the shaft, their softness rubbing against the rock hard, warm pulsing surface of her dick... You do it all, while your hands provide enough support for the areas you cannot reach. Stroking and sucking her seems to be the answer to satisfy that massive horsecock...";
+	say "     Though that is something you were going to do, anyway, taking more of her shaft inside your mouth, letting it fill you with bliss. She lets out a moan as he otherwise silently appreciates your efforts, allowing you to service her throbbing dong as you please. Twirling your tongue all around the girth of her cock, twisting your head every time you slide your mouth down and back up, and sucking her good as you seal your lips around the shaft, their softness rubbing against the rock hard, warm pulsing surface of her dick... You do it all, while your hands provide enough support for the areas you cannot reach. Stroking and sucking her seems to be the answer to satisfy that massive horsecock...";
 	WaitLineBreak;
 	say "     It must be your good work that seems to get the nightmare horseman going, as you cannot help but notice that her hips have become stiff, as well as her abs, while she keeps on taking deep breaths. Looking at how her balls have raised, you go for a gentle grab as you fondle them tenderly, with your remaining hand stroking her cock while your mouth remains attached to the tip of her penis. Further jerkings, strokings and suckings quickly send her closer to the edge, and she urges you to push your head away. 'I'm really, really close... Y-you'd better just...' she tries to warn you, without finishing her sentence, but you realize that it must be because she is about to cum, and given the fact she is a demon carrying a massive load in her balls, you would probably want to play safe.";
 	say "     But this means you are close to satisfy the herm mare. A few more strokes, quickly, while standing at a safe distance, is enough to set her off the edge. Soon, there is cum being shot everywhere, and you are unable to escape the deluge that comes raining on top of you. Not daring to let go of that big horsecock, you continue to stroke it until the stallion reaches her last spurts, which still looks comparable to an average person's load. 'Mmmy... Your mouth is so soft inside, I could keep you there for hours and hours... Servicing me to no end like a good little slave... Ohh, this was most satisfying.' she compliments you, as you realize she made a huge mess all over the bed, the floor and yourselves.";
@@ -2160,7 +2151,7 @@ to HellfireClubEscortNormal3bMassage:
 	say "     'I... normally don't allow anyone to touch me there, but... It does feel relaxing...' she says, as you grab each boob and squeeze them underneath your palms, giving them a generous grabbing and rubbing all over. In the meantime, you grind your rear against her cock, throbbing underneath you with desire. Your fingers happen to brush against her nipples, tentatively at first, but then circling around them... again... and again... each time harder than the last, going for a good nipple rubbing. 'That feels so good...' she exclaims, the more you rub her tits and grind against her cock, harder and with increasingly more enthusiasm. She seems to be wild in lust and ecstasy...";
 	say "     'Oh... sweet... yes...! I'm... I'm so close...! She tries to warn you as she jerks her hips against you, but it is too late. She makes a huge mess all over her chest and your hands as she begins to cum all over, nearly drowning herself in her own load as you simply watch, feeling the throbbing meat underneath you going wild with each spurt of demonic seed leaving through. The creamy hot liquid simply coats every angle of her torso and down onto the sheets, even your hands as you continue to feel up her boobs. It takes her a long minute to finally begin to calm down, as her orgasm subsides...";
 	WaitLineBreak;
-	say "     'O-oh, no... I... I'm so embarassed. I'm not used to... do it like this. T-that was most unexpected!' she says, as she turns her face around and away from you, shying away. You get up to let her get off the messy puddle of spunk and drenched sheets. 'You are really good at that. I... I may have to... request your services more often. This one will, most certainly, keep me... thinking.'";
+	say "     'O-oh, no... I... I'm so embarrassed. I'm not used to... do it like this. T-that was most unexpected!' she says, as she turns her face around and away from you, shying away. You get up to let her get off the messy puddle of spunk and drenched sheets. 'You are really good at that. I... I may have to... request your services more often. This one will, most certainly, keep me... thinking.'";
 	increase HCEClientSatisfaction by 2;
 	say "(+2)[line break]";
 	WaitLineBreak;
@@ -2525,7 +2516,7 @@ to say obsidian coin use:
 	else:
 		say "     [bold type]Glyph![roman type][line break]";
 
-instead of sniffing gryphon coin:
+instead of sniffing obsidian coin:
 		say "The coin has a faint smell of volcanic sulfur to it. Definitely not the most pleasant scent.";
 
 [***********************************************************]

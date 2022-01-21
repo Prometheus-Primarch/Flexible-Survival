@@ -1081,7 +1081,7 @@ to say hosploss:
 			say "     You groan, still in some pain from the rough handling as you try to get up. After the heavy dose of transformation and repeated infection, your mind is wavering and unraveling. The pink raccoon, who had been waiting fretfully on the steps for you, rushes over to you. Finding you radically transformed and succumbing, he helps take you to a nearby, unoccupied building. There, he beds down with you, having sex with you again and again, turning you into another cute, girly raccoon like him, as it is the only thing he can do for you.";
 			say "[totalcoonification]";
 		else:
-			say "     You groan, still in some pain from the rough handling as you try to get up. After the heavy dose of transformation and repeated infection, your mind is wavering and unraveling. The random medley of infections your body has been subject to all vie for control. Eventually the most prominent, that of your [BodyName of Player] body, asserts its dominance over the new you.";
+			say "     You groan, still in some pain from the rough handling as you try to get up. After the heavy dose of transformation and repeated infection, your mind is wavering and unraveling. The random medley of infections your body has been subject to all vie for control. Eventually the most prominent, that of your [BodyType of Player] body, asserts its dominance over the new you.";
 	else if hospquest is 10:		[Refused upon offer]
 		say "     You groan, still in some pain from the rough handling as you try to get up. The pink raccoon, who had been waiting fretfully on the steps for you, rushes over to you. He wraps his arm around you and helps you stand, leading you away from this blighted place.";
 		if pink raccoon is tamed:
@@ -1259,7 +1259,6 @@ to say tlranaway:
 	if Susan is visible:
 		move susan to Hidden Lab;
 		now HP of Susan is 50;
-	now the door west of Outside Trevor Labs is locked; [not sure how to do this]
 	now hospquest is 12;
 	now the player is in Hidden Lab;
 	say "[posttlscene]";
@@ -1278,7 +1277,6 @@ to say tlloss:
 	if Susan is visible:
 		move susan to Hidden Lab;
 		now HP of Susan is 50;
-	now the door west of Outside Trevor Labs is locked; [not sure how to do this]
 	now hospquest is 12;
 	now the player is in Hidden Lab;
 	say "[posttlscene]";
@@ -1361,12 +1359,11 @@ to say tlvictory:
 	increase score by 50;
 	LineBreak;
 	wait for any key;
-	move Doctor Matt to dark basement;
+	now Doctor Matt is nowhere;
 	move infection terminal to Hidden Lab;
 	if Susan is visible:
 		move susan to Hidden Lab;
 		now HP of Susan is 50;
-	now the door west of Outside Trevor Labs is locked; [not sure how to do this]
 	now hospquest is 12;
 	now the player is in Hidden Lab;
 	say "[posttlscene]";
@@ -1394,33 +1391,6 @@ instead of going to Trevor Labs Lobby while hospquest > 11:		[Lab unenterable af
 			move player to Loading Dock;
 	else:
 		now player is in Trevor Labs Lobby;
-
-Table of GameRoomIDs (continued)
-Object	Name
-Loading Dock	"Loading Dock"
-
-Loading Dock is a room.
-Description of Loading Dock is "This loading dock is discreetly placed behind and down the hill from Trevor Labs. The security gate outside it has been broken open. From the scattered clothes and splatters of dried, musky fluids around, it seems like some of those infected within got out before the security doors were closed. Using the keycard you found, you can slip in this way to go [link]down[end link] into the underground labs if you'd like. Otherwise, you can head [link]east[end link] around the hill again to get back to the main road.".
-
-undergroundlab is a door. undergroundlab is dangerous.
-undergroundlab is below Loading Dock.
-darkbasement2 is below undergroundlab.
-The marea of undergroundlab is "Sealed". Description of undergroundlab is "A security-locked door that is armored and sealed. Thankfully, the security card you found opens it.".
-
-the scent of Loading Dock is "This place has the stale smell of sex, as if nothing's left this place for some time.".
-
-aroundthehill is a door. aroundthehill is east from Loading Dock.
-darkbasement2 is east of aroundthehill.
-
-instead of going east from Loading Dock:
-	move player to Outside Trevor Labs;
-
-Table of GameRoomIDs (continued)
-Object	Name
-darkbasement2	"darkbasement2"
-
-darkbasement2 is a room. [placeholder room for the doors]
-
 
 to say posttlscene:
 	say "     Returning to the hospital, you are greeted by Dr Mouse on the helipad. As he and the orderlies escort you [if Susan is visible]and Susan [end if]down to his lab, you relate to him your [if HP of Doctor Matt is 101]partial [end if]success at Trevor Labs. The mouse is [if HP of Doctor Matt > 101]very [end if]pleased with the results.";

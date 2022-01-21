@@ -103,6 +103,8 @@ Version 2 of Spike by Wahn begins here.
 [   9: Urik and Spike did weightlifting                                              ]
 [ 100: Player shut down the workout path                                             ]
 
+[ TODO: add talk option about the cigarettes                                         ]
+
 thirst of Spike is usually 1. [standard setting change]
 MaxHP of Spike is usually 1. [for now the player is always the father as the default]
 SpikeEventCooldown is a number that varies. [@Tag:Notsaved]
@@ -412,6 +414,11 @@ to say SpikeAccepted:
 			TraitGain "Amy - Fangirl" for Spike;
 			TraitGain "Spike - Adventurer" for Amy;
 			WaitBreakReactions;
+		if Blanche is booked or Blanche is bunkered:
+			say "     Blanche beams at the doberman and hurries over. 'Hello Spike. You've grown into quite the young man,' she says exuberantly. 'Alexandra and I have our differences over how to raise a child, but you seem to be proof that a mother's love doesn't have to be as hands on as I prefer. But you probably don't want to listen to a middle-aged woman like me for long, especially when it looks like you'll soon be going out into the city,' she continues. Before either of you can stop her, she steps in and warmly cuddles Spike, the doberman fidgeting uncomfortably, though having his face pressed into the MILF's full breasts provides some silver lining to the ordeal. When she releases him, Spike grumbles petulantly, 'I'm a grown man I don't need hugs...' 'Everyone needs hugs, but I apologize if I have embarrassed you. Your mother was quite firm in keeping me away from you when you were a pup, so I thought that I would take my chance,' Blanche chuckles in reply. After a few more words, the wolfess walks away again, Spike looking after her while mumbling to himself, 'She can't possibly be middle-aged when she looks like that.' You also notice him hiding the start of an erection. It would seem that the doberman is aroused by her despite his aversion to being hugged. This could be interesting...";
+			TraitGain "Blanche - Overaffectionate MILF" for Spike;
+			TraitGain "Spike - Impressive Young Man" for Blanche;
+			WaitBreakReactions;
 		if Brutus is booked or Brutus is bunkered:
 			if DBCaptureQuestVar is 5: [controlled]
 				[
@@ -581,7 +588,11 @@ to say SpikeAccepted:
 				TraitGain "Korvin - Challenging Dad" for Spike;
 				TraitGain "Spike - Son" for Korvin;
 			else:
-				if gsd_pet >= 20 and gsd_pet < 60:	[Subby Korvin]
+				if gsd_pet < 20: [not got a collar yet]
+					say "     Walking up to Spike with a confident stride, Korvin puffs out his muscular chest a little and gives the dobie a gruff nod. 'New dog, eh? Even got a collar, like a good little puppy.' Even as he says this, teasing the doberman by deliberately ignoring that Spike picked a black leather, spiked collar for himself, you can see a glimmer of... envy in his eyes. Accepting the ribbing as a friendly challenge, Spike shoots back, 'Look who's talking!' tapping the side of his neck and then pointing at the German shepherd, who reaches up to touch the simple rope leash you placed on him. Ouch, by his scrunched-up expression, Spike landed a solid hit, but Korvin is fast enough to bounce back, shrugging it off. 'Well - we'll see who's the better dog soon!' The two of them spend the next minute or so in a kind of dick-measuring contest, flexing some muscles and giving each other looks. Eventually, Korvin quips, 'I'll leave you to work on your stuff a bit more. At least one of us needs to,' then walks off, tail wagging behind his back.";
+					TraitGain "Korvin - Met Collarless" for Spike;
+					TraitGain "Spike - Young Buck" for Korvin;
+				else if gsd_pet >= 20 and gsd_pet < 60:	[Subby Korvin]
 					say "     Leaning against the end of a bookshelf and keeping his distance, you see Korvin raising a hand as if to hide his pink collar, his gaze fairly focused on Spike's own studded strap of leather. Clearing your throat and shooting him a look, the canine drops the attempt at hiding his shame, revealing his submissiveness to you fully. Spike notices the girly collar right away and lets out a laughing bark, which drives Korvin to slip out of sight with his tail hanging down limply. Despite this, the German shepherd can't help but sport a raging erection, getting off on the humiliation after you drove home your dominance over him.";
 					TraitGain "Korvin - Shamed Bitch" for Spike;
 					TraitGain "Spike - Saw his shame" for Korvin;
@@ -615,20 +626,15 @@ to say SpikeAccepted:
 			TraitGain "Ryousei - Potential Sensei" for Spike;
 			TraitGain "Spike - Student" for Ryousei;
 			WaitBreakReactions;
-		if Tehuantl is booked or Tehuantl is bunkered:
-			if Tehuantl is male:
-				say "     Tehuantl steps into view from between the bookshelves, bearing his shield and Aztec sword as he walks up to the anthro dobie. The jaguar warrior comes to stand before him, sizing up Spike for a long moment before giving him a smile that bares the feline's fangs. 'A novice warrior, I see. And one with potential. You can call me Tehuantl. If the [master] wishes it so, this warslave will instruct you in combat.' Having said what he wanted, the anthro feline turns and strides away, leaving Spike looking after him with a curious expression. 'Is he for real? Who talks like that?' You quickly explain where and how you met Tehuantl, and that he genuinely believes to be an authentic Aztec warrior. 'He certainly looks badass with that gear of his, and those are nice muscles!'"; [TODO: Expand on this later on, after Tehuantl/Korvin's scenes have been re-evaluated - Tehuantl should reference if Spike's dad got his ass kicked]
-				TraitGain "Tehuantl - Warrior Dude" for Spike;
-				TraitGain "Spike - Student" for Tehuantl;
-			else:
-				say "     Tehuantl steps into view from between the bookshelves, walking up to the dobie with her hips swaying side to side. She smiles at Spike, holding her upper body in a pose that exposes her breasts quite nicely. 'Hello young warrior, you can call me Tehuantl,' the feline says in an enticing tone, and she is clearly amused as he simply stares at her tits, tongue hanging out the side of his muzzle without him even noticing. 'Hope you'll stay for a while and we'll see each other,' she says finally, stroking a finger along the side of his cheek before making her exit soon after."; [TODO: Might need rework to closer match the female version]
-				TraitGain "Tehuantl - Sexy Bitch" for Spike;
-				TraitGain "Spike - Flirting Target" for Tehuantl;
-			WaitBreakReactions;
 		if (Sarah is booked or Sarah is bunkered) and SarahCured > 3:
 			say "     Sarah confidently strides up to Spike and offers her hand in greeting. 'I examined you when you were little. How weird that that was just a few days ago, and see you already grown up! But it's good to see another able-bodied person here in the library. I'm sure if we hold together we'll make it out of this too!' The dobie wags his tail eagerly as he shakes her hand-paw, eyes casually flicking down to check out her breasts without being too obvious. 'That, or take over the city, hah! The boss has big plans, I'm sure!' Sarah blinks at him and responds, 'Excuse me?! What do you mean?' Spike looks somewhat embarrassed as he quickly adds in an embarrassed tone, 'Err... just kidding.' Sarah gives him a raised eyebrow, then says, 'People are suffering out there, and losing everything! I'd hoped you'd have more sense than to joke about that!' Scrunching up her muzzle, the husky then storms off.";
 			TraitGain "Sarah - Stuffy Doc" for Spike;
 			TraitGain "Spike - Young Punk" for Sarah;
+			WaitBreakReactions;
+		if Sturm is booked or Sturm is bunkered:
+			say "     Seeing Spike, Sturm walks over with a grin, clapping the smaller male on the shoulder when he reaches him. 'You've grown. While I don't think you'll ever have my good looks, you might be able to charm some of the men and women that you find,' the wolf teases Spike. 'If you have good looks, they must be covered up by fluff. Your size just frightens people into submission,' the doberman retorts, the pair of them laughing together. 'You might be right, but it doesn't seem to be working on you. You must be quite brave,' Sturm replies, making Spike's chest swell with pride. 'Damn right I am. I'm going to be going out into the city, just like those stories you told me when I was a pup,' Spike boasts, before realizing fully what the wolf has said. 'Wait. Why would you be trying to charm me?' Sturm merely winks before walking away, calling over his shoulder, 'You'll do fine out there. Don't have too much fun.' The doberman mutters something under his breath, but looks encouraged by the wolf's words nonetheless.";
+			TraitGain "Sturm - Bro" for Spike;
+			TraitGain "Spike - Good-Looking Bro" for Sturm;
 			WaitBreakReactions;
 		if Sven is booked or Sven is bunkered:
 			if HP of Sven >= 30 and HP of Sven < 50:	[self-confident Sven]
@@ -643,6 +649,16 @@ to say SpikeAccepted:
 				say "     Shily stepping out from behind a tall bookshelf, Sven keeps his extra long and thick tail raised before himself, partly hiding behind it. 'Hallo! Du er sot,' he says quietly, smiling at Spike. The dobie frowns at hearing words he doesn't understand, making Sven slink back a tiny bit, only for Spike to grab his arm and prevent him from running away. Then the young man raises an arm to flex it - showing the marked muscle tone on the relatively slender limb. 'How do you like this?! If you play your cards right, I'll look out for you.' Sven nods, with a suitably impressed look on his face. Then Spike asks, 'So, where are you from? Don't think I've heard anyone talk like that before.' 'I'm from Norway and an exchange student,' Sven replies, followed by a little bit of chatting before he makes an exit, going back to what he was doing before.";
 				TraitGain "Sven - Shy Dude" for Spike;
 				TraitGain "Spike - Young Guy" for Sven;
+			WaitBreakReactions;
+		if Tehuantl is booked or Tehuantl is bunkered:
+			if Tehuantl is male:
+				say "     Tehuantl steps into view from between the bookshelves, bearing his shield and Aztec sword as he walks up to the anthro dobie. The jaguar warrior comes to stand before him, sizing up Spike for a long moment before giving him a smile that bares the feline's fangs. 'A novice warrior, I see. And one with potential. You can call me Tehuantl. If the [master] wishes it so, this warslave will instruct you in combat.' Having said what he wanted, the anthro feline turns and strides away, leaving Spike looking after him with a curious expression. 'Is he for real? Who talks like that?' You quickly explain where and how you met Tehuantl, and that he genuinely believes to be an authentic Aztec warrior. 'He certainly looks badass with that gear of his, and those are nice muscles!'"; [TODO: Expand on this later on, after Tehuantl/Korvin's scenes have been re-evaluated - Tehuantl should reference if Spike's dad got his ass kicked]
+				TraitGain "Tehuantl - Warrior Dude" for Spike;
+				TraitGain "Spike - Student" for Tehuantl;
+			else:
+				say "     Tehuantl steps into view from between the bookshelves, walking up to the dobie with her hips swaying side to side. She smiles at Spike, holding her upper body in a pose that exposes her breasts quite nicely. 'Hello young warrior, you can call me Tehuantl,' the feline says in an enticing tone, and she is clearly amused as he simply stares at her tits, tongue hanging out the side of his muzzle without him even noticing. 'Hope you'll stay for a while and we'll see each other,' she says finally, stroking a finger along the side of his cheek before making her exit soon after."; [TODO: Might need rework to closer match the female version]
+				TraitGain "Tehuantl - Sexy Bitch" for Spike;
+				TraitGain "Spike - Flirting Target" for Tehuantl;
 			WaitBreakReactions;
 		if Urik is booked or Urik is bunkered:
 			say "     Strolling up casually, Urik comes to tower over Spike and looks down at the anthro's sleek body, making him a sliver of a man before the orc's great bulk. 'So, you got a dog, eh? What for, travel entertainment? I can see him being fun when chasing down a tennis ball or useful for sniffing after loot. Fucked a few pooches like this before too, and they were nicely tight,' Urik says to you, never really addressing Spike at all. Offended at not being taken seriously, Spike barks, 'Hey! I hold my own!' As Urik flat out starts laughing, the dobie looks aside sulkily and you wave the orc away.";

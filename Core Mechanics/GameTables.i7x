@@ -2,6 +2,8 @@ Version 1 of GameTables by Core Mechanics begins here.
 
 Part 0 - Variables
 
+tempnum is a number that varies.[@Tag:NotSaved]
+tempnum2 is a number that varies.[@Tag:NotSaved]
 MonsterID is a number that varies.[@Tag:NotSaved] [line number chosen in the table of random critters]
 JournalNotes is a list of text that varies. [player-made journal notes]
 Allobjs is a list of text that varies.[@NotSaved] [list of all objects in the game]
@@ -64,7 +66,7 @@ Table of GamePossessions
 Name(text)	CarriedNumber(number)	StoredNumber(number)	EquippedStatus(truth state)	CurseStatus(truth state)
 with 1000 blank rows
 
-Table of GameEndings
+Table of GameEndings[ (continued)]
 Name (text)	Type (text)	Subtype (text)	Ending (rule)	Priority (number)	Triggered (truth state)
 --	--	--	--	0	false
 
@@ -175,6 +177,9 @@ Name(text)	Type(text)
 "Dolphinlist"	"list of text"
 "lbcomplist"	"list of text"
 "ndmlist"	"list of text"
+"StoredSluts_Female"	"list of text"
+"StoredSluts_Male"	"list of text"
+"StoredSluts_Herm"	"list of text"
 "absorb"	"number"
 "addedlibido"	"number"
 "afsmread"	"number"
@@ -1034,8 +1039,6 @@ Name(text)	Type(text)
 "NermineTalk"	"number"
 "NESProgress"	"number"
 "nesteddino"	"number"
-"NewGraphicsInteger"	"number"
-"NewGraphicsRatio"	"number"
 "NGRP"	"number"
 "nightcheck"	"number"
 "Nightmaremastery"	"number"
@@ -1735,7 +1738,6 @@ Name(text)	Type(text)
 "fsnakevalid"	"truth state"
 "garrettinfo1"	"truth state"
 "gobdem"	"truth state"
-"graphics"	"truth state"
 "grhouse"	"truth state"
 "gsd_attack"	"truth state"
 "gsd_fled"	"truth state"
@@ -1820,9 +1822,6 @@ Name(text)	Type(text)
 "nagawarning"	"truth state"
 "NavCheckReturn"	"truth state"
 "ndmLisa"	"truth state"
-"NewGraphics"	"truth state"
-"NewGraphicsDebugMode"	"truth state"
-"NewGraphicsOpened"	"truth state"
 "nmformswitch"	"truth state"
 "NoHealMode"	"truth state"
 "nosquirrelanal"	"truth state"
