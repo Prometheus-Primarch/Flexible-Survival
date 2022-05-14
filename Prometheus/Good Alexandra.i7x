@@ -1,4 +1,4 @@
-Version 1 of Good Alexandra by Wahn begins here.
+Version 1 of Good Alexandra by Prometheus begins here.
 [ Originally authored by Stripes                       ]
 [ Version 1 - Separated from the Bad Alexandra content ]
 
@@ -108,18 +108,28 @@ Alexandrastory2 is a truth state that varies.
 Alexandrastory3 is a truth state that varies.
 
 
-[Alexandra is a woman. Alexandra is in Police Station Twelve.
-[physical details as of game start]
+[Alexandra is a woman.
 ScaleValue of Alexandra is 3. [human sized]
-Cock Count of Alexandra is 0.
-Cock Length of Alexandra is 0.
-Ball Size of Alexandra is 0.
-Ball Count of Alexandra is 0.
-Cunt Count of Alexandra is 1.
-Cunt Depth of Alexandra is 10.
-Cunt Tightness of Alexandra is 3.
-Nipple Count of Alexandra is 2. [2 nipples]
-Breast Size of Alexandra is 3.
+Body Weight of Alexandra is 4. [scale of 1-9 for body weight, grouped into low weight (1-3), mid weight (4-6) and high weight (7-9)]
+Body Definition of Alexandra is 6. [scale of 1-9 for body definition, grouped into low muscle (1-3), mid muscle (4-6), high muscle (7-9)]
+[Body Adjective is generated out of the body weight and body definition and can be used in scenes - one word descriptive adjective depending on weight and definition groups: low weight group: skinny/slender/lithe; mid weight group: average/fit/muscled; high weight group: pudgy/husky/jacked]
+Androginity of Alexandra is 8. [Gender Adjective is generated out of androginity 1-9: hypermasculine/masculine/somewhat effeminate/effeminate/androgynous/feminine butch/tomboyish/feminine/hyperfeminine]
+Mouth Length of Alexandra is 6. [inches deep for face fucking; maximum possible will be double this number (when deep throating)]
+Mouth Circumference of Alexandra is 3. [mouth circumference 1-5, "tiny, small, normal, wide, gaping"]
+Tongue Length of Alexandra is 6. [length in inches]
+Breast Size of Alexandra is 3. [cup size as number, counting Flat Pecs = 0, A = 1, B = 2, ...]
+Nipple Count of Alexandra is 2. [count of nipples]
+Asshole Depth of Alexandra is 10. [inches deep for anal fucking]
+Asshole Tightness of Alexandra is 2. [asshole tightness 1-5, "extremely tight, tight, receptive, open, gaping"]
+Cock Count of Alexandra is 0. [number of cocks]
+Cock Girth of Alexandra is 0. [thickness 1-5, thin/slender/average/thick/monstrous]
+Cock Length of Alexandra is 0. [length in inches]
+Ball Count of Alexandra is 0. [allowed numbers: 1 (uniball), 2 or 4]
+Ball Size of Alexandra is 0. [size of balls 1-7: "acorn-sized", "dove egg-sized", "chicken egg-sized" "goose-egg sized", "ostrich-egg sized", "basketball-sized", "beachball-sized"]
+Cunt Count of Alexandra is 1. [number of cunts]
+Cunt Depth of Alexandra is 10. [penetratable length in inches; some minor stretching allowed, or more with Twisted Capacity]
+Cunt Tightness of Alexandra is 3. [size 1-5, generates adjectives of extremely tight/tight/receptive/open/gaping]
+Clit Size of Alexandra is 3. [size 1-5, very small/small/average/large/very large]
 [Basic Interaction states as of game start]
 PlayerMet of Alexandra is false.
 PlayerRomanced of Alexandra is false.
@@ -131,8 +141,8 @@ Virgin of Alexandra is false.
 AnalVirgin of Alexandra is true.
 PenileVirgin of Alexandra is true.
 SexuallyExperienced of Alexandra is true.
-TwistedCapacity of Alexandra is false.
-Sterile of Alexandra is false.
+TwistedCapacity of Alexandra is false. [Twisted Characters can take any penetration, no matter the size]
+Sterile of Alexandra is false. [steriles can't knock people up]
 MainInfection of Alexandra is "Doberman Bitch".]
 
 Section 6 - Police Station
@@ -376,7 +386,7 @@ to say alexandratalk_gg_menu:
 	clear the screen and hyperlink list;
 
 
-to say alexandratalk_gg1:
+to say alexandratalk_gg1: [Chit-chat]
 	if HP of Alexandra < 56:
 		say "     [one of]'It's good to see a friendly face from time to time,' she says, her tail wagging.[or]'Grab a seat,' she adds, waving a paw to a stray office chair before sitting at her desk again.[or]'I've had to drive off a few creatures that've come poking around here. Things have been pretty quiet lately, so it must be helping.'[or]'Thanks for making the effort to talk to me. I might've gone over the edge and permanently become a crazy police dog or something if not for you to talk to.'[or]'It's been hard to deal with this sex-crazed city at times. The urges you get, you know,' she says. You can see her squeezing her legs together and grinding her thighs against one another, the passing scent of canine arousal in the air.[or]Alexandra gives you a report on recent activity around the police station.[or]'You need to be careful out there. There's some people out there who seem sane enough at first, but they've lost their minds and become horny, feral mutants. Just because someone can talk to you doesn't mean they're sane or safe.'[or]'I've noticed that there's different mutants in different parts of the city. They're probably centered around where that infection first broke out or they were first able to breed more of themselves.'[or]'Let me know if you find anyone else out there. I could use some good news.'[or]'Don't forget that the military's going to be coming in to help us as soon as they can mobilize. We just need to hold out until then.'[or]You chat with Alexandra for a while, telling her some of the stuff you've encountered out in the city.[at random]";
 		now sextablerun is 0; [Chit-chat allows continued conversation]
@@ -408,13 +418,16 @@ to say alexandratalk_gg1:
 	else if HP of Alexandra is 63 or HP of Alexandra is 64:
 		say "     [one of]'It's good to see you stopping by from time to time,' she says, her tail wagging.[or]'Grab a seat,' she adds, waving a paw to a stray office chair before sitting at her desk again.[or]'I've had to drive off a few creatures that've come poking around here. Things have been pretty quiet lately, so it must be helping.'[or]'You've been such a big help, from saving me from going crazy to helping get this place running. I owe you so much.'[or]'It's been hard to deal with this sex-crazed city at times. The urges you get, you know,' she says. You can see her squeezing her legs together and grinding her thighs against one another, the passing scent of canine arousal in the air.[or]Alexandra gives you [if PoliceStationTwelvePopulation > 6]and the sentries [end if]a report on recent activity around the police station.[or]'You need to be careful out there. There's some people out there who seem sane enough at first, but they've lost their minds and become horny, feral mutants. Just because someone can talk to you doesn't mean they're sane or safe.'[or]'Keep an eye out for more survivors, especially those who might need our help.'[or]'Don't forget that the military's going to be coming in to help us as soon as they can mobilize. We just need to hold out until then.'[or]You chat with Alexandra for a while, telling her some of the stuff you've encountered out in the city.[or]'Those supplies you've brought us have been a big help.'[or]'[if PoliceStationTwelvePopulation > 20]Having all these survivors here really keeps things busy. Thankfully some of them are willing to help out by keeping watch or scavenging[else if PoliceStationTwelvePopulation > 12]Having all these survivors here really keeps things busy. Thankfully a few of them are willing to help out by keeping watch or scavenging[else if PoliceStationTwelvePopulation > 0]Things are pretty busy here with us trying to keep care of the remaining survivors. The losses has been a strain on them and the few still willing to help out have to work all the harder[end if]'[at random]";
 		now sextablerun is 0; [Chit-chat allows continued conversation]
+	else if hunger of Alexandra is 1:
+		say "     [one of]'It's kind of you to check up on me from time to time,' she says, her tail wagging.[or]'Grab a seat,' she adds, waving a paw to a stray office chair before pulling another around to sit opposite you.[or]'I've had to drive off a few creatures that've come poking around here. Things have been pretty quiet lately, so it must be helping.'[or]'You've been such a big help, from saving me from going crazy to providing us shelter here. I owe you so much.'[or]'It's been hard to deal with this sex-crazed city at times. The urges you get, you know,' she says. You can see her squeezing her legs together and grinding her thighs against one another, the passing scent of canine arousal in the air.[or]Alexandra gives you a report on recent activity around the library.[or]'You need to be careful out there. There's some people out there who seem sane enough at first, but they've lost their minds and become horny, feral mutants. Just because someone can talk to you doesn't mean they're sane or safe.'[or]'Keep an eye out for more survivors, especially those who might need our help.'[or]'Don't forget that the military's going to be coming in to help us as soon as they can mobilize. We just need to hold out until then. Though sometimes I wonder...'[or]You chat with Alexandra for a while, telling her some of the stuff you've encountered out in the city.[or]'ANy supplies that you find would be a big help. Either to us or someone else in need.'[at random]"; [Chit-chat allows continued conversation]
+		now sextablerun is 0;
 	else if HP of Alexandra >= 65:
 		say "     [one of]'It's good to see you stopping by from time to time,' she says, her tail wagging.[or]'Grab a seat,' she adds, waving a paw to a stray office chair before sitting at her desk again.[or]'I've had to drive off a few creatures that've come poking around here. Things have been pretty quiet lately, so it must be helping.'[or]'You've been such a big help, from saving me from going crazy to helping get this place running. I owe you so much.'[or]'It's been hard to deal with this sex-crazed city at times. The urges you get, you know,' she says. You can see her squeezing her legs together and grinding her thighs against one another, the passing scent of canine arousal in the air.[or]Alexandra gives you [if PoliceStationTwelvePopulation > 6]and the sentries [end if]a report on recent activity around the police station.[or]'You need to be careful out there. There's some people out there who seem sane enough at first, but they've lost their minds and become horny, feral mutants. Just because someone can talk to you doesn't mean they're sane or safe.'[or]'Keep an eye out for more survivors, especially those who might need our help.'[or]'Don't forget that the military's going to be coming in to help us as soon as they can mobilize. We just need to hold out until then.'[or]You chat with Alexandra for a while, telling her some of the stuff you've encountered out in the city.[or]'Those supplies you've brought us have been a big help.'[or]'Thanks for your help with catching that automaton woman. I haven't been able to get any useful information out of her yet, but she should start talking eventually.'[or]'I haven't been able to get anything out of that smug android yet, but I'll keep at it. And I'll keep an eye out for others like her, too. If we get them, the others can't organize.'[at random]";
 		now sextablerun is 0; [Chit-chat allows continued conversation]
 [		say "***";]
 
 
-to say alexandratalk_gg_past:
+to say alexandratalk_gg_past: [Her Past]
 	if Alexandrastory is false:
 		say "     Alexandra leans back in her chair and rubs her brow. 'My parents were criminals, doing drugs and committing petty crimes to pay for the habit. It wasn't a very good home to grow up in, so I was taken away by Child Services when they were finally caught. That wasn't much better, but it let me learn that I didn't have to be like them. When I grew up, I decided to become a police officer and tried my best to be an example to others,' she says, subconsciously sitting back up straighter.";
 		say "     'I told myself that my parents being criminals didn't matter and that I didn't need to end up like them. I think that drive to be [']a good and moral person['] helped motivate me to stay sane. At least for a while,' she adds, rubbing her brow. 'Things were starting to get rather confused towards the end. Beating up the mutants. Writing them tickets. I was getting so worked up about trying to hold the city together that I was probably going to crack entirely soon. So I'm really glad you came along when you did. I really appreciate you talking some sense into me, that's for sure. Uggh... I'm tired of talking about this stuff. I'm going to do a quick walkaround to clear my head,' she says with a growl as she hops up out of her chair and heads off, a hint of canine arousal in the air in the wake of her departure.";
@@ -436,7 +449,7 @@ to say alexandratalk_gg_past:
 		say "     'I'm not really in the mood to talk about that right now.";
 	now lastAlexandraPast is turns;
 
-to say alexandra_supplies:
+to say alexandra_supplies: [Supplies]
 	if HP of Alexandra is 52:
 		say "     'I've started turning the Police Station into a defended shelter for those who need it, but we'll need some supplies for those too weak or scared to forage. Also, if we've already got a good stockpile, it'll be easier to convince people to come here. I'm sorry to trouble you with this, but I'd really appreciate it if you could scavenge some extra supplies for me. I've already started, but another six meals and six days worth of fresh water would really help.'";
 		if carried of food >= 6 and carried of water bottle >= 6:
@@ -558,7 +571,7 @@ to say alexandra_supplies:
 		now sextablerun is 0; [continued talking allowed]
 
 
-to say alexandra_gshep:
+to say alexandra_gshep: [Tell Alexandra about Buster and the G-Shep Squad]
 	if alexandragshep1 is false:
 		now alexandragshep1 is true;
 		say "     You decide to tell Alexandra about the other canine cops you'd encountered in the city. Given how she's started to relax a little and the two of you have become closer, you hope she might be more understanding about them and be able to see past their lustful antics. Taking a seat at the edge of her desk, you start to tell her about your encounters with the squad members out in the city. Wanting to give a good impression of them, you keep your tale somewhat sanitized, only forewarning her that these dogs do have canines and sex on their minds as well. You don't attempt to deceive her, but simply don't want her to have a negative impression going into it.";
@@ -588,7 +601,7 @@ to say alexandra_gshep:
 			say "     Seeing how you're more than a little [']tied up['] at the moment, you introduce her to Buster and let him start showing her around. Maybe with the [']inspection['] still on his brain, he remains largely professional and on good behavior. He even manages not to grab the sexy doberman's ass, though you do catch his eyes drawn toward it from time to time as she looks the place around and is introduced to several of the other officers. And when you're eventually untied and able to clean up, you go join them.";
 		else:
 			say "     It is difficult, but you manage to push back those kinky thoughts and head to Buster. It takes some work to shake him out of the lustful state that he's in, but you eventually get him to pay attention to you. It is harder still to make him understand that Alexandra shouldn't see them like this - and she most certainly would NOT want to join in. And while you can't convince him to stop the fuckfest, pushing it as a [']surprise inspection['] does get him to order the remaining participants to take their fun into the back and while the others to do a quick cleanup.";
-			say "     Satisfied at your self-control, you head out and get Alexandra to come in. When she comes in, you can tell from the sniffs of her nose that she can smell canine sex in the air, but at least it wasn't right in her face. And you can also tell from that expression on her face and the subtle change to her own scent that she's at least a little aroused by the sight of all the semi-nude police dog eye candy on display. Buster, thanks to the idea of this as an [']inspection['], remains largely profession and on good behavior. He even manages not to grab that sexy doberman's ass, though you do catch his eyes drawn toward it from time to time as she looks the place around and is introduced to several of the other officers.";
+			say "     Satisfied at your self-control, you head out and get Alexandra to come in. When she comes in, you can tell from the sniffs of her nose that she can smell canine sex in the air, but at least it wasn't right in her face. And you can also tell from that expression on her face and the subtle change to her own scent that she's at least a little aroused by the sight of all the semi-nude police dog eye candy on display. Buster, thanks to the idea of this as an [']inspection['], remains largely professional and on good behavior. He even manages not to grab that sexy doberman's ass, though you do catch his eyes drawn toward it from time to time as she looks the place around and is introduced to several of the other officers.";
 			increase score by 25;
 			decrease Libido of Player by Libido of Player / 8;
 			SanBoost 5;
@@ -753,8 +766,8 @@ to say goodalexandrasex00: [Desk Sex]
 			WaitLineBreak;
 			say "     You continue thrusting through your orgasm, barely pausing after your climax as she continues to urge you on. Pulling back momentarily, you adjust positions so she's on her side with a leg raised and you're standing upright. This gives you a fine view of her lovely, canine-influenced body. Her coat is glossy with sweat and she's panting from her doggy muzzle. She looks beautiful to you; her lovely figure, her perky breasts and dark nipples poking through her fur, her toned legs and ass. Before you know it, you're fucking her for a second time, the two of you needing more of one another.";
 			say "     She grips the edge of the desk and rolls her hips, barking your name and panting for more. As your passion builds anew, you thrust so hard that the desk slowly gets pushed back against the wall. Having just cum shortly before, your thrusts are stronger in your attempt to achieve orgasm, not that the lustful doberwoman seems to mind, your zeal mirrors her own need for you. And by the time the desk thumps back against the wall, you're almost ready to blow again. Gripping her hips harder, you drive into the panting dog-woman a few more times while she runs her paws over her brown-furred body in a sensual display. She cries out your name again in orgasmic delight, her quivering cunny rippling across your throbbing member. The desk bumps against the wall again and again as you drive into your lover, moaning in aching release as you add fresh spurts of your semen to the sticky load already coating her vaginal walls. You lay overtop her again, letting yourself thrust a little deeper into her. Your excess overflows from her canine cunny, adding to the wet mess on the desktop pad.";
-		[if hunger of Alexandra is 1:
-			impregGoodAlexandraChance with Player;]
+		if hunger of Alexandra is 1:
+			impregGoodAlexandraChance with "Player";
 		NPCSexAftermath Alexandra receives "PussyFuck" from Player;
 	else if Player is female:
 		if graphics is true:
@@ -803,8 +816,8 @@ to say goodAlexandrasex2: [Desk Sex 2]
 	WaitLineBreak;
 	say "     As your mutual excitement grows, you can feel your arousal building towards its peak. Moving your hands to her thighs, you raise her legs to your hips and pound into her harder and faster. Sweet moans and whimpers of delight leave her muzzle as she grips the desk tightly, panting for you to cum in her. Not one to deny the canine beauty her desires, especially when that's just what you want to do, you drive your [cock size desc of Player] cock into her and cum hard. Shot after shot of your [Cum Load Size of Player] load is pumped into her until [if Ball Size of Player > 6]her belly is bloated overfull with your semen[else if Ball Size of Player > 5]her belly is visibly rounded with your semen[else]you have no more to give, for now[end if]. Her orgasming pussy milks as much as it can [if Ball Size of Player > 6]hold[else]get[end if] out of you.";
 	say "     Having satisfied one another, the two of you snuggle together, sharing a few more kisses while caressing one another. Eventually though, this private moment must come to a close. Getting dressed, the two of you exit the office and return to your duties.";
-	[if hunger of Alexandra is 1:
-		impregGoodAlexandraChance with Player;]
+	if hunger of Alexandra is 1:
+		impregGoodAlexandraChance with "Player";
 	NPCSexAftermath Alexandra receives "PussyFuck" from Player;
 
 to say goodAlexandrasex3: [Oral]
@@ -842,7 +855,7 @@ to say goodAlexandrasex4: [Doggystyle] [Passionate and rough]
 		say "     Your climax approaching, you release her and allow her to flop back to the floor as you devote the last few seconds before orgasm to pound into her, the tip of your cock occasionally bumping up against her cervix again, though she seems too caught up in her pleasure to protest, mustering little more than a lust-addled moan. As you squeeze as much of your shaft into her welcoming cunt, you both orgasm, Alexandra wailing as she sprays pussy juices around your cock as you plunge one final time into her and release a deluge of cum into her spasming hole. It doesn't take long for it to squirt around where the two of you are joined, mixing with her fem-cum on your thighs and groin and filling the aisle with your mixed scents. Collapsing on top of the doberman, you both lie there recovering a pool of sexual fluids forming beneath you and soaking into Alexandra's fur. Eventually, she manages to stir and rolls you off to the side before turning to face you. 'Clean up is going to take me more time than I care to admit, but I definitely enjoyed that,' she grins before continuing. 'I don't think I would mind being your bitch again in future. It felt almost... primal. Despite what my body seems to enjoy, I think that I still prefer a more intimate expression of love.' That doesn't surprise you, but it would seem that there is more to Alexandra than meets the eye.";
 	else:
 		say "     [if Player is Knotted]Your climax approaching, you release her and allow her to flop back to the floor as you devote the last few seconds before orgasm to pound into her, finally ramming your knot past the engorged lips of her vulva and into the welcoming embrace of her pussy, causing her to let out a lust-addled moan. Tied, you both orgasm, Alexandra wailing as she sprays pussy juices against the bulb of flesh locking you together as you thrust one final time and release a deluge of cum into her spasming hole. Unable to escape, your seed fills every space it can find, causing a slight dome to her tummy as it builds up in her womb. Collapsing on top of the doberman, you both lie there recovering and waiting for your knot to go down, sharing a few more kisses. Eventually, your cock softens enough for it forced from her puffy canine spade by the pressure of the cum, a flood of your semen spilling across the floor and soaking into Alexandra's fur[else]Your climax approaching, you release her and allow her to flop back to the floor as you devote the last few seconds before orgasm to pound into her, the slap of your thighs against her buttocks echoing around you as you along with her lust-addled moans. As you hilt yourself inside of her welcoming cunt, you both orgasm, Alexandra wailing as she sprays pussy juices around your cock as you plunge one final time into her and release a deluge of cum into her spasming hole. It doesn't take long for it to squirt around where the two of you are joined, mixing with her fem-cum on your thighs and groin and filling the aisle with your mixed scents. Collapsing on top of the doberman, you both lie there recovering a pool of sexual fluids forming beneath you and soaking into Alexandra's fur[end if]. Eventually, she manages to stir and rolls you off to the side before turning to face you. 'Clean up is going to take me more time than I care to admit, but I definitely enjoyed that,' she grins before continuing. 'I don't think I would mind being your bitch again in future. It felt almost... primal. Despite what my body seems to enjoy, I think that I still prefer a more intimate expression of love.' That doesn't surprise you, but it would seem that there is more to Alexandra than meets the eye.";
-	[impregGoodAlexandraChance with Player;]
+	impregGoodAlexandraChance with "Player";
 	NPCSexAftermath Alexandra receives "PussyFuck" from Player;
 
 to say goodAlexandrasex5: [Sitting] [Loving and intimate]
@@ -863,7 +876,7 @@ to say goodAlexandrasex5: [Sitting] [Loving and intimate]
 		say "     Plunging your cock into the confines of the doberman's pussy as much as you can, you soon begin to shoot wave after wave of cum into the police officer. You don't know whether this is what sets of her own orgasm or if it is just coincidence, but Alexandra flings herself forward to lock lips with you while her arms tightly cling to your back, the throes of climax being felt as her tongue plays against yours and her hips reflexively twitch against you. You have no doubt that she has enjoyed this intimate coupling, the passion of her kiss tempered with less carnal sentiment too, and earnestly return her affection, your tongue caressing hers. 'Promise me that we can do this again,' she whispers, your smile in reply the only confirmation that she needs. Eventually however, you must part, your softening cock slipping from her cunt with only a minimal amount of your seed dribbling onto the bed beneath her. With a wink, Alexandra rolls off your lap to lie on the bed. 'Just give me a minute to rest. I won't be too far behind you,' she pants. With a shrug, you gather yourself before returning to the main hall of the library.";
 	else:
 		say "     [if Player is Knotted]You manage to plunge your knot into the confines of the doberman's pussy not a moment too soon, the already swollen base of your cock swelling even further and locking you inside of her to ensure that your seed has ample time to reach her womb rather than be wasted upon the ground. Within seconds, you shoot wave after wave of cum into the police officer[else]Plunging your cock into the confines of the doberman's pussy, you soon begin to shoot wave after wave of cum into the police officer[end if]. You don't know whether this is what sets of her own orgasm or if it is just coincidence, but Alexandra flings herself forward to lock lips with you while her arms tightly cling to your back, the throes of climax being felt as her tongue plays against yours and her hips reflexively twitch against you. You have no doubt that she has enjoyed this intimate coupling, the passion of her kiss tempered with less carnal sentiment too, and earnestly return her affection, your tongue caressing hers. 'Promise me that we can do this again,' she whispers, your smile in reply the only confirmation that she needs. Eventually however, you must part, your softening cock slipping from her cunt with only a minimal amount of your seed dribbling onto the bed beneath her. With a wink, Alexandra rolls off your lap to lie on the bed. 'Just give me a minute to rest. I won't be too far behind you,' she pants. With a shrug, you gather yourself before returning to the main hall of the library.";
-	[impregGoodAlexandraChance with Player;]
+	impregGoodAlexandraChance with "Player";
 	NPCSexAftermath Alexandra receives "PussyFuck" from Player;
 
 
@@ -882,7 +895,7 @@ to say goodAlexandrasex5: [Sitting] [Loving and intimate]
 	WaitLineBreak;
 	say "     ";
 	say "     ";
-	[impregGoodAlexandraChance with Player;]
+	[impregGoodAlexandraChance with "Player";]
 	NPCSexAftermath Alexandra receives "PussyFuck" from Player;]
 
 
@@ -930,7 +943,7 @@ to AlexandraTaskChat:
 			add { 50, 50, 50, 50, 50, 50 } to AlexandraTask;
 		else:
 			add { 50, 50 } to AlexandraTask;
-	if AT_Repair is false and HP of Alexandra >= 56 and policerepair is 0:
+	if AT_Repair is false and HP of Alexandra >= 56 and policerepair is 0 and hunger of Alexandra is 0:
 		add { 51, 51, 51, 51, 51 } to AlexandraTask;
 	if HP of Jimmy > 2 and HP of Alexandra >= 56 and AT_Paula is false and MaleList is not banned and FemaleList is not banned:
 		add { 52, 52, 52, 52, 52 } to AlexandraTask;
@@ -1008,7 +1021,7 @@ to say A_Task03:
 to say A_Task04:
 	if debugactive is 1:
 		say "DEBUG (Activated Task) -> Snow - AT_Snow <- DEBUG[line break]";
-	say "     'While I was patrolling the city, I ended up getting followed around by a [bold type]squirrel girl[roman type] for a while. She followed me and seemed to be trying to get me to chase her, but I never managed to get her. You'll need to be fast and observant if you want to catch her.";
+	say "     'While I was patrolling [if hunger of Alexandra is 1]outside the library [else]the city[end if], I ended up getting followed around by a [bold type]squirrel girl[roman type] for a while. She followed me and seemed to be trying to get me to chase her, but I never managed to get her. You'll need to be fast and observant if you want to catch her.";
 	now AT_Snow is true;
 	now sextablerun is 0; [continued talking allowed]
 
@@ -1037,14 +1050,14 @@ to say A_Task07:
 to say A_Task08:
 	if debugactive is 1:
 		say "DEBUG (Activated Task) -> Sgt Marks - AT_Marks <- DEBUG[line break]";
-	say "     'While I was searching around in the high rise district, I ran into another cop. At first, I was really hopeful that we'd be able to work together and do more to help out, but he had other plans. I tried to restrain him, but we were pretty evenly matched and he eventually pulled out some tear gas. If you run into a [bold type]policeman[roman type] down there, don't trust that tiger cop. He may have been a cop once, but he certainly doesn't act that way anymore.'";
+	say "     'While I was searching around in the high rise district[if hunger of Alexandra is 1] a while ago[end if], I ran into another cop. At first, I was really hopeful that we'd be able to work together and do more to help out, but he had other plans. I tried to restrain him, but we were pretty evenly matched and he eventually pulled out some tear gas. If you run into a [bold type]policeman[roman type] down there, don't trust that tiger cop. He may have been a cop once, but he certainly doesn't act that way anymore.'";
 	now AT_Marks is true;
 	now sextablerun is 0; [continued talking allowed]
 
 to say A_Task09:
 	if debugactive is 1:
 		say "DEBUG (Activated Task) -> Lisa - AT_Lisa <- DEBUG[line break]";
-	say "     'I ran into the rather... friendly... [bold type]mouse taur[roman type] while in the red light district. It seems she runs a [bold type]porn store[roman type] somewhere down there. I didn't go there myself, not wanting to risk being tempted, but it's probably safe enough if you want to look into it.'";
+	say "     '[if hunger of Alexandra is 1]Before I met you, [end if]I ran into the rather... friendly... [bold type]mouse taur[roman type] while in the red light district. It seems she runs a [bold type]porn store[roman type] somewhere down there. I didn't go there myself, not wanting to risk being tempted, but it's probably safe enough if you want to look into it.'";
 	now AT_Lisa is true;
 	now sextablerun is 0; [continued talking allowed]
 
@@ -1290,30 +1303,33 @@ to say A_Task53:	[Patrols]
 	now AT_Patrol is true; [opens talk option for 'Patrol']
 
 to say alexandra_patrol:
-	say "     'Actually, I was thinking it was about time to go on patrol again. I don't want any sex-crazed mutants getting too comfortable coming near here, [if PoliceStationTwelvePopulation > 0 or ( the number of policed people + the number of lockered people > 6 )]especially now that we've got several survivors living here[else]especially once more survivors start hearing about this place and showing up[end if]. While it'd certainly be safer for both of us to go together,' she says, her stubby tail wagging a little at the prospect, 'there shouldn't be any real problem. One of us should stay here on guard. Did you want to patrol around the area?";
+	say "     'Actually, I was thinking it was about time to go on patrol again. I don't want any sex-crazed mutants getting too comfortable coming near here, [if hunger of Alexandra is 1]unless they're ones that you're intentionally providing shelter for[else if PoliceStationTwelvePopulation > 0 or ( number of policed people + number of lockered people > 6 )]especially now that we've got several survivors living here[else]especially once more survivors start hearing about this place and showing up[end if]. While it'd certainly be safer for both of us to go together,' she says, her stubby tail wagging a little at the prospect, 'there shouldn't be any real problem. One of us should stay here on guard. Did you want to patrol around the area?";
 	now fightoutcome is 100;
 	if Player consents:
 		now inasituation is true;
-		say "     Alexandra wishes you good luck. 'I'll see you when you get back,' she says. You head out in the neighboring city and wander the area surrounding the station on the lookout for trouble";
+		say "     Alexandra wishes you good luck. 'I'll see you when you get back,' she says. You head out into the area surrounding the [if hunger of Alexandra is 1]library [else]station [end if]on the lookout for trouble";
 		if HP of Alexandra >= 63 and a random chance of 1 in 3 succeeds and at_patrol_01 is false:
 			say ". Things are fairly quiet at first until you hear a shriek nearby.";
 			say "     Approaching quickly and cautiously, you find a mostly untransformed woman being assaulted by a harpy. The bird-woman is painfully yanking on her victim's hair as she tries to carry her off[if weapon object of Player is journal]. Raising your fists[else]. Readying your weapon[end if], you rush at the mythological creature with a yell. The monster gives another shriek and roughly drops the woman onto the ground. She yelps and crawls away from the ensuing fight.";
 			challenge "Harpy";
 			if fightoutcome >= 10 and fightoutcome <= 19:
-				say "     With your victory, you drive off the crazy harpy. Finding her would-be victim crouched in a nearby doorway, you reassure her that she's safe now. As you lead her back to the police station, she tells you that she'd heard about the police shelter from a mutant friend of hers. With things getting worse in her neighborhood, she took the risk of trekking here. Thankfully, you arrived in time to help her make it the rest of the way.";
-				say "     Upon your return, you're greeted by Alexandra, Jimmy and the others. She's introduced and everyone is happy to hear the woman's story and of your daring rescue";
-				if HP of Alexandra >= 66:
-					say ". Alexandra gives you a big kiss as a special reward along with a whispered invite to come see her in the office soon.";
-					now lastfuck of Alexandra is turns + 8;
+				say "     With your victory, you drive off the crazy harpy. Finding her would-be victim crouched in a nearby doorway, you reassure her that she's safe now. [if hunger of Alexandra is 1]Giving her directions to the mall after she politely refuses any further assistance from you, you watch with trepidation as she staggers off before you make your way back to the library[else]As you lead her back to the police station, she tells you that she'd heard about the police shelter from a mutant friend of hers. With things getting worse in her neighborhood, she took the risk of trekking here. Thankfully, you arrived in time to help her make it the rest of the way[end if].";
+				if hunger of Alexandra is 0:
+					say "     Upon your return, you're greeted by Alexandra, Jimmy and the others. She's introduced and everyone is happy to hear the woman's story and of your daring rescue";
+					if HP of Alexandra >= 66:
+						say ". Alexandra gives you a big kiss as a special reward along with a whispered invite to come see her in the office soon.";
+						now lastfuck of Alexandra is turns + 8;
+					else:
+						say ". Alexandra personally congratulates you on the timely rescue, which is then followed by a kiss from the woman you saved.";
+					increase PoliceStationTwelvePopulation by 1;
 				else:
-					say ". Alexandra personally congratulates you on the timely rescue, which is then followed by a kiss from the woman you saved.";
-				increase PoliceStationTwelvePopulation by 1;
+					say "     Upon your return, you're greeted by Alexandra and Jimmy who immediately ask you to give them a report of your patrol. After informing them about the woman that you rescued, they pat you on the back before Jimmy wanders off again and Alexandra returns to her post.";
 			else if fightoutcome >= 20 and fightoutcome <= 29:
 				say "     Beaten, you are forced to withdraw as the harpy turns her attention back to her original victim. The woman tries to shrink further into the doorway she's crouched in, but the creature grabs her and, after some struggling, flies off with her.";
-				say "     After recovering from your loss, you stagger your way back to the station and fill Alexandra in on your encounter. Sparing her some of the messier details, you warn her to keep an eye out for harpies the next time she goes out. She's upset that a potential survivor had almost made it to safety to only be caught and carried off.";
+				say "     After recovering from your loss, you stagger your way back to the [if hunger of Alexandra is 1]library [else]station [end if]and fill Alexandra in on your encounter. Sparing her some of the messier details, you warn her to keep an eye out for harpies the next time she goes out. She's upset that a potential survivor had almost made it to safety to only be caught and carried off.";
 			else:
 				say "     Making your escape from the creature, you unfortunately end up leaving her original victim to face her wrath. The woman tries to shrink further into the doorway she's crouched in, but the creature grabs her and, after some struggling, flies off with her.";
-				say "     After taking a circuitous route back to the station, you fill Alexandra in on your encounter. You warn her to keep an eye out for harpies trying to pick off approaching survivors. You're both upset that someone had almost made it to safety to only be caught and carried off like that.";
+				say "     After taking a circuitous route back to the [if hunger of Alexandra is 1]library [else]station [end if], you fill Alexandra in on your encounter. You warn her to keep an eye out for harpies trying to pick off approaching survivors. You're both upset that someone had almost made it to safety to only be caught and carried off like that.";
 			now at_patrol_01 is true;
 		else if HP of Alexandra is 68 and a random chance of 1 in 4 succeeds:
 			say ". The patrol is uneventful at first, but a side-street near the edge of your route leads to trouble.";
@@ -1327,17 +1343,17 @@ to say alexandra_patrol:
 			else:
 				say "     With the automaton focused on you with its robotic gaze, you lead it as far away from the area as you safely can before losing it entirely. As you make your way back by a different route, you ponder the encounter. Having spotted another in the area, there's little chance it is coincidental and the automatons are indeed spreading further afield. You inform Alexandra and the others of your recent encounter, which makes them edgy. The canine cop urges you to go check out the [bold type]Microchip Factory[roman type] so you can find out what's going on.";
 		else if a random chance of 3 in 5 succeeds:
-			say ". You end up coming across a mutant getting a little too curious about the Police Station for your liking. Going over to check it out, your suspicions are confirmed when the aggressive creature notices you and advances.";
+			say ". You end up coming across a mutant getting a little too curious about the [if hunger of Alexandra is 1]library [else]Police Station [end if] for your liking. Going over to check it out, your suspicions are confirmed when the aggressive creature notices you and advances.";
 			now battleground is "Outside";
 			fight;
 			if fightoutcome >= 10 and fightoutcome <= 19:
-				say "     Your battle over, you complete your patrol and return to the police station. You fill Alexandra in on your encounter and she thanks you for dealing with the creature and for taking a turn on patrol for her.";
+				say "     Your battle over, you complete your patrol and return to the [if hunger of Alexandra is 1]library[else]police station[end if]. You fill Alexandra in on your encounter and she thanks you for dealing with the creature and for taking a turn on patrol for her.";
 			else if fightoutcome >= 20 and fightoutcome <= 29:
-				say "     After you recover from your loss, you stagger your way back to the station and fill Alexandra in on your encounter. Sparing her some of the messier details, you warn her to keep an eye out for the creature the next time she goes out. She thanks you for going out and facing that threat to help protect the station house.";
+				say "     After you recover from your loss, you stagger your way back to the [if hunger of Alexandra is 1]library [else]station [end if]and fill Alexandra in on your encounter. Sparing her some of the messier details, you warn her to keep an eye out for the creature the next time she goes out. She thanks you for going out and facing that threat to help protect the [if hunger of Alexandra is 1]library[else]station house[end if].";
 			else:
-				say "     Making your escape from the creature, you do your best to draw it away from the station before losing it. Once you've managed that, you sneak back around and return to the police station. You fill Alexandra in on your encounter and tell her to keep an eye out for the creature the next time she goes out. She thanks you for going out and facing that threat to help protect the station house.";
+				say "     Making your escape from the creature, you do your best to draw it away from the [if hunger of Alexandra is 1]library [else]station [end if]before losing it. Once you've managed that, you sneak back around and return to the [if hunger of Alexandra is 1]library[else]police station[end if]. You fill Alexandra in on your encounter and tell her to keep an eye out for the creature the next time she goes out. She thanks you for going out and facing that threat to help protect the [if hunger of Alexandra is 1]library[else]station house[end if].";
 		else:
-			say ". The trip is thankfully uneventful, most of the mutants knowing to steer clear of what they see as the Doberman cop's territory. You patrol for a few hours before eventually returning. Alexandra thanks you again for taking a turn on patrol for her.";
+			say ". The trip is thankfully uneventful, most of the mutants knowing to steer clear of what they see as [if hunger of Alexandra is 1]your [else]the Doberman cop's [end if]territory. You patrol for a few hours before eventually returning. Alexandra thanks you again for taking a turn on patrol for her.";
 		now inasituation is false;
 		follow the turnpass rule;
 	else:
@@ -1718,16 +1734,20 @@ Object	Name
 Overmind's Retaliation	"Overmind's Retaliation"
 
 Overmind's Retaliation is a situation.
-ResolveFunction of Overmind's Retaliation is "".
-Overmind's Retaliation is inactive.
+ResolveFunction of Overmind's Retaliation is "ResolveEvent Overmind's Retaliation".
 Prereq1 of Overmind's Retaliation is Microchip Factory.
 The level of Overmind's Retaliation is 0.
 Sarea of Overmind's Retaliation is "Nowhere".
 
-before navigating Police Station Twelve while HP of Alexandra is 70:
-	OvermindsRetaliationEvent;
+instead of navigating Police Station Twelve while (HP of Alexandra is 70 and Overmind's Retaliation is unresolved):
+	say "[NavCheck Police Station Twelve]";
+	if NavCheckReturn is false, stop the action;
+	move player to Police Station Twelve;
+	say "[ResolveEvent Overmind's Retaliation]";
 
-to OvermindsRetaliationEvent:
+to say ResolveEvent Overmind's Retaliation:
+	if debugactive is 1:
+		say "     DEBUG: The Fall of the Police Station[line break]";
 	say "     Briskly walking through the streets of the city, you think that the area is much quieter than it has been before. The usual movements and sounds of the infected are muted, as if everyone is in hiding and trying not to be noticed. Having been tricked by the Master Mind into investigating the Microchip Factory, you hope that you were merely sent on a wild goose chase and not something more sinister, but the odd silence doesn't reassure you at all. Walking along the empty street, you soon decide to hurry on your way to reach Alexandra, as the thought of something bad going on in your absence gets stronger with every moment. No longer concerned about being quiet, you pick up your pace, alternating between running down the middle of the road and along the pavement as the obstacles allow. You can't shake the feeling that you have been manipulated and that it may already be too late.";
 	say "     Your fears are confirmed as you round a corner and catch sight of the police station. While there were often a few creatures wandering around outside, now an increasing number of automatons are congregated in the carpark, the metallic humanoids seemingly waiting for something. As you creep closer, you realize the severity of being played by the Master Mind. With you away investigating the Microchip Factory, the automatons were able to reach the police station without much chance of being fought off. Given such a large group of them likely blocking all escape routes to and from the station, you're not sure whether even you can defeat them all, and the survivors are likely to fare worse than you. Luckily, it would appear that they haven't begun their assault yet, allowing you a chance to try and think of some way to defend the occupants.";
 	WaitLineBreak;
@@ -1892,7 +1912,7 @@ to OvermindsRetaliationEvent:
 	move player to Grey Abbey Library;
 	now Police Station Twelve is unknown;
 
-[
+
 Section 11 - Pregnancy & Birth
 
 To impregGoodAlexandraChance with (x - text):
@@ -1903,10 +1923,9 @@ To impregGoodAlexandraChance with (x - text):
 		if lust of Alexandra > 0:
 			say "     ERROR - Already pregnant!";
 	let AlexandraPregChance be 4; [40% base chance]
+	let MaxPups be 3;
 	if hp of Cleo is 0:
-		let MaxPups be 1;
-	else:
-		let MaxPups be 3; [normal max are 3]
+		now MaxPups is 1; [there can be only one!]
 	if Sterile of Alexandra is false and hunger of Alexandra is 1 and lust of Alexandra is 0 and a random chance of AlexandraPregChance in 10 succeeds:
 		if hp of Cleo is 0:
 			now AlexandraGrowingPups is 1;
@@ -2034,22 +2053,18 @@ instead of going to Grey Abbey Library while (hp of Cleo is 0 and Alexandra is i
 	say "[CleoBirth]";
 
 to say CleoBirth:
-	if hp of Cleo > 0:
-		now AlexandraNewPuppies is 1;
 	say "     As you find yourself in the entrance of the library, you feel an odd feeling that tells you that you should check on Alexandra and see how she is doing. Unsure of where exactly in the library she will be, you are relieved to find her slumped back on some cushions in the crime section, but this soon turns to concern as you notice the sweat covering her body and her occasional grunts. Realizing that she is about to give birth, you rush over to the doberman, crouching beside her and gently stroking her brow to alert her to your presence. Opening her eyes and giving you a grimace as her stomach flexes again, she takes hold of your hand and gives it an affectionate squeeze before tightening it as another large contraction racks her body. Grasping her hand, you allow her to feel your presence as she goes through labor as you stroke her, softy speak words of reassurance, and weather each painful clench of her paw that accompanies her birthing motions.";
 	say "     Your attention completely on Alexandra, you don't realize how much time has passed before a black and tan head slides into view between her legs. Despite the harm that the nanites seem to have done to the city, in this instance they seem to help, allowing the doberman to ignore the pain that would normally be present with birth and instead register only pleasure, leaving her in a state of euphoria even as her baby distends the lips of her vulva more and more. Finally, Alexandra's child slips from her passage and onto the clean towel spread beneath her, lying there for but a moment before it's mother huddles above it and, much to your surprise, begins to wash it clean with her tongue. Eventually, Alexandra dries it off and scoops it up in her arms, briefly looking at its undercarriage before bringing it her breast to suckle. 'A beautiful daughter...' she sighs, her eyes glistening as she gazes down at her first child with loving tenderness.";
 	WaitLineBreak;
 	say "     Unlike many new-borns within the city, your new daughter doesn't seem to start growing, although it isn't long before she opens her eyes, her own bright blue very different from her mother's warm brown as the two stare at each other. Not breaking eye contact, Alexandra beckons you over, inviting you to meet your child properly. 'This is your [if player is male]Daddy. [else]Mommy[end if]. Just like me, [SubjectPro of Player] loves you very much,' she croons, tickling her daughter's chest. 'What are we going to call her? I found a few books on naming babies, but there were way too many options and I decided that it was better coming from the heart,' the doberman cop asks you, cradling her child with on arm while the other hand continues to entertain her. You think for a few moments before hesitantly admitting that you can't think of anything at the moment. Strangely enough, judging from Alexandra's smile, this seems to have been the right thing to say. 'What do you think about Cleo as a name,' she responds with a smile.";
-	say "     Conscious that this is the name that she wants to choose but curious as to where it came from, you enquire about Alexandra's reasoning. 'It was the name of my first supervising officer when I left the academy. While I won't deny that there was and still is corruption in the police force, she didn't resort to dirty tactics or bribes for as long as I knew her. She stepped on more than a few toes in the department, but unlike many, she retired with her family still together and happy. I'm sure that you are aware of the strain that cops can end up putting on their families, but she seemed able to balance her family, her job, and training me I can say with absolute confidence that she was one of the few positive role models I have had in my life,' she explains before returning her attention to her bundle of joy who has now dozed off in her mother's arms. Accepting Alexandra's decision, you sit beside her and gently stroke your new baby girl's fur, the doberman cop resting her head on your shoulder.";
+	say "     Conscious that this is the name that she wants to choose but curious as to where it came from, you enquire about Alexandra's reasoning. 'It was the name of my first supervising officer when I left the academy. While I won't deny that there was and still is corruption in the police force, she didn't resort to dirty tactics or bribes for as long as I knew her. She stepped on more than a few toes in the department, but unlike many, she retired with her family still together and happy. I'm sure that you are aware of the strain that cops can end up putting on their families, but she seemed able to balance her home life, her job, and training me I can say with absolute confidence that she was one of the few positive role models I have had in my life,' she explains before returning her attention to her bundle of joy who has now dozed off in her mother's arms. Accepting Alexandra's decision, you sit beside her and gently stroke your new baby girl's fur, the doberman cop resting her head on your shoulder. Surprisingly, unlike her mother, Cleo's tail is not docked, curling around her leg as she sleeps.";
 	WaitLineBreak;
 	say "     You sit like this for quite some time, enjoying this period of calm and innocent affection. Eventually Alexandra breaks the silence. 'I realize that you may have places to go, so don't worry about Cleo and me. I'll protect her and raise her right while you are out in the city. Just be sure to come back from time to time so that you can be part of her life too. I doubt that she'll stay little forever and you don't want her to end up and angsty teen with daddy issues,' she teases you before giving you a kiss on the cheek. Reassuring her that you will, you clamber to your feet before helping her up to, carefully supporting her as she momentarily loses her balance. 'I didn't expect losing the baby bump to shift my center of gravity this much,' Alexandra laughs before looking at the mess on the towels. 'I suppose I should find some way of cleaning this up.' Confident that she has everything under control, you leave her bundling the towels up and walk back towards the front desk.";
-	increase Libido of Alexandra by AlexandraNewPuppies;
-	now AlexandraNewPuppies is 0;
+	increase Libido of Alexandra by 1;
 	now HP of Cleo is 1;
 	now hunger of Cleo is 120;
 	increase score by a random number between 5 and 10;
 	now Lust of Alexandra is 0;
-]
 
 Section 13 - Debug and Notes
 
