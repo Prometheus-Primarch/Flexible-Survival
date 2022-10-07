@@ -87,6 +87,11 @@ a postimport rule:
 	if SquadEncounters > 0 and Soldier Squad is not resolved:
 		now Resolution of Soldier Squad is SquadEncounters;
 
+a postimport rule:
+	if Resolution of Soldier Squad is 11 or Resolution of Soldier Squad is 10 or Resolution of Soldier Squad is 9 or Resolution of Soldier Squad is 90 or Resolution of Soldier Squad is 91:
+		now Soldier Squad is resolved;
+
+
 Table of GameEndings (continued)
 Name (text)	Type (text)	Subtype (text)	Ending (rule)	Priority (number)	Triggered (truth state)
 "Allen's Captive"	"BadEnd"	"Sex Slave"	Allen's Captive rule	20	false
@@ -1082,6 +1087,7 @@ to say ResolveEvent Soldier Squad:
 				say "[WatchCarl]";
 			else if calcnumber is 3:
 				say "[LeaveCarl]";
+		now Soldier Squad is resolved;
 
 to say SaveCarl: [save the husky]
 	say "     Dashing out of the alley, you make a quick grab for Carl, one hand landing on his shoulder, the other reaching out to clamp around his muzzle and quell his bark of surprise. Then you hiss out between your lips that you want to help, and that he should come with you right now before it's too late. His gaze meets yours, and you can almost see the inner struggle going on through his eyes - wariness futilely trying to hold its own against the exhaustion and desperation weighing heavy on the man. After what feels like a lifetime's - or possibly just a second's - hesitation, he gives you a wordless nod. While he doesn't know you from any other random being roaming the streets of this feral city, it's pretty much 'any port in a storm' for Carl, as the saying goes. What follows is him half-stumbling, and you half-dragging the bone-tired man towards the alley. Just in time too, as you hear running footsteps from the street outside, rapidly coming closer.";
