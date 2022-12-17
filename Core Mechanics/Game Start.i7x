@@ -385,15 +385,22 @@ to say gsopt_start:
 		say "     ([link]Y[as]y[end link]) - Male.";
 		say "     ([link]N[as]n[end link]) - Female.";
 		if Player consents: [Male Fang]
+			now Fang is Male;
 			if HP of Fang is 4: [Alpha]
+				increase ScaleValue of Fang by 1;
 				increase Cock Length of Fang by 2;
 				increase Ball Size of Fang by 1;
+				increase Mouth Length of Fang by 2;
+				increase Tongue Length of Fang by 2;
 			else if hp of Fang is 2: [Omega]
 				decrease Cock Length of Fang by 2;
-				decrease Ball Size of Fang by 1;
+				decrease Mouth Length of Fang by 2;
+				decrease Tongue Length of Fang by 2;
+			SetMalePronouns for Fang;
 		else: [Female Fang]
 			now Fang is Female;
 			if hp of Fang is 4: [Alpha]
+				increase ScaleValue of Fang by 1;
 				now Androginity of Fang is 6;
 				now Cock Count of Fang is 0;
 				now Cock Girth of Fang is 0;
@@ -404,9 +411,10 @@ to say gsopt_start:
 				now Cunt Depth of Fang is 12;
 				now Cunt Tightness of Fang is 2;
 				now Clit Size of Fang is 4;
+				increase Mouth Length of Fang by 2;
+				increase Tongue Length of Fang by 2;
 				now Virgin of Fang is false;
 				now PenileVirgin of Fang is true;
-				SetFemalePronouns for Fang;
 			else if hp of Fang is 1: [Vanilla]
 				now Androginity of Fang is 6;
 				now Cock Count of Fang is 0;
@@ -420,8 +428,8 @@ to say gsopt_start:
 				now Clit Size of Fang is 3;
 				now Virgin of Fang is false;
 				now PenileVirgin of Fang is true;
-				SetFemalePronouns for Fang;
 			else if hp of Fang is 2: [Omega]
+				decrease ScaleValue of Fang by 1;
 				now Androginity of Fang is 6;
 				now Cock Count of Fang is 0;
 				now Cock Girth of Fang is 0;
@@ -432,9 +440,11 @@ to say gsopt_start:
 				now Cunt Depth of Fang is 12;
 				now Cunt Tightness of Fang is 3;
 				now Clit Size of Fang is 2;
+				decrease Mouth Length of Fang by 2;
+				decrease Tongue Length of Fang by 2;
 				now Virgin of Fang is false;
 				now PenileVirgin of Fang is true;
-				SetFemalePronouns for Fang;
+			SetFemalePronouns for Fang;
 		say "     [bold type]Is the victory consummated with sex?[roman type][line break]";
 		LineBreak;
 		say "     ([link]Y[as]y[end link]) - Yes.";
