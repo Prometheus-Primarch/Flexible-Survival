@@ -104,6 +104,9 @@ Version 1 of Hope-Born Dragon by Prometheus begins here.
 
 Hope-BornDragonName is a text that varies.
 
+a postimport rule: [bugfixing rules for players that import savegames]
+	if hp of Hope-Born Dragon > 5:
+		move Dragon Egg to Nowhere;
 
 Section 1 - Dragon Egg
 
@@ -928,7 +931,7 @@ to say DragonEggHatchingProcess:
 		say "away to properly explore the library. You guess that you'll get to know [ObjectPro of Hope-Born Dragon] another time.";
 		now hp of Hope-Born Dragon is 6;
 		move Hope-Born Dragon to Grey Abbey 2F;
-		move Dragon Egg to Void;
+		move Dragon Egg to Nowhere;
 	else: [ERROR]
 		say "     ERROR! Something has gone wrong here. Please report this bug in sp-bug-reports on the Flexible Survival Discord Server.";
 

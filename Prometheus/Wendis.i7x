@@ -153,6 +153,12 @@ to say WendisTalkMenu:
 	now sortorder entry is 2;
 	now description entry is "Boop Wendis on the nose";
 	[]
+	if Charisma of Blanche > 3 and White Wolf Six is not listed in companionList of Player:
+		choose a blank row in table of fucking options;
+		now title entry is "Take as Companion";
+		now sortorder entry is 3;
+		now description entry is "Ask Wendis to join you";
+	[]
 	sort the table of fucking options in sortorder order;
 	repeat with y running from 1 to number of filled rows in table of fucking options:
 		choose row y from the table of fucking options;
@@ -172,6 +178,8 @@ to say WendisTalkMenu:
 					say "[WendisTalk1]";
 				if (nam is "Boop"):
 					say "[WendisTalk2]";
+				if (nam is "Take as Companion"):
+					say "[WendisTalk3]";
 				wait for any key;
 		else if calcnumber is 0:
 			now sextablerun is 1;
@@ -185,7 +193,11 @@ to say WendisTalk1: [Small Talk]
 		say "     '[one of]I suspect that some of the others conspired to steal my height. Especially Penelope and Bernard. If you get the chance, take it back for me[or]Can you imagine how terrifying it would be to have a wolf thrown at you? I can, but Penelope won't toss me[or]Ooh. Stay right there. The light is catching you just right[or]The world would be a lot better if people cared more about happiness than power. But then I suppose power makes some people happy. Usually the wrong people[at random].'";
 
 to say WendisTalk2: [Boop]
-	say "     Looking almost like a soft toy, you can't resist booping Wendis on the nose. She giggles and squirms, meeting your gaze and begging for you to do it again with her eyes. When you do so, she laughs and flings her arms around you. '[BlancheMommyDaddyTitle] love me beeest. [BlancheMommyDaddyTitle] loves me beeest,' she sings as she hugs and kisses you. You have to admit that it is quite the enthusiastic response, though no less adorable. 'That was delightful, but you do realize that I'm not a child despite my short stature and overflowing optimism,' she says, suddenly more serious. 'Perhaps you can join some of us when we play some of our erotic games.' With that made clear, she relaxes and snuggles up to you, enjoying the contact.";
+	say "     Looking almost like a soft toy, you can't resist booping Wendis on the nose. She giggles and squirms, meeting your gaze and begging for you to do it again with her eyes. When you do so, she laughs and flings her arms around you. '[BlancheMommyDaddyTitle] loves me beeest. [BlancheMommyDaddyTitle] loves me beeest,' she sings as she hugs and kisses you. You have to admit that it is quite the enthusiastic response, though no less adorable. 'That was delightful, but you do realize that I'm not a child despite my short stature and overflowing optimism,' she says, suddenly more serious. 'Perhaps you can join some of us when we play some of our erotic games.' With that made clear, she relaxes and snuggles up to you, enjoying the contact.";
+
+to say WendisTalk3: [Companion]
+	say "     You ask Wendis whether she would be interested in coming with you out into the city. Delighted, she jumps up into your arms for a cuddle, licking your face and being generally enthusiastic. 'Thank you, [BlancheMommyDaddyTitle]. Where are we going? Are we going somewhere fun? What are we doing?' You ruffle the fur on her head and tell her that she'll just have to wait and see. 'Will I get to be tossed?'";
+	AddCompanionFunction "White Wolf Six";
 
 Section 3 - Sex
 
@@ -200,5 +212,49 @@ Section 4 - Events
 	TraitGain "Zoe - Street Artist" for Bianca;
 	TraitGain "Wendis - Amateur Artist" for Zoe;
 	move Player to Makeshift Rec Room;]
+
+
+Section 5 - Companion
+
+Table of GameCharacterIDs (continued)
+object	name
+White Wolf Six	"White Wolf Six"
+
+White Wolf Six is a pet.
+NPCObject of White Wolf Six is Wendis.
+understand "Wendis" as White Wolf Six.
+IDList of White Wolf Six is { "Wendis", "wendis", "White Wolf Six", "white wolf six" }.
+printed name of White Wolf Six is "Wendis".
+Description of White Wolf Six is "[WendisDesc]".
+Weapon Damage of White Wolf Six is 10.
+The level of White Wolf Six is 1.
+Dexterity of White Wolf Six is 15.
+The summondesc of White Wolf Six is "[SummonWendis]".
+The dismissdesc of White Wolf Six is "[DismissWendis]".
+The assault of White Wolf Six is "[one of]Wendis grabs a rock of the ground and expertly throws it at your opponent's shin.[or]Wendis aims an uppercut at your foe's squishy area.[or]You grab Wendis and toss her at your foe's face, the small wolf squealing with glee as she flies through the air.[or]Wendis grabs your foe by the ankle, inhibiting their movement and allowing you to strike at them.[at random]".
+the fuckscene of White Wolf Six is "WIP".
+
+to say SummonWendis:
+	if Wendis is visible: [summoning while standing next to her]
+		say "     Walking over to Wendis, you ask whether she would be interested in coming with you out into the city. Delighted, she jumps up into your arms for a cuddle, licking your face and being generally enthusiastic. 'Thank you, [BlancheMommyDaddyTitle]. Where are we going? Are we going somewhere fun? What are we doing?' You ruffle the fur on her head and tell her that she'll just have to wait and see. 'Will I get to be tossed?'";
+	else: [regular summoning]
+		say "     Wendis for all her many qualities doesn't possess the ability to hear you when you aren't in earshot. Perhaps you should try again when you can see her.";
+
+to say DismissWendis:
+	move Wendis to Grey Abbey Library;
+	if Player is not in Grey Abbey Library: [regular dismiss]
+		say "     With a word, you get Wendis's attention and tell her that she should head back to the library for now. She looks at you accusingly and folds her arms. 'I love you, [BlancheMommyDaddyTitle], but why didn't you think of this while we were at home? You realize that I'm only four foot tall and that my legs aren't very big. It's going to take me aaages to walk back...' she grumbles. Nonetheless, she gives you a hug and begins to hurry away. You know that she can handle herself, but you still feel immensely guilty as she walks away. ";
+		if White Wolf Five is listed in companionlist of Player: [Penelope]
+			say "You feel Penelope glaring at the back of your neck, but carefully avoid looking at her. 'She's only got little legs,' you hear her mumble. ";
+		else:
+			say "You would imagine that Penelope will be pleased to see Wendis again, though may be less than impressed that you made her walk back alone. ";
+		say "With that in mind, you continue your exploration.";
+	else: [dismissing Wendis in the abbey]
+		say "     With a word, you get Wendis's attention and tell her that she should stay here at the library for now. She folds her arms and scowls at the ground. 'At least you remembered to tell me here rather than waiting until we were half way across the city, but I still think you're a meanie, [BlancheMommyDaddyTitle],' she grumbles. Nonetheless, she gives you a hug before vanishing to find something else to do. You know that she can handle herself, but even she needs a rest from time to time. ";
+		if White Wolf Five is listed in companionlist of Player: [Penelope]
+			say "'At least she won't be asking you to toss her. Don't worry, she'll forgive you,' Penelope says reassuringly. ";
+		else:
+			say "You would imagine that Penelope will be overjoyed that she'll be able to personally protect Wendis. ";
+		say "With that in mind, you ready yourself to continue exploring.";
 
 Wendis ends here.
