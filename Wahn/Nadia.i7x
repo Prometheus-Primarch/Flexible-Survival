@@ -352,77 +352,85 @@ Instead of fucking the Nadia:
 
 to say NadiaSexMenu:
 	blank out the whole of table of fucking options;
-[
+	say "     [bold type]What do you want to do with Nadia?[roman type][line break]";
+	[
 	if Player is male:
 		choose a blank row in table of fucking options;
 		now title entry is "Have her blow your cock";
 		now sortorder entry is 1;
 		now description entry is "Let the beautiful bird blow you.";
-		now toggle entry is NadiaSex rule;
+	[]
 	if Player is female:
 		choose a blank row in table of fucking options;
 		now title entry is "Have her lick your pussy";
 		now sortorder entry is 2;
 		now description entry is "Put the beautiful bird eat you out.";
-		now toggle entry is NadiaSex rule;
+	[]
 	choose a blank row in table of fucking options;
 	now title entry is "Eat Nadia out";
 	now sortorder entry is 3;
 	now description entry is "Give the beautiful bird some oral attention.";
-	now toggle entry is NadiaSex rule;
-]
+	]
 	if Player is male:
 		choose a blank row in table of fucking options;
 		now title entry is "Fuck her pussy";
 		now sortorder entry is 4;
-		now description entry is "Fill the beautiful bird's pussy with your cock.";
-		now toggle entry is NadiaSex rule;
+		now description entry is "Fill the beautiful bird's pussy with your cock";
+	[]
 	if (player is male and BodyName of Player is listed in infections of Avianpredlist and NadiaDescription > 3 and NadiaChar-I is "1"):
 		choose a blank row in table of fucking options;
 		now title entry is "Fly with her (and fuck her)";
 		now sortorder entry is 5;
-		now description entry is "Chase Nadia in the air outside and breed her.";
-		now toggle entry is NadiaSex rule;
-	let TestingActive be 0;
-	if (TestingActive is 1):
+		now description entry is "Chase Nadia in the air outside and breed her";
+	[]
+	if (debugactive is 1):
 		choose a blank row in table of fucking options;
 		now title entry is "TESTING: Add 10 chicks to her counter";
 		now sortorder entry is 6;
 		now description entry is "+10 ChickCounter";
-		now toggle entry is NadiaSex rule;
+	[]
+	[]
 	sort the table of fucking options in sortorder order;
-	change the current menu to table of fucking options;
-	carry out the displaying activity;
-	clear the screen;
-
-This is the NadiaSex rule:
-	choose row Current Menu Selection in table of fucking options;
-	let nam be title entry;
-	say "[title entry]: [description entry][line break]";
-	say "Is this what you want?";
-	if Player consents:
-		decrease menu depth by 1;
-		clear the screen;
-		if (nam is "Have her blow your cock"):
-			say "[NadiaSex1]";
-		else if (nam is "Have her lick your pussy"):
-			say "[NadiaSex2]";
-		else if (nam is "Eat Nadia out"):
-			say "[NadiaSex3]";
-		else if (nam is "Fuck her pussy"):
-			if (NadiaChar-I is "0" and BodyName of Player is listed in infections of Avianpredlist and NadiaDescription > 3 and NadiaPregCounter1 is 0):
-				say "[NadiaSex5]";
-				now NadiaChar-I is "1";
-			else:
-				say "[NadiaSex4]";
-		else if (nam is "Fly with her (and fuck her)"):
-			say "[NadiaSex5]";
-		else if (nam is "TESTING: Add 10 chicks to her counter"):
-			increase NadiaChickCounter by 10;
-			increase NadiaFertilityCounter by 10;
-			say "[NadiaDescriptionUpdate]"; [checks progression to the next stage]
-		wait for any key;
-	now lastfuck of Nadia is turns;
+	repeat with y running from 1 to number of filled rows in table of fucking options:
+		choose row y from the table of fucking options;
+		say "[link][y] - [title entry][as][y][end link][line break]";
+	say "[link]0 - Nevermind[as]0[end link][line break]";
+	while sextablerun is 0:
+		say "Pick the corresponding number> [run paragraph on]";
+		get a number;
+		if calcnumber > 0 and calcnumber <= the number of filled rows in table of fucking options:
+			now current menu selection is calcnumber;
+			choose row calcnumber in table of fucking options;
+			say "[title entry]: [description entry]?";
+			if Player consents:
+				let nam be title entry;
+				now sextablerun is 1;
+				if (nam is "Have her blow your cock"):
+					say "[NadiaSex1]";
+				else if (nam is "Have her lick your pussy"):
+					say "[NadiaSex2]";
+				else if (nam is "Eat Nadia out"):
+					say "[NadiaSex3]";
+				else if (nam is "Fuck her pussy"):
+					if (NadiaChar-I is "0" and BodyName of Player is listed in infections of Avianpredlist and NadiaDescription > 3 and NadiaPregCounter1 is 0):
+						say "[NadiaSex5]";
+						now NadiaChar-I is "1";
+					else:
+						say "[NadiaSex4]";
+				else if (nam is "Fly with her (and fuck her)"):
+					say "[NadiaSex5]";
+				else if (nam is "TESTING: Add 10 chicks to her counter"):
+					increase NadiaChickCounter by 10;
+					increase NadiaFertilityCounter by 10;
+					say "[NadiaDescriptionUpdate]"; [checks progression to the next stage]
+				wait for any key;
+		else if calcnumber is 0:
+			now sextablerun is 1;
+			say "     You step back from the female bird, shaking your head slightly as she gives a questioning look.";
+			wait for any key;
+		else:
+			say "Invalid Option. Pick between 1 and [the number of filled rows in the table of fucking options].";
+	clear the screen and hyperlink list;
 
 to say NadiaSex1: [Have her blow your cock]
 	say "     <Blowjob>";
@@ -501,7 +509,7 @@ to say NadiaSex4: [Fuck her pussy]
 			WaitLineBreak;
 			say "     After it's all over, the two of you lie in her nest for a long while to recover from your orgasms, Nadia gently nuzzling at you with her beak. 'Wait for the harvest,' she says. 'I promise it'll be good.'";
 	NPCSexAftermath Nadia receives "PussyFuck" from Player;
-	if NadiaPregCounter1 is 0: [not already preggers]
+	if NadiaPregCounter1 is 0 and Sterile of Player is false: [not already preggers & Player fertile]
 		now NadiaPregCounter1 is 38; [she gets knocked up for sure - 38 turns till birth]
 	else if NadiaFertilityCounter > 4 and NadiaPregCounter2 is 0 or NadiaPregCounter3 is 0: [allowing multiple pregnancies after her 4th egg/pill + a slot free as 2nd or 3rd pregnancy]
 		let NadiaPregChance be a random number from 1 to 20;
@@ -529,7 +537,7 @@ to say NadiaSex5: [flying and fucking]
 		say "     Finally, you can't take it any longer. The heat of the chase has soundly worked its way into the base of your shaft and it explodes into Nadia, her cunt clenching tight to ensure that not one drop is wasted when it could go towards growing another child in her. Moaning and chirping, she pushes herself off the ground with her hands, perhaps vaguely aware of the fact that she should be back in her nest to brood and lay the life that's no doubt taken root inside her, but falls back with a whimper. You gently coax Nadia into your embrace, reassuring the broody bird that you'll protect her out here and that nothing will happen to her nest and brood while she's away and also taking the opportunity to suck at her nipples.";
 		say "     'Bad!' she says halfheartedly. 'That's for the children...mmm...oh...' Soothed, she chirps happily and snuggles up against you, her feathers still slick in spots from your recent exertions.";
 		NPCSexAftermath Nadia receives "PussyFuck" from Player;
-		if NadiaPregCounter1 is 0: [not already preggers]
+		if NadiaPregCounter1 is 0 and Sterile of Player is false: [not already preggers & Player fertile]
 			now NadiaPregCounter1 is 38; [she gets knocked up for sure - 38 turns till birth]
 		else if NadiaFertilityCounter > 4 and NadiaPregCounter2 is 0 or NadiaPregCounter3 is 0: [allowing multiple pregnancies after her 4th egg/pill + a slot free as 2nd or 3rd pregnancy]
 			let NadiaPregChance be a random number from 1 to 20;
@@ -555,7 +563,7 @@ to say NadiaSex5: [flying and fucking]
 		say "     Easing Nadia onto her knees, her pregnant belly supported in her lap, you tell Nadia it's her turn now, and thrust your cock in her face, already glistening with precum. Nadia looks a little pouty at the idea of perfectly good seed being wasted, but you pat her on the head and tell her you'll pull out beforehand and fill her up properly before finishing. That simple promise breaks any inhibitions the broody bird has, and she eagerly stuffs as much of your length as she can into her beak - it's a little rough, but she doesn't have teeth and the workings of her tongue more than makes up for it. Nadia leans back with the effort of sucking you off, her eyes closed in wonder and concentration, and it's only when you feel your balls beginning to churn that you pull out, strings of precum glistening as they fall away from Nadia's beak. There's barely enough time to tip her forward onto all fours and ram your pulsating shaft into her from behind before you blast into her, great gouts of seed entering her already filled womb and swelling it a little further. Her wings beat at the air as she finally orgasms with a squawk, the familiar, rhythmic contractions of her slick tunnel making sure no drop of your cum is wasted.";
 		say "     Nadia doesn't want to let go of you at first, savoring the all too brief sensation of you inside her, but eventually relents and snuggles up to your side, rubbing the swell of her belly eagerly. Hopefully, this'll mean another chick will start growing inside her...if it makes her all the more pliable to doing this again, all the better.";
 		NPCSexAftermath Nadia receives "PussyFuck" from Player;
-		if NadiaFertilityCounter > 4 and NadiaPregCounter2 is 0 or NadiaPregCounter3 is 0: [allowing multiple pregnancies after her 4th egg/pill + a slot free as 2nd or 3rd pregnancy]
+		if NadiaFertilityCounter > 4 and NadiaPregCounter2 is 0 or NadiaPregCounter3 is 0 and Sterile of Player is false: [allowing multiple pregnancies after her 4th egg/pill + a slot free as 2nd or 3rd pregnancy]
 			let NadiaPregChance be a random number from 1 to 20;
 			if NadiaFertilityCounter > 17: [matron stage]
 				if NadiaPregChance > 5: [75% chance]

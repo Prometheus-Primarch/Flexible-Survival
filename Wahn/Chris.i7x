@@ -159,6 +159,9 @@ instead of conversing the Chris:
 	say "[ChrisTalkMenu]";
 
 instead of trading the orc brew when the current action involves the Chris:
+	say "[Chris_OrcBrewGive]";
+
+to say Chris_OrcBrewGive:
 	if Libido of Chris is 0:
 		say "     You hand Chris the mug of orc brew, which the young man accepts and looks at with interest. With a smile on your face, you tell him that it is time for [if Thirst of Val is 2]your boy[else]him[end if] to become a real man. Opening the lid, he sniffs at it, and watches the liquid slosh around in the mug as he shakes it slightly. The look in his face tells you that he's tempted to try it, partly because of the thrill of doing something forbidden, but his breeder dad's command to stay away from the drink holds him back. Biting his lip as he looks at you, Chris says 'Thanks. I - a nip at it wouldn't be so bad, would it? Just a little...'";
 		say "     [bold type]Do you try to convince Chris to drink the orc brew, knowing that it'll most likely transform him into a brutish orc warrior?[roman type][line break]";
@@ -295,8 +298,10 @@ to say WarrorChrisRelationship5:
 to say WarriorChrisWrapup:
 	say "After the orc comes down from his orgasm and the immediate urges of lust flare down a little, you talk a little bit more with his new warrior persona. Doing so, you find that the young man is now far more direct and action-oriented, focusing on physical solutions to most problems. Not always the smartest thing to do, but he's got the physique to work things out, that's for sure. Meanwhile, his libido seems to have gotten a permanent boost, with an underlying level of raw urges always ready to burst forth and drive him to fuck and breed.";
 
-
 instead of trading the orc cum when the current action involves the Chris:
+	say "[Chris_OrcCumGive]";
+
+to say Chris_OrcCumGive:
 	if Libido of Chris is 0:
 		say "     You hand Chris the bottle of orc cum, which the young man accepts and looks at with interest. Taking off the cap of the plastic water bottle he sniffs at it, then licks his lips, obviously tempted to drink the light green, thick and creamy liquid. His hand starts to rise a bit with the bottle, then he stops himself. Biting his lip as he looks at you, Chris says 'Thanks, but... Dad warned me about doing this. I shouldn't - or should I? It smells really nice...'";
 		say "     [bold type]Do you convince Chris to drink the orc cum, knowing that it'll most likely transform him into a submissive orc breeder?[roman type][line break]";
@@ -368,6 +373,18 @@ to say ChrisTalkMenu:
 		now sortorder entry is 3;
 		now description entry is "Ask where he got the underwear";
 	[]
+	if Carried of Orc Cum > 0:
+		choose a blank row in table of fucking options;
+		now title entry is "Talk Chris into drinking orc cum";
+		now sortorder entry is 4;
+		now description entry is "Hand him a bottle of man-milk";
+	[]
+	if Carried of Orc Brew > 0:
+		choose a blank row in table of fucking options;
+		now title entry is "Talk Chris into drinking orc brew";
+		now sortorder entry is 5;
+		now description entry is "Hand him a mug of orc brew";
+	[]
 	sort the table of fucking options in sortorder order;
 	repeat with y running from 1 to number of filled rows in table of fucking options:
 		choose row y from the table of fucking options;
@@ -389,6 +406,10 @@ to say ChrisTalkMenu:
 					say "[ChrisTalk2]";
 				else if nam is "His undies":
 					say "[ChrisUndieTalk]";
+				else if nam is "Talk Chris into drinking orc cum":
+					say "[Chris_OrcCumGive]";
+				else if nam is "Talk Chris into drinking orc brew":
+					say "[Chris_OrcBrewGive]";
 				wait for any key;
 		else if calcnumber is 0:
 			now sextablerun is 1;
@@ -659,8 +680,7 @@ to say ChrisSex3: [the player fucks Chris]
 		say "     After spending some time going down on Chris, you hear him grunt 'Still not feeling any dick. Changed your mind and gonna pussy out?' It's clear that he liked his ass getting eaten quite a bit, but now he's back to his tough-guy attitude, as if to prove to himself that he's no breeder. Well, orc warrior or orc breeder - you don't care and just wanna fuck him. Moving closer to him on your knees, you bring your hard cock to just the right position to take the green hunk's ass. Reaching down to take hold of your manhood, you gently brush it over Chris's hole, making him pant in arousal. Then you press in and sink your hard shaft into the orc's rear end, stretching his inner muscles around you. With you taking the time to prepare and relax him with oral sex, as well as some inherited traits from his orc breeder parent, you find Chris to be able to take your erection easily, while at the same time still being nice and snugly tight.";
 		say "     The young man really is a natural at bottoming, almost reflexively squeezing and flexing his inner muscles around your invading member to add to your pleasure. Leaning over Chris, you give him a hungry kiss on the mouth, then pull back your hips and thrust into him again. Guided by rising moans in lust, you speed up bit by bit and before too much longer, the two of you are enthusiastically coupling with each other on the bunk. In between satisfied gasps and hot kisses, Chris calls out for you to go ever harder and faster, growling 'I'm an orc, we like it rough!' in the throes of passion. You're only too eager to comply, and soon you're really pounding into him, your hips meeting with a loud slap every time you thrust.";
 		WaitLineBreak;
-		say "     Given the wild ride you're giving Chris, it's no big wonder that he soon moans 'Almost ready *pant* to cum'. Reaching between his legs to grab his hard cock, you stroke it a few times, aiming it at Chris's head with a grin. Just a second later, the orc gives a satisfied grunt and starts to tremble and twitch with each shot of his cum that blasts from his cock... to splatter his face. The orc's anal muscles flex around your cock at the same time, which gives you the rest too in short order. As you feel the orgasm rapidly approaching, you drive into your partner's deliciously tight asshole one last time, grinding your hips against his as you fill him with your seed.";
-		say "     After your shaft shoots its last sting of cum into Chris, you slowly pull out of him and flop down to lie beside him for a moment. He raises himself up on his elbows in the meantime, then gives you a 'light' bump on the shoulder with his hand. 'See - I totally had no problem with taking you on. It'll take larger dicks to make this orc afraid!'";
+		say "     Given the wild ride you're giving Chris, it's no big wonder that he soon moans, 'Almost ready *pant* to cum!' Then, being reminded of the fact that you'll also want to cum, he adds a but gruffly, 'Oh, and don't you dare cum in me!' Chuckling at this insistence, you nod to calm his worries, then reaching between his legs to grab Chris's hard cock. Stroking the big piece of meat, you then aim it at Chris's head with a grin. Just a second later, the orc gives a satisfied grunt and starts to tremble and twitch with each shot of his cum that blasts from his cock... to splatter his face. The orc's anal muscles flex around your cock at the same time, which gives you the rest too in short order. As you feel the orgasm rapidly approaching, you drive into your partner's deliciously tight asshole one last time, then hastily pull out, spraying your seed over his juicy ass and naked form. After your shaft shoots its last sting of cum over Chris, you flop down to lie beside him for a moment. He raises himself up on his elbows in the meantime, then gives you a 'light' bump on the shoulder with his hand. 'See - I totally had no problem with taking you on. It'll take larger dicks to make this orc afraid!'";
 	NPCSexAftermath Chris receives "AssFuck" from Player;
 
 to say ChrisSex4: [Chris fucks the player]
@@ -755,7 +775,7 @@ to say ChrisSex5: [milk cum out of Chris]
 		say "     'Get a bigger bottle next time,' the orc teen says in an amused tone as he cums on your face, creaming you good with the ebbing-off orgasm. 'Or better yet - don't. I like that look on you,' he adds after a second or two, placing a large hand on your face to rub in the cum. Swiping up some, he playfully lets it stretch goopy lines between his fingers, then pushes the sticky digits into your mouth to be licked clean. 'Yeah, be the cum-slut that you deserve to be,' he grunts in satisfaction, amused about how eagerly you suck on his fingers. Then the teenage orc adds, 'Think of me when you drink this,' patting the bottle in your hands, then walking off to throw himself onto his sofa to rest. You're left behind, somewhat sticky and hungry for more. For a moment, you want to just chug the bottle right now, but manage to push down the instinct and pack it away instead.";
 	ItemGain orc cum by 1;
 
-instead of navigating Grey Abbey Library while (Libido of Chris is 2 and Chris is in Sitting Area and Dexterity of Chris is 0):
+instead of navigating Grey Abbey Library while (Libido of Chris is 2 and Chris is in Sitting Area and Dexterity of Chris is 0) and Player is not CoA:
 	say "[NavCheck Grey Abbey Library]";
 	if NavCheckReturn is false, stop the action;
 	move player to Grey Abbey Library;

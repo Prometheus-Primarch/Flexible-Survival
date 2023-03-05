@@ -261,7 +261,6 @@ Part 2 - Quests & Events
 
 Include AG Beach Events by Aureas Gigas.
 Include Ancient Tome by Wahn.
-Include Additional Tome Scenes by Dys.
 Include Apartment 319 by Kaleem Mcintyre.
 Include Assorted Events by Stripes.
 Include Avatar of Hope by Prometheus.
@@ -323,6 +322,7 @@ Include Ironscale Items by Taelyn.
 Include Junkyard Events by Stripes.
 Include Kitsune by Shadowwolf94.
 Include Kitsune Expansion by Shadowwolf94.
+Include Komainu by Voidsnaps.
 Include Latex Quad Husky by Stripes.
 Include Leonard Events by Stripes.
 Include Little Old Woman by Kaleem mcintyre.
@@ -376,6 +376,7 @@ Include Special Forces Events by Vinickus.
 Include Stable Related Events by Sarokcat.
 Include Stable Related Quests by Sarokcat.
 Include Sugar Feud by AGentlemanCalledB.
+Include Sunbathing Gator by Voidsnaps.
 Include TFTG Feats by Luneth.
 Include Tidepool Event by Guest Writers.
 Include Toy Store by Song.
@@ -429,7 +430,7 @@ Include Bunny Jock by Rikaeus.
 Include Butterfly by Guest Writers.
 Include Cambion Male by Gherod.
 Include Candy Striper by Stripes.
-Include Cannon by Guest Writers.
+Include Cannon by Wahn.
 Include Cat Ninjas by Stripes.
 Include Catgirl by Wahn.
 Include Caveman by Guest Writers.
@@ -451,7 +452,7 @@ Include Cute Chinchilla Girl by Guest Writers.
 Include Dalmatian by Wahn.
 Include Dark Elf by Stripes.
 Include Demon Brute by Wahn.
-Include Demon Fox by Dys.
+Include Demon Fox by Voidsnaps.
 Include Dino Pack by Qazarar.
 Include Dire Wolf by Qazarar.
 Include Doberman Cop by Wahn.
@@ -557,7 +558,7 @@ Include Jaguar Warrior by AGentlemanCalledB.
 Include Junkman by Stripes.
 Include Kangaroo by Guest Writers.
 Include Killer Whale by Stripes.
-Include Knight by Stripes.
+Include Knight by Voidsnaps.
 Include Koballoon by Song.
 Include Kobold Gang by Closerhenry.
 Include Koghh by Wahn.
@@ -636,7 +637,7 @@ Include Red Oni by Stripes.
 Include Reindeer by Stripes.
 Include Reptaur by Kaleem mcintyre.
 Include Retriever by AGentlemanCalledB.
-Include Rhino by Stripes.
+Include Rhino by Voidsnaps.
 Include Robed Cultist by Wahn.
 Include Rodeo Clown by Stripes.
 Include Rubber Drake by Song.
@@ -644,6 +645,7 @@ Include Rubber Tigress by Sarokcat.
 Include Ruby by CrimsonAsh.
 Include Saber Kitty by Blaydrex.
 Include Sabretooth by Sarokcat.
+Include Sascha by Voidsnaps.
 Include Salamander by Stripes.
 Include Sand Man by Wahn.
 Include Satyr by Sarokcat.

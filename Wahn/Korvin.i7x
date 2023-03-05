@@ -85,7 +85,7 @@ to say gsd_recruited:
 		else if (number of bunkered people + number of booked people is 3):
 			say "Seeing some movement of the other inhabitant of the library, you decide it might be best to explain what's going on with Korvin now moving in. [bold type]Calling everyone together, you lay things out, to the following reactions:[roman type][line break]";
 		LineBreak;
-		if Alexandra is booked or Alexandra is bunkered:
+		if (Alexandra is booked or Alexandra is bunkered) and HP of Alexandra < 50:
 			say "     Alexandra crosses her arms and looks Korvin up and down, her gaze lingering on his muscles and crotch. Despite the physical interest that she can't quite hide behind her tough bitch persona, the next words out of the ex-cop's mouth are snarky and mocking. 'Got some sort of dog fetish, boss? Dragging in a mangy street mutt. Looks like you roughed him up too!' Before you can think of a reply, Korvin's already barking back, 'Up yours, slut! I saw how you stared at my sheath!' He grabs his crotch suggestively, then raises the hand while turning it around, finishing up with a middle finger for Alexandra. She snorts, looking at her nails and just letting his shot back roll off her.";
 			WaitBreakReactions;
 		if Amy is booked or Amy is bunkered:
@@ -1895,7 +1895,7 @@ Growls wants to go out and fight (if no combat in several rounds)
 ["Library_private lover" - Player wants to be the main partner of Korvin, only threesomes allowed (maybe)    ]
 [   + "Harem Master" player feat - sharing the Harem together                                                ]
 
-instead of navigating Grey Abbey Library while (gshep is tamed and gsd_pet >= 60 and Resolution of Trucker Bar is 2 or Resolution of Trucker Bar is 3 and Amy is booked and "Relationship_Talk_Done" is listed in Traits of Korvin and "Amy_Korvin_FirstInteraction_Done" is not listed in Traits of Korvin and (HP of Amy is 11 or HP of Amy is 10 or HP of Amy is 101) and Lust of Amy is 0): [Korvin tamed, confident Korvin (blackcollar), learned about his past and made/let him stay, Amy Present, had relationship talk, Amy either fucked, ready for sex or player not interested in her, not pregnant]
+instead of navigating Grey Abbey Library while (gshep is tamed and gsd_pet >= 60 and Resolution of Trucker Bar is 2 or Resolution of Trucker Bar is 3 and Amy is booked and "Relationship_Talk_Done" is listed in Traits of Korvin and "Amy_Korvin_FirstInteraction_Done" is not listed in Traits of Korvin and (HP of Amy is 11 or HP of Amy is 10 or HP of Amy is 101) and Lust of Amy is 0) and Player is not CoA: [Korvin tamed, confident Korvin (blackcollar), learned about his past and made/let him stay, Amy Present, had relationship talk, Amy either fucked, ready for sex or player not interested in her, not pregnant]
 	say "[NavCheck Grey Abbey Library]";
 	if NavCheckReturn is false, stop the action;
 	move player to Grey Abbey Library;
@@ -2194,7 +2194,7 @@ instead of navigating Grey Abbey Library while (gshep is tamed and gsd_pet >= 60
 			TraitGain "Amy_Interaction_Friendly" for Korvin;
 	TraitGain "Amy_Korvin_FirstInteraction_Done" for Korvin;
 
-instead of navigating Grey Abbey Library while (gshep is tamed and gsd_pet >= 60 and Spike is booked and "Korvin - Met Collarless" is listed in Traits of Spike and "Korvin - Challenging Dude" is not listed in Traits of Spike): [Korvin tamed, confident Korvin (blackcollar), Spike Present, Spike met Korvin without a collar]
+instead of navigating Grey Abbey Library while (gshep is tamed and gsd_pet >= 60 and Spike is booked and "Korvin - Met Collarless" is listed in Traits of Spike and "Korvin - Challenging Dude" is not listed in Traits of Spike) and Player is not CoA: [Korvin tamed, confident Korvin (blackcollar), Spike Present, Spike met Korvin without a collar]
 	say "[NavCheck Grey Abbey Library]";
 	if NavCheckReturn is false, stop the action;
 	move player to Grey Abbey Library;

@@ -47,7 +47,6 @@ to say Alpha Wolf attack:
 				CreatureSexAftermath "Player" receives "AssFuck" from "Alpha Wolf";
 			else:
 				say "'Bad little wolf, not being ready for the packleader,' the large canine beast says, baring his teeth at your defeated form, causing you to cringe in submission. 'Next time I'm sure you will do better, won't you?' the large Alpha asks you, and you find yourself nodding submissively in agreement. 'Good, you had better,' the large beast mutters as it stalks away, leaving you lying there submissively in the road, worried about his last statement.";
-			infect "Alpha Wolf";
 		else:
 			if Player is female:
 				say "     The wolf grabs you and throws you down onto the ground again, his rough, paw-like hand keeping a strong steady pressure up as it grips the back of your neck, while his other moves between your legs, seemingly satisfied with what he finds there, the lupine beast lets out a pleased grunt. Gripping your neck tighter, the beast forces your face down into the ground. As he positions himself behind you, you can hear his harsh panting breath while he moves his hard lupine cock up between your thighs. Your body shudders as his pointed tip probes the entrance to your feminine passage, before thrusting himself into you in one hard, swift thrust.";
@@ -233,8 +232,8 @@ When Play begins:
 	now libido entry is 30;  [ As part of infection, the Player will be gradually moved towards this value; also used for the creature's seduce defense as a penalty ]
 	now loot entry is "alpha wolf fur";  [ Loot monster drops, usually infective with the monster's _own_ strain (for example if there is a Cross-Infection from sex)]
 	now lootchance entry is 70;  [ Chance of loot dropping 0-100 ]
-	now MilkItem entry is "";
-	now CumItem entry is "";
+	now MilkItem entry is "alpha wolf man-milk";
+	now CumItem entry is "alpha wolf cum";
 	now TrophyFunction entry is "-";
 	now scale entry is 3;  [ Number 1-5, approx size/height of infected PC body: 1=tiny, 3=avg, 5=huge ]
 	now body descriptor entry is "[one of]sleek[or]lean[at random]";  [ Ex: "plump" "fat" "muscled" "strong" "slimy" "gelatinous" "slender". Use [one of] to vary ]
