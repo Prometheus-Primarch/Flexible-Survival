@@ -133,16 +133,16 @@ to say ResolveEvent Wolfrape:
 			ItemGain food by 1;
 			increase score by 20;
 			now battleground is "void";
-			now Resolution of Wolfrape is 1;	[Saved Blanche]
+			now Resolution of Wolfrape is 1; [Saved Blanche]
 		else if fightoutcome >= 20 and fightoutcome <= 29:
 			say "     After the draconic beast has suitably punished you for the interruption, she heads back to her original prize and pushes her over onto all fours. The female wolf moans weakly, but cannot prevent the drake from mounting her again. The dragon's lustful moaning starts up again, but the wolf's whimpers and moans of pain are soon silenced as the drake clamps the wolf's muzzle shut. Holding her muzzle upwards, the powerful beast kisses and licks at the wolf's face, moaning how lovely she'll look filled with her whelps. The wolf's eyes go wide at this, but she's too overwhelmed by the mix of pain and pleasure from the rough mating to do anything. The dragon creature growls loudly and lustfully as it drives hard into its prey one last time, causing the wolf to yelp then struggle, then become very still. The lizard cock glows from within the wolf's belly and soon you can tell the canine is being filled with molten sperm. The white wolf's belly expands as it is filled, and glows red as its new cargo of life shine through her skin and fur. Once the wolf is full and bloated with the drake's cum, the dark creature pulls out and starts dragging the wolf away with her. When you recover enough to get up, you get away from this spot as quickly as you can.";
-			now Resolution of Wolfrape is 2;	[Lost Blanche to Ebonflame Drake]
+			now Resolution of Wolfrape is 2; [Lost Blanche to Ebonflame Drake]
 		else if fightoutcome > 30:
 			say "     Unable to stand up to the powerful creature's assault, you turn and run away. The angered drake sends a wave of fire after you, burning the stray trash in the alley before pouncing back on her original prey. You can hear the sounds of lust. The cries of pain start back up again, but they are quickly silenced, probably by a large, clawed hand around the wolf's muzzle. The sounds fade away as you continue further away, though you do hear loud roar of the beast cumming into its prize.";
-			now Resolution of Wolfrape is 3;	[Ran and left Blanche to Ebonflame Drake]
+			now Resolution of Wolfrape is 3; [Ran and left Blanche to Ebonflame Drake]
 	else:
 		say "     Deciding not to intervene, you watch as the wolf moans pitifully, an expression of growing rapture on her face as the drake thrusts into her from behind. The dragon growls and slams her prick home causing the wolf to yelp then struggle, then become very still. The lizard cock glows from within the wolf's belly and soon you can tell the canine is being filled with molten sperm. The white wolf's belly expands as it is filled, and glows red as its new cargo of life shine through her skin. Once the wolf's been filled, the drake grabs her, dragging her off somewhere. As quietly as you can, you back away.";
-		now Resolution of Wolfrape is 99;	[Did not try to save Blanche]
+		now Resolution of Wolfrape is 99; [Did not try to save Blanche]
 	now blanchefight is false;
 	now wolfrape is resolved;
 
@@ -450,7 +450,7 @@ to say ResolveEvent Scavenging the Park:
 				TraitGain "Fang - Ordinary Wolf" for Sturm;
 				TraitGain "Blanche - Old Love" for Fang;
 				TraitGain "Sturm - Quick to Judge" for Fang;
-	if (((Fang is not booked and Fang is not bunkered) and number of bunkered people + number of booked people > 2) or ((Fang is booked or Fang is bunkered) and hp of Lux is 0 and number of bunkered people + number of booked people > 3) or ((Fang is booked or Fang is bunkered) and hp of Lux > 0 and number of bunkered people + number of booked people > 5)): [anyone there besides just Blanche]
+	if (((Fang is not booked and Fang is not bunkered) and number of bunkered people + number of booked people > 1) or ((Fang is booked or Fang is bunkered) and hp of Lux is 0 and number of bunkered people + number of booked people > 2) or ((Fang is booked or Fang is bunkered) and hp of Lux > 0 and number of bunkered people + number of booked people > 4)): [anyone there besides just Blanche]
 		if (number of bunkered people + number of booked people > 3):
 			say "Before you can continue, you see some of the other people who have taken up residence here too and decide that it might be best to call everyone in the building together and explain what's going on with Blanche and her family now moving in. [bold type]After you call for them, they gradually appear, with the following reactions:[roman type][line break]";
 		else if (number of bunkered people + number of booked people is 3):
@@ -1207,31 +1207,31 @@ to say ResolveEvent Scavenging the Park:
 			WaitBreakReactions;
 		now IntroReactionCounter is 0; [reset]
 		say "     Introductions having been made, it doesn't take you too long to finish showing Blanche and Sturm around the library from bunker to attic and all the facilities in between. Nonetheless, they seem exhausted by the end so after you bring them back to the computer lab where the rest of their family has made a cozy looking corner for them all to sleep in at night. You would imagine that they have much to talk about. You'll come back later.";
-		Move player to Grey Abbey Library;
-		move Blanche to Computer Lab;
-		move Sturm to Computer Lab;
-		move Bianca to Computer Lab;
-		move Ernest to Computer Lab;
-		move Claude to Computer Lab;
-		move Penelope to Computer Lab;
-		move Wendis to Computer Lab;
-		move Bernard to Breakroom;
-		move Maeve to Breakroom;
-		move Lumi to Computer Lab;
-		move Casper to Computer Lab;
-		now Office Den is unknown;
-		now Charisma of Blanche is 1;
-		now hp of Sturm is 1;
-		now hp of Bianca is 1;
-		now hp of Ernest is 1;
-		now hp of Claude is 1;
-		now hp of Penelope is 1;
-		now hp of Wendis is 1;
-		now hp of Bernard is 1;
-		now hp of Maeve is 1;
-		now hp of Lumi is 1;
-		now hp of Casper is 1;
-		now Scavenging the Park is resolved;
+	Move player to Grey Abbey Library;
+	move Blanche to Computer Lab;
+	move Sturm to Computer Lab;
+	move Bianca to Computer Lab;
+	move Ernest to Computer Lab;
+	move Claude to Computer Lab;
+	move Penelope to Computer Lab;
+	move Wendis to Computer Lab;
+	move Bernard to Breakroom;
+	move Maeve to Breakroom;
+	move Lumi to Computer Lab;
+	move Casper to Computer Lab;
+	now Office Den is unknown;
+	now Charisma of Blanche is 1;
+	now hp of Sturm is 1;
+	now hp of Bianca is 1;
+	now hp of Ernest is 1;
+	now hp of Claude is 1;
+	now hp of Penelope is 1;
+	now hp of Wendis is 1;
+	now hp of Bernard is 1;
+	now hp of Maeve is 1;
+	now hp of Lumi is 1;
+	now hp of Casper is 1;
+	now Scavenging the Park is resolved;
 
 
 Section 2 - Office Den
