@@ -37,7 +37,8 @@ to say squiredesc:
 	now squirefeature is a random number between 1 and 5;
 	if debugactive is 1:
 		say "DEBUG: knightcrestnum: [knightcrestnum], playercrestnum: [playercrestnum], kpstatus: [kpstatus], squirefeature: [squirefeature].";
-	say "     Before you is a handsome young man with [if squirefeature is 1]scruffy brown hair[else if squirefeature is 2]blond locks[else if squirefeature is 3]a pretty-boy face[else if squirefeature is 4]goofy grin[else]bright, blue eyes[end if] in medieval garb. He has a happy eagerness to his face that tells you he's no longer quite right in the head. He is wearing simple breeches and a string-tied shirt with a loose-fitting tabard overtop. The tabard has the colorful crest of [stateknightcrest] on it. In his hand, he holds a short sword marred by a few nicks.";
+	project Figure of Squire_neutral_shirt_pants_shoes_armed_icon;
+	say "     Before you is a handsome young man with a smooth, beardless face, short blond hair and pale blue eyes, dressed in medieval garb. He has a happy eagerness to his face that tells you he's no longer quite right in the head. He is wearing simple leather shoes tied with a string, blue breeches and a white string-tied shirt. A thin leather strip is tied around his waist, holding the sheath of a fairly short sword, while the blade itself is in his hands, looking well-polished, if having a few nicks.";
 	say "     Sizing you up, he raises his sword towards you.";
 	if kpstatus is 1:				[player is Knight]
 		say "     'A knight? You would challenge my master? I think not! I am his brave squire and shall defeat you myself,' he says boldly, only a slight quaver in his voice and a few moment's pause before attacking.";
@@ -76,6 +77,7 @@ Section 2 - Monster Victory
 to say losetosquire:
 	if inasituation is true:
 		stop the action; [text taken care of at the source]
+	project Figure of Squire_smile_hard_icon;
 	if kpstatus is 1:
 		if HP of Player > 0:
 			say "     When you submit to the bold squire, he gives a nervous laugh before growing boastful once the surprise has passed. 'Not much of a knight at all, are you? You would surrender to a lowly squire? Clearly I am more a knight than you,' he adds as he stands taller and sheathes his small sword. 'It looks like you need some more training, and I'm just the brave warrior to do it,' he says, grabbing you in a surprisingly strong grip. Tugging down his breeches, he reveals his stiff member. His seven incher stands proud, hard and ready, as he pushes aside your garb, ready to finally take his turn on top.";
@@ -296,12 +298,12 @@ When Play begins:
 	now defeated entry is "[beatthesquire]"; [ Text when monster loses. ]
 	now victory entry is "[losetosquire]"; [ Text when monster wins. ]
 	now desc entry is "[squiredesc]"; [ Description of the creature when you encounter it. ]
-	now face entry is "thankfully human in appearance - that of [if ( player is herm ) or ( Player is neuter) ]a younger and more androgynous[else if Player is male]yourself, but as a young man[else]yourself, but as a tomboyish girl[end if]. Your expression is often one of youthful eagerness and optimism, regardless of how you're feeling at that moment";
+	now face entry is "thankfully human in appearance - that of [if ( Player is herm ) or ( Player is neuter) ]a younger and more androgynous[else if Player is male]yourself, but as a young man[else]yourself, but as a tomboyish girl[end if]. Your expression is often one of youthful eagerness and optimism, regardless of how you're feeling at that moment";
 	now body entry is "that of a young [if Player is female]woman[else]man[end if]. Your body shows some muscle tone from exercise, speaking of a strength yet to come. Across your torso is a loose-fitting tabard with an emblem stitched into it of [stateplayercrest]";
 	now skin entry is "smooth, lightly-tanned";
 	now tail entry is "";
 	now cock entry is "human";
-	now face change entry is "the bones of your head shift with the occasional pop or crack that makes you wince. As these changes progress, your face becomes similar to your old one, but younger and [if ( player is herm ) or ( Player is neuter) ]androgynous[else if Player is male]more like that of a young man[else]more like that of a tomboyish girl[end if]";
+	now face change entry is "the bones of your head shift with the occasional pop or crack that makes you wince. As these changes progress, your face becomes similar to your old one, but younger and [if ( Player is herm ) or ( Player is neuter) ]androgynous[else if Player is male]more like that of a young man[else]more like that of a tomboyish girl[end if]";
 	now body change entry is "changes spread through it. Your muscles tense and flex and your body reshapes itself, in time becoming that of a maturing [if Player is female]tomboy[else]young man[end if]. Your body shows some muscle as if you'd recently started physical training. As you look down at your chest, a tabard that is slightly too big for you forms across your torso. In bright colors, its bears the crest of [stateplayercrest] at its center. Any attempt to cover or remove this has it return in short order";
 	now skin change entry is "exciting tingles run all over your [bodydesc of Player] body. Your flesh shifts and changes, subtly at first, until eventually becoming smooth, lightly tanned and quite human in appearance. There's the start of some callouses on your right hand from learning to wield something heavy, which your hand feel somehow empty without it";
 	now ass change entry is "your buttocks muscles firm up, forming a cute bubble-butt made for fucking. You feel an empty craving to have something buried in your asshole";
