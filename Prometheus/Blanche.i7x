@@ -168,7 +168,7 @@ to say ResolveEvent Blanche's Brood:
 		project the figure of Blanche_naked_icon;
 	else if HP of Blanche is 5 or HP of Blanche is 9 or HP of Blanche is 12:
 		project the figure of Blanche_preg1_icon;
-	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 14:
+	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 13:
 		project the figure of Blanche_preg3_icon;
 	else if HP of Blanche is 7 or HP of Blanche is 8 or HP of Blanche is 11 or HP of Blanche is 14:
 		project the figure of Blanche_naked_icon;
@@ -203,7 +203,7 @@ to say ResolveEvent Scavenging the Park:
 		project the figure of Blanche_naked_icon;
 	else if HP of Blanche is 5 or HP of Blanche is 9 or HP of Blanche is 12:
 		project the figure of Blanche_preg1_icon;
-	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 14:
+	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 13:
 		project the figure of Blanche_preg3_icon;
 	else if HP of Blanche is 7 or HP of Blanche is 8 or HP of Blanche is 11 or HP of Blanche is 14:
 		project the figure of Blanche_naked_icon;
@@ -931,13 +931,13 @@ to say ResolveEvent Scavenging the Park:
 			TraitGain "Sturm - Large Wolf" for Nadia;
 			WaitBreakReactions;
 		if Onyx is booked or Onyx is bunkered:
-			if (xp of Onyx > 9 and xp of Onyx < 20): [Dom Stallion]
+			if (XP of Onyx > 9 and XP of Onyx < 20): [Dom Stallion]
 				say "     Onyx strides over to inspect the wolves more thoroughly, a cocky smirk spreading across his face as his eyes roam over Blanche's voluptuous form. 'Hey there, sexy. I'm Onyx. I look forward to getting to know you,' he remarks. The wolfess seems momentarily tongue-tied, her eyes fixed on the dominant horseman's stirring erection, just beginning to squeeze past the ineffective confines of his thong. The view is obstructed by Sturm stepping between them, his arms folded. 'What about me? Are you looking forward to getting to know me too?' he pointedly asks. 'Sure, but not quite as much as her. Wait, you aren't her mate or something, are you?' Onyx replies, sizing up the wolf. 'Not exactly. I'm her son,' comes the response. 'Well then, I'll probably refrain from involving you in a threesome,' the horseman teases. Seeing Sturm's hackles raise, Onyx takes a step back. 'Calm down, it was meant to be a joke. Besides, it's not like I'm some meathead just because I'm a stallion. It's her choice.' Blanche lays a calming hand on her son's shoulder, the tension bleeding from his body a moment later. With a sigh, Sturm apologies. 'Sorry. I don't have many good experiences with other people so I tend to be defensive. Perhaps I can try and make a better impression when I've properly settled in.' 'No worries. I'm sure your caution has been justified in the past,' the stallion replies, the two males shaking hands. Relieved that the situation has resolved itself without your intervention, you wait as the three of them talk for a short moment before Onyx leaves again, Blanche's eyes still following him.";
 				TraitGain "Onyx - Confident Hung Stud" for Blanche;
 				TraitGain "Onyx - Not Some Meathead" for Sturm;
 				TraitGain "Blanche - Sexy MILF" for Onyx;
 				TraitGain "Sturm - Justifiably Cautious" for Onyx;
-			else if (xp of Onyx > 19 and xp of Onyx < 30): [Sub Stallion]
+			else if (XP of Onyx > 19 and XP of Onyx < 30): [Sub Stallion]
 				say "     Onyx wanders over to inspect the wolves more thoroughly, surreptitiously licking his lips as his eyes roam over Blanche's voluptuous form. 'Hello, I'm Onyx. It's nice to meet you,' he says with an endearing smile. The wolfess seems momentarily tongue-tied, her eyes fixed on the submissive horseman's stirring erection, just beginning to squeeze past the ineffective confines of his thong. With an annoyed sigh at his mother's behavior, Sturm replies, 'It's a pleasure to meet you too. I'm Sturm and this is my mother, Blanche. Please excuse her staring.' He gently elbows her, startling her for a moment before she realizes what she was doing and blushes beneath her fur and begins to hurriedly apologize. 'Don't worry about it. I find it more than a little flattering that I can draw their eye like that. Look all you want,' Onyx laughs. You see Sturm trying to get a better look out of the corner of his eye, but Blanche seems to be self-conscious now, firmly keeping her eyes above the stallion's groin. After a few more words are exchanged, Onyx walks away again, flicking his tail around with the side-effect of revealing his hole to all three of you as you watch him leave. Once he rounds a corner, Sturm turns back to his mother and wordlessly folds his arms, Blanche suddenly finding the ceiling extraordinarily interesting.";
 				TraitGain "Onyx - Flirty Hung Stud" for Blanche;
 				TraitGain "Onyx - Flirty Show-off" for Sturm;
@@ -1286,7 +1286,8 @@ Table of GameCharacterIDs (continued)
 object	name
 Blanche	"Blanche"
 
-Blanche is a woman. Blanche is in Office Den.
+Blanche is a woman.
+Blanche is in Office Den.
 ScaleValue of Blanche is 3. [6']
 Body Weight of Blanche is 5. [scale of 1-9 for body weight, grouped into low weight (1-3), mid weight (4-6) and high weight (7-9)]
 Body Definition of Blanche is 3. [scale of 1-9 for body definition, grouped into low muscle (1-3), mid muscle (4-6), high muscle (7-9)]
@@ -1326,7 +1327,6 @@ Description of Blanche is "[blanchedesc]".
 Conversation of Blanche is { "Thanks." }.
 the fuckscene of Blanche is "[sexwithBlanche]".
 the scent of Blanche is "[blancheupdate]She smells of wolf and half-hidden arousal."
-The icon of blanche is Figure of Blanche1_icon.
 
 Libido of Blanche is usually 255.
 lust of Blanche is usually 255.
@@ -1340,17 +1340,19 @@ to say blanchedesc:
 		project the figure of Blanche_naked_icon;
 	else if HP of Blanche is 5 or HP of Blanche is 9 or HP of Blanche is 12:
 		project the figure of Blanche_preg1_icon;
-	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 14:
+	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 13:
 		project the figure of Blanche_preg3_icon;
 	else if HP of Blanche is 7 or HP of Blanche is 8 or HP of Blanche is 11 or HP of Blanche is 14:
 		project the figure of Blanche_naked_icon;
 	if Charisma of Blanche > 0: [At the library]
 		if HP of Blanche is 8 or HP of Blanche is 11 or HP of Blanche is 14:
 			say "     Blanche is an anthropomorphic female wolf with white fur. She has a shapely, womanly body with plump breasts and wide hips, giving her a sexy bottom beneath her fluffy tail. She doesn't bother to wear anything now, not caring to wear clothes anymore. While she has gotten a little fuller-figured after having had [if HP of Blanche is 8]her litter[else if HP of Blanche is 11]a couple of litters[else]several litters[end if], she's just as sexy and has become quite the MILF. Since moving to the library, she also seems much happier and less frightened, especially with her loyal pack to keep her company and protect her. The white-furred wolf usually joins in as Sturm teaches the younger pups how to hunt, gather supplies, and defend themselves.";
-		else if HP of Blanche is 9 or HP of Blanche is 10:
+		else if HP of Blanche is 9 or HP of Blanche is 12:
 			say "     Blanche is an anthropomorphic female wolf with white fur. She has a shapely, womanly body with plump breasts and wide hips, giving her a sexy bottom beneath her fluffy tail. She doesn't bother to wear anything now, not caring to wear clothes anymore. While she has gotten a little fuller-figured after having had her litter, [if HP of Blanche is 9]you can still tell she's got another on the way thanks to the swell in her tummy[else if HP of Blanche is 10]her belly is once again round and heavy with a rapidly-advancing pregnancy[end if]. Since moving to the library, she also seems much happier and less frightened, especially with her loyal pack to keep her company and protect her. The white-furred wolf usually joins in as Sturm trains the others how to hunt, gather supplies, and defend themselves.";
-		else:
+		else if HP of Blanche is 10 or HP of Blanche is 13:
 			say "     Blanche is an anthropomorphic female wolf with white fur. She has a shapely, womanly body with plump breasts and wide hips, giving her a sexy bottom beneath her fluffy tail. She doesn't bother to wear anything now, not caring to wear clothes anymore. While gained a little weight after having had a few litters, she's still quite hot and has become quite the MILF of a wolf. And with another litter [if HP of Blanche is 13]well [end if]on its way, as can be seen from the [if HP of Blanche is 13]large [end if]swell to her tummy, she couldn't be happier to add to the loyal pack keeping her company and protecting her. These days, the white-furred wolf usually joins in as Sturm trains the others how to hunt, gather supplies, and defend themselves.";
+		else:
+			say "     [bold type]Error. Report this to the Flexible Survival Discord Server.[roman type]";
 	else if HP of Blanche < 3:
 		say "     Blanche is an anthropomorphic female wolf with white fur. She has a shapely, womanly body with plump breasts and wide hips, giving her a sexy bottom beneath her fluffy tail. She has a [if turns / 8 is even]pastel blue blouse[else]pink blouse[end if] draped over her shoulders which she hasn't bothered to button up.";
 	else if HP of Blanche < 5:
@@ -1364,11 +1366,12 @@ to say blanchedesc:
 		say "[blanche_pups_intro]";
 	else if HP of Blanche is 8 or HP of Blanche is 11 or HP of Blanche is 14:
 		say "     Blanche is an anthropomorphic female wolf with white fur. She has a shapely, womanly body with plump breasts and wide hips, giving her a sexy bottom beneath her fluffy tail. She doesn't bother to wear anything now, not caring to wear clothes anymore. While she has gotten a little fuller-figured after having had [if HP of Blanche is 7 or HP of Blanche is 8]her litter[else if HP of Blanche is 11]a couple of litters[else]several litters[end if], she's just as sexy and has become quite the MILF. She also seems much happier and less frightened now that she has her loyal pack to keep her company and protect her. The white-furred wolf usually lounges around while [if HP of Blanche is 7 or HP of Blanche is 8]directing the others as to[else]teaching the younger pups about[end if] hunting and supply gathering.";
-	else if HP of Blanche is 9 or HP of Blanche is 10:
+	else if HP of Blanche is 9 or HP of Blanche is 12:
 		say "     Blanche is an anthropomorphic female wolf with white fur. She has a shapely, womanly body with plump breasts and wide hips, giving her a sexy bottom beneath her fluffy tail. She doesn't bother to wear anything now, not caring to wear clothes anymore. While she has gotten a little fuller-figured after having had her litter, [if HP of Blanche is 9]you can still tell she's got another on the way thanks to the swell in her tummy[else if HP of Blanche is 10]her belly is once again round and heavy with a rapidly-advancing pregnancy[end if]. She seems quite happy these days, especially with another litter of pups on the way and with her loyal pack to keep her company and to protect her. The white-furred wolf usually lounges on her mattress while directing the others as to hunting and supply gathering.";
-	else:
+	else if HP of Blanche is 10 or HP of Blanche is 13:
 		say "     Blanche is an anthropomorphic female wolf with white fur. She has a shapely, womanly body with plump breasts and wide hips, giving her a sexy bottom beneath her fluffy tail. She doesn't bother to wear anything now, not caring to wear clothes anymore. While gained a little weight after having had a few litters, she's still quite hot and has become quite the MILF of a wolf. And with another litter [if HP of Blanche is 13]well [end if]on its way, as can be seen from the [if HP of Blanche is 13]large [end if]swell to her tummy, she couldn't be happier to add to the loyal pack keeping her company and protecting her. These days, the white-furred wolf usually lounges on her bed while teaching the younger pups about hunting and supply gathering.";
-
+	else:
+		say "     [bold type]Error. Report this to the Flexible Survival Discord Server.[roman type]";
 
 [Character Notes - Blanche:
 
@@ -1416,7 +1419,7 @@ to say BlancheTalkMenu:
 		project the figure of Blanche_naked_icon;
 	else if HP of Blanche is 5 or HP of Blanche is 9 or HP of Blanche is 12:
 		project the figure of Blanche_preg1_icon;
-	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 14:
+	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 13:
 		project the figure of Blanche_preg3_icon;
 	else if HP of Blanche is 7 or HP of Blanche is 8 or HP of Blanche is 11 or HP of Blanche is 14:
 		project the figure of Blanche_naked_icon;
@@ -1473,7 +1476,7 @@ to say BlancheTalkMenu:
 				wait for any key;
 		else if calcnumber is 0:
 			now sextablerun is 1;
-			say "     You step back, indicating an end to the conversation. Blanche looks crestfallen for a moment before [one of]Sturm steps up behind her and traps her in a hug, the two of them enjoying a moment of innocent affection[or]Bianca pads over to her to ask her mother's opinion on some jewellery that she has found, holding various pieces up to her mother's neck and wrists[or]Ernest approaches, eager to get his mother's input on some plan that he has scribbled down on his clipboard[or]Claude creeps up behind her and grabs her and suddenly grabs her by the tail, deftly dodging her attempt to swat him in retribution[at random].";
+			say "     You step back, indicating an end to the conversation. Blanche looks crestfallen for a moment before [one of]Sturm steps up behind her and traps her in a hug, the two of them enjoying a moment of innocent affection[or]Bianca pads over to her to ask her mother's opinion on some jewelry that she has found, holding various pieces up to her mother's neck and wrists[or]Ernest approaches, eager to get his mother's input on some plan that he has scribbled down on his clipboard[or]Claude creeps up behind her and grabs her and suddenly grabs her by the tail, deftly dodging her attempt to swat him in retribution[at random].";
 			wait for any key;
 		else:
 			say "Invalid Option. Pick between 1 and [the number of filled rows in the table of fucking options] or 0 to exit.";
@@ -1481,7 +1484,7 @@ to say BlancheTalkMenu:
 
 to say BlancheTalk1: [Small Talk]
 	if Charisma of Blanche > 3: [Been Christmas Shopping]
-		say "     '[one of]I think that Sturm's really maturing. He doesn't glower at you any more and he's complimented you to me more than a few times. Thank you for being patient with him[or]Bianca's been asking me so many questions about sex that I wonder sometimes if she was replaced by a succubus at birth. Then I remember that I was much the same when I was young, but I dared not ask anyone[or]Ernest's ambition will either see him accomplish great things, or suffer immense mental anguish when things don't work how he expects. It's my duty as his mother to make sure that it is the former. He just has to accept help at times and find a stress outlet[or]Claude is one of the most socially gifted people I have ever met and I don't know where he gets it from. I was reasonably well-liked at school, but nowhere near his level[or]Penelope may be the most similar to me of all my children, amazonian physique aside. Her desire to nurture and protect is beyond even Sturm, though I'm not sure that either of them know it[or]I want to treat Wendis like a child at times, but she's as much an adult as the brothers and sisters. I hope that she doesn't lose her ability to be cheerful as time goes by. The world isn't always a nice place and I won't always be there to protect her[or]I love Bernard's cooking, but it makes me worry that I'm going to put on weight. If I'm not careful, I may have to join my children when they exercise[or]Maeve has really taken to the hypnosis section of her magic set. She puts a lot more effort into it, which is strange compared to her usual approach to life. At least I can be sure that she won't use it to hurt her family, but I can foresee having to have a discussion about it with her[or]Lumi sometimes acts more like a wild animal than a human, but as none of us are entirely human any more, it is hardly surprising. She knows what she is doing and is capable of making her own decisions. Even when it is whether or not to let you throw a ball for her[or]Casper is extremely talented, but I wonder if he might have an attention disorder. When it isn't to do with clothes, comics, or games, he gets distracted so easily[or]'Being a mother makes me feel so fulfilled.'[or]'With my cubs here, there's so much for me to do. Thankfully, they're strong and willing to help their mommy out. We might even be able to make this place more like a home than a refugee shelter.'[at random].'";
+		say "     '[one of]I think that Sturm's really maturing. He doesn't glower at you any more and he's complimented you to me more than a few times. Thank you for being patient with him[or]Bianca's been asking me so many questions about sex that I wonder sometimes if she was replaced by a succubus at birth. Then I remember that I was much the same when I was young, but I dared not ask anyone[or]Ernest's ambition will either see him accomplish great things, or suffer immense mental anguish when things don't work how he expects. It's my duty as his mother to make sure that it is the former. He just has to accept help at times and find a stress outlet[or]Claude is one of the most socially gifted people I have ever met and I don't know where he gets it from. I was reasonably well-liked at school, but nowhere near his level[or]Penelope may be the most similar to me of all my children, Amazonian physique aside. Her desire to nurture and protect is beyond even Sturm, though I'm not sure that either of them know it[or]I want to treat Wendis like a child at times, but she's as much an adult as the brothers and sisters. I hope that she doesn't lose her ability to be cheerful as time goes by. The world isn't always a nice place and I won't always be there to protect her[or]I love Bernard's cooking, but it makes me worry that I'm going to put on weight. If I'm not careful, I may have to join my children when they exercise[or]Maeve has really taken to the hypnosis section of her magic set. She puts a lot more effort into it, which is strange compared to her usual approach to life. At least I can be sure that she won't use it to hurt her family, but I can foresee having to have a discussion about it with her[or]Lumi sometimes acts more like a wild animal than a human, but as none of us are entirely human any more, it is hardly surprising. She knows what she is doing and is capable of making her own decisions. Even when it is whether or not to let you throw a ball for her[or]Casper is extremely talented, but I wonder if he might have an attention disorder. When it isn't to do with clothes, comics, or games, he gets distracted so easily[or]'Being a mother makes me feel so fulfilled.'[or]'With my cubs here, there's so much for me to do. Thankfully, they're strong and willing to help their mommy out. We might even be able to make this place more like a home than a refugee shelter.'[at random].'";
 	else if Charisma of Blanche > 0: [At Library]
 		if HP of Blanche is 8:
 			say "     [one of]'I can't thank you enough for letting me move here. I'm glad that I've got my lovely pups to keep me company, but I still miss you when you're away.'[or]'With my cubs here, there's so much for me to do. Thankfully, they're strong and willing to help their mommy out. We might even be able to make this place more like a home than a refugee shelter.'[or]'Since we've got extra mouths to feed, my pups are working hard to hunt and scavenge for our little pack. Don't worry, they'll share with anyone else that needs it here.'[or]'I feel much safer now that I've got my big, strong pups here to help. Not living in a hell-scape is a bonus too.'[or]She slides up beside you. 'Being pregnant was such a thrill. Having pups growing inside me just felt right. You should breed me again soon,' she moans with longing in her voice.[or]'Being a mother makes me feel so fulfilled.'[or]'I hope that you and Sturm are getting along. I know how grouchy he used to be.'[or]'You gave me such brave, strong pups. I hope you'll help me make a few more,' she says coyly.[at random]";
@@ -1699,7 +1702,7 @@ to blanchesexmenu:
 		project the figure of Blanche_naked_icon;
 	else if HP of Blanche is 5 or HP of Blanche is 9 or HP of Blanche is 12:
 		project the figure of Blanche_preg1_icon;
-	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 14:
+	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 13:
 		project the figure of Blanche_preg3_icon;
 	else if HP of Blanche is 7 or HP of Blanche is 8 or HP of Blanche is 11 or HP of Blanche is 14:
 		project the figure of Blanche_naked_icon;
@@ -2003,7 +2006,7 @@ to say OfficeBlancheFamilyEvents:
 			project the figure of Blanche_naked_icon;
 		else if HP of Blanche is 5 or HP of Blanche is 9 or HP of Blanche is 12:
 			project the figure of Blanche_preg1_icon;
-		else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 14:
+		else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 13:
 			project the figure of Blanche_preg3_icon;
 		else if HP of Blanche is 7 or HP of Blanche is 8 or HP of Blanche is 11 or HP of Blanche is 14:
 			project the figure of Blanche_naked_icon;
@@ -2032,7 +2035,7 @@ instead of going to Computer Lab while (Charisma of Blanche is 1 and Fang is Boo
 		project the figure of Blanche_naked_icon;
 	else if HP of Blanche is 5 or HP of Blanche is 9 or HP of Blanche is 12:
 		project the figure of Blanche_preg1_icon;
-	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 14:
+	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 13:
 		project the figure of Blanche_preg3_icon;
 	else if HP of Blanche is 7 or HP of Blanche is 8 or HP of Blanche is 11 or HP of Blanche is 14:
 		project the figure of Blanche_naked_icon;
@@ -2078,7 +2081,7 @@ instead of going to Computer Lab while Charisma of Blanche is 3 and (Blanche is 
 		project the figure of Blanche_naked_icon;
 	else if HP of Blanche is 5 or HP of Blanche is 9 or HP of Blanche is 12:
 		project the figure of Blanche_preg1_icon;
-	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 14:
+	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 13:
 		project the figure of Blanche_preg3_icon;
 	else if HP of Blanche is 7 or HP of Blanche is 8 or HP of Blanche is 11 or HP of Blanche is 14:
 		project the figure of Blanche_naked_icon;
@@ -2170,7 +2173,7 @@ to say SummonBlanche:
 			project the figure of Blanche_naked_icon;
 		else if HP of Blanche is 5 or HP of Blanche is 9 or HP of Blanche is 12:
 			project the figure of Blanche_preg1_icon;
-		else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 14:
+		else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 13:
 			project the figure of Blanche_preg3_icon;
 		else if HP of Blanche is 7 or HP of Blanche is 8 or HP of Blanche is 11 or HP of Blanche is 14:
 			project the figure of Blanche_naked_icon;
@@ -2184,7 +2187,7 @@ to say DismissBlanche:
 		project the figure of Blanche_naked_icon;
 	else if HP of Blanche is 5 or HP of Blanche is 9 or HP of Blanche is 12:
 		project the figure of Blanche_preg1_icon;
-	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 14:
+	else if HP of Blanche is 6 or HP of Blanche is 10 or HP of Blanche is 13:
 		project the figure of Blanche_preg3_icon;
 	else if HP of Blanche is 7 or HP of Blanche is 8 or HP of Blanche is 11 or HP of Blanche is 14:
 		project the figure of Blanche_naked_icon;

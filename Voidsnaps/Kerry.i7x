@@ -9,6 +9,9 @@ Section 1 - NPC Declarations and Post Import Rule
 a postimport rule: [bugfixing rules for players that import savegames]
 	if Resolution of Dangerous Load is 1: [Watched Kerry fuck Shaw.]
 		AddNavPoint Ruined Apartments;
+	if Superior Breeding is resolved:
+		Change the North Exit of Ruined Apartments to Minotaur Grotto;
+		Change the South Exit of Minotaur Grotto to Ruined Apartments;
 
 Table of GameCharacterIDs (continued)
 object	name
@@ -178,7 +181,7 @@ to say MinoGrottoDesc:
 			say "Shaw rests on one, glistening with a fresh coat and completely nude, his half-transformed body spread out and his ass destroyed, dripping with fresh cum. You can't wait to see what all of that cum does to his body.";
 		else if Humanity of Shaw is 0:
 			say "Shaw rests on one, glistening with a fresh coat and completely nude, his furry body coated in his mate's cum and a blissful smile on his bovine face. It seems he's taken to being a minotaur. Perhaps it's a good thing that you let Kerry convert him.";
-		else: 
+		else:
 			say "If you got here, you've got skills. No content though! Please report seeing this on the FS discord!";
 	else:
 		say "After a sound ass kicking, Kerry's abandoned his makeshift home. You can still smell the remnants of his attempts to convert his superior through animalistic mating, but there's no sign of him, and nothing's moved since the last time you were here. You doubt he's coming back.";
@@ -234,7 +237,7 @@ to say ResolveEvent Dangerous Load:
 			ItemGain combat helmet by 1;
 			now Resolution of Dangerous Load is 1; [kicked the booster away, watched them fuck]
 			AddNavPoint Ruined Apartments;
-			decrease Humanity of Shaw by 10; 
+			decrease Humanity of Shaw by 10;
 		else: [nope]
 			LineBreak;
 			say "     Not in the mood to watch the results of your choice earlier, you snatch a dropped MRE, then get going, quickly ducking out of sight around the corner. Behind you, lusty bellows and shocked gasps echo through the streets until you're a block or two distant.";
@@ -257,7 +260,6 @@ Superior Breeding	"Superior Breeding"
 
 Superior Breeding is a situation.
 ResolveFunction of Superior Breeding is "[ResolveEvent Superior Breeding]".
-The level of Superior Breeding is 5.
 Sarea of Superior Breeding is "Nowhere".
 Prereq1 of Superior Breeding is Dangerous Load.
 Prereq1Resolution of Superior Breeding is { 1 }.
@@ -295,7 +297,6 @@ Shaw's Predicament	"Shaw's Predicament"
 
 Shaw's Predicament is a situation.
 ResolveFunction of Shaw's Predicament is "[ResolveEvent Shaw's Predicament]".
-The level of Shaw's Predicament is 5.
 Sarea of Shaw's Predicament is "Nowhere".
 Prereq1 of Shaw's Predicament is Superior Breeding.
 Prereq1Resolution of Shaw's Predicament is { 1, 2 }.
