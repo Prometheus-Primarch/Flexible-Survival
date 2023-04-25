@@ -374,6 +374,7 @@ Include Sex Ed by Prometheus.
 Include Shifting by Hellerhound.
 Include Shrinking Shrooms by Defth.
 Include Smith Haven Mall by Wahn.
+Include Snake Charmer by Fenekku.
 Include Soldier Events by Wahn.
 Include SpartanVikingCouple by Rikaeus.
 Include Special Forces Events by Vinickus.
@@ -388,6 +389,7 @@ Include Underground Events by Wahn.
 Include Walkinmall by Ssely.
 Include Warehouse District by Kaleem Mcintyre.
 Include Warehouse Events by StripeGuy.
+Include Wasp Hive by Voidsnaps.
 Include Wereraptor by Stripes.
 Include Werewolf by CrimsonAsh.
 Include Xeno Nest by Kernog.
