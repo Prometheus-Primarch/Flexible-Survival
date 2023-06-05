@@ -166,7 +166,7 @@ to say DragonEggDesc:
 		say "     Having grown again, the egg is now two foot high and you've been forced to move it to the corner just in case it continues to double in size. The shell is now a soft gray and still looks like a luminous stone, but given that it continues to grow and occasionally wobbles at its own accord, you trust that this is not some trick.";
 	else if HP of Hope-Born Dragon is 4: [Genitals Decided]
 		say "     Now alabaster-white, the egg is now three foot high and exudes a calming light from its shell. You wonder how large the dragon will be when it hatches but given the size of the egg, it is unlikely to be that large.";
-	else if HP of Hope-Born Dragon is 5: [Colour Decided]
+	else if HP of Hope-Born Dragon is 5: [Color Decided]
 		say "     You get the impression that it won't be too much longer before the egg hatches, its light dulled and the shell having turned [DragonColour]. Four foot from tip to base, the egg frequently wobbles back and forth with the occasional cracking sound issuing from it suggesting its inhabitant is trying to break through the thick shell.";
 
 
@@ -712,7 +712,7 @@ to say DragonEggHatchingProcess:
 		say "     [link](7)[as]7[end link] - Gray.";
 		say "     [link](8)[as]8[end link] - Brown.";
 		say "     [link](9)[as]9[end link] - Red.";
-		say "     [link](10)[as]8[end link] - Blue.";
+		say "     [link](10)[as]10[end link] - Blue.";
 		say "     [link](11)[as]11[end link] - Green.";
 		say "     [link](12)[as]12[end link] - Pink.";
 		say "     [link](13)[as]13[end link] - Purple.";
