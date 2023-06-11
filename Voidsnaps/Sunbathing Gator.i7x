@@ -62,7 +62,7 @@ to say Sun_Gator_TouchChoice:
 		-- "You only wanted a glance, nothing more. Touching him would be a bit much.":
 			say "     After a quick glance at the alligator, you shake your head. You're not interested in exploring his body, and you'd prefer not to spend any longer in his company. Hopefully he understands. The gator only shrugs when you speak, settling back on the sand and cocking his head to the side in a pointed motion, shooing you away. [italic type]You doubt you'll run into him again, and even if you do, he won't want to interact with you. [roman type][line break]";
 			now Resolution of Sunbathing Gator is 100; [no interest, avoiding]
-			now Sunbathing Gator is resolved;
+	now Sunbathing Gator is resolved;
 
 Section 2 - Proper Introduction
 
@@ -99,6 +99,7 @@ object	name
 Lazaros	"Lazaros"
 
 Lazaros is a man.
+Lazaros is in Lazaros's Camp.
 ScaleValue of Lazaros is 3. [human sized]
 Body Weight of Lazaros is 8. [scale of 1-9 for body weight, grouped into low weight (1-3), mid weight (4-6) and high weight (7-9)]
 Body Definition of Lazaros is 7. [scale of 1-9 for body definition, grouped into low muscle (1-3), mid muscle (4-6), high muscle (7-9)]
@@ -155,7 +156,7 @@ Lazaros's Camp is sleepsafe.
 Description of Lazaros's Camp is "[LazarosCampDesc]".
 
 instead of sniffing Lazaros's Camp:
-	say "     The comforting scent of Male gator permeates the camp, with an undertone of the tropical-scented lotions the gator wears.";
+	say "     The comforting scent of male gator permeates the camp, with an undertone of the tropical-scented lotions the gator wears.";
 
 to say LazarosCampDesc:
 	say "     Above the rocky cliffs sits Lazaros's camp in a small clearing flanked by trees. It's humble, but looks quite cozy, consisting of a fire pit surrounded by stones, and a weathered tent, through which you can see a pile of sleeping bags arranged into bedding. [if Lazaros is in Lazaros's Camp]Lazaros sits nude in front of a roaring blaze, tending to a bubbling pot of something that smells delicious. His scales look shiny in the flickering firelight, and your eyes can't help but admire his masculine form[else]The camp sits empty. Looks like Lazaros is probably sunbathing at the beach today[end if].";
@@ -243,9 +244,9 @@ instead of fucking Lazaros:
 
 An everyturn rule:
 	if Away From It All is resolved:
-		if daytimer is day and LastTurnDay is false: [sunbathing]
+		if daytimer is day: [sunbathing]
 			move Lazaros to Public Beach;
-		else if daytimer is night and LastTurnDay is true: [cooking at camp]
+		else if daytimer is night: [cooking at camp]
 			move Lazaros to Lazaros's Camp;
 
 to say Lazaros_Camp_Talk_Menu:
