@@ -567,7 +567,7 @@ Book 3 - Sex and Advancement
 			This is basically for a character having realized that they have been captured and are being held against their will.
 
 			Examples:
-				The man giggles a bit, 'Oh master you came back to fuck me, thank you! I don't care what you do to me, just please fuck me like slut!'
+				"Fuck you, get away from me! I'll bite!"
 
 			Part 2 - Dub-con
 			This is based around a character still wanting to free, however they have also begun to enjoy the feeling that the player is awakening within their body.
