@@ -8,7 +8,7 @@ Use slow route-finding.
 [ The following adjust Informs compiler settings so that it allocates enough space. If these values are incorrect, inform will fail to compile.]
 [ To determine if one of these is your issue, use the Errors tab in the inform 7 window. ]
 Use MAX_INDIV_PROP_TABLE_SIZE of 500000.
-Use MAX_PROP_TABLE_SIZE of 6000000.
+Use MAX_PROP_TABLE_SIZE of 8000000.
 use MAX_STATIC_DATA of 12500000.
 Use MAX_OBJ_PROP_COUNT of 1700.
 use MAX_SYMBOLS of 13000000. ["Compiler finished with code 10"]
@@ -244,6 +244,7 @@ Include Power Plant by Hellerhound.
 Include Qytat a'th Lundrues by SgtPepper234.
 Include Red Light District by Wahn.
 Include Shag Shack by Wahn.
+Include Sinking Swamp by Voidsnaps.
 Include SlutStorage by Wahn.
 Include SlutStorage_Eric by Wahn.
 Include Snapjaw Beach Camp by Gherod.
@@ -336,6 +337,7 @@ Include Main Storyline by Wahn.
 Include Male Dorm Events by Rikaeus.
 Include Mall Events by Sarokcat.
 Include Mall Expansion by Wahn.
+Include Mimic by Voidsnaps.
 Include Misc Events by Pandemonium.
 Include Misc 10 by Kaleem mcintyre.
 Include Misc 3 by Kaleem mcintyre.
@@ -365,7 +367,6 @@ Include Random Events by Guest Writers.
 Include Rane Events by Wahn.
 Include Recordings by Wahn.
 Include Red Events by Stripes.
-Include Reservoir by Kaleem Mcintyre.
 Include Rubber Sneakers by Kernog.
 Include Satyr Frat by Wahn.
 Include Save the Dame by Kaleem Mcintyre.
@@ -425,7 +426,6 @@ Include Behemoth by Kaleem mcintyre.
 Include Bird of Paradise by Stripes.
 Include Black Equinoid by Song.
 Include Black Wolf by Stripes.
-Include Blob by Kaleem Mcintyre.
 Include Blue Chaffinch by Stripes.
 Include Latex Bobcat by Stripes.
 Include Bottlenose Toy by Stripes.
@@ -438,6 +438,7 @@ Include Butterfly by Guest Writers.
 Include Cambion Male by Gherod.
 Include Candy Striper by Stripes.
 Include Cannon by Wahn.
+Include Capybara by Voidsnaps.
 Include Cat Ninjas by Stripes.
 Include Catgirl by Wahn.
 Include Caveman by Guest Writers.
@@ -665,6 +666,7 @@ Include Sharkman Brute by Gherod.
 Include Siamese Cats by Stripes.
 Include Sierrasaur by Blue Bishop.
 Include Siren by Stripes.
+Include Sitatunga by Voidsnaps.
 Include Skunk by Damaged.
 Include Skunkbeast Lord by Stripes.
 Include Slime Cube by Kernog.
@@ -757,6 +759,7 @@ Include Anastasia by Stripes.
 Include Aster by Qazarar.
 Include Atticus by Wahn.
 Include Azari by Dys.
+Include Baron by Voidsnaps.
 Include Bastet by Wahn.
 Include Bernard by Prometheus.
 Include Bianca by Prometheus.
@@ -846,6 +849,7 @@ Include Gwen by Prometheus.
 Include Hadiya by Stripes.
 Include Hanu by Kernog.
 Include Harold by Sarokcat.
+Include Hazel Summers by Prometheus.
 Include Hayato by Gherod.
 Include Helen by Wahn.
 Include Hellfire Workers by Gherod.
@@ -868,6 +872,7 @@ Include Janice by Sarokcat.
 Include Jake by Rikaeus.
 Include Jay by Wahn.
 Include Jenna by Rikaeus.
+Include Jett by Gherod.
 Include Jimmy by Prometheus.
 Include Joanna by Stripes.
 Include Joey by Qazarar.
@@ -881,6 +886,7 @@ Include Karen by Prometheus.
 Include Katherine by Kirov.
 Include Kerr & Talov by Wahn.
 Include Kerry by Voidsnaps.
+Include Kosk by Voidsnaps.
 Include Krampus by Wahn.
 Include Kristen by Stripes.
 Include Kurt by Rikaeus.
@@ -944,6 +950,7 @@ Include Pretty Kitty by Xenophiliac.
 Include Ranae by Kurainyx.
 Include Randall and Brad by Rikaeus.
 Include Rane by Wahn.
+Include Raymond by Voidsnaps.
 Include Reece by Luneth.
 Include RexxyEvent by Prometheus.
 Include Richard by Wahn.
@@ -967,6 +974,7 @@ Include Sirius by Prometheus.
 Include Skarnoth by Wahn.
 Include Skarnoth Loyalty by Luneth.
 Include Skarnoth-Brutus Scenes by Luneth.
+Include Solariel by Prometheus.
 Include Solstice by Stripes.
 Include Sonny by Rikaeus.
 Include Spike by Wahn.
@@ -988,6 +996,7 @@ Include Timothy by Sarokcat.
 Include Tobias by Voidsnaps.
 Include Toron by Gherod.
 Include Tristian by Verath.
+Include Uram by Voidsnaps.
 Include Urik by Wahn.
 Include Val by Wahn.
 Include Vanessa by Prometheus.

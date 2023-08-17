@@ -67,6 +67,7 @@ Steven's Home	"Steven's Home"	"Steven's Home"	"Junkyard"
 Foxy Hideaway	"Foxy Hideaway"	"Foxy Hideaway"	"Misc"
 Haunted House Entrance	"Haunted House Entrance"	"Haunted House Entrance"	"Misc"
 Ruined Apartments	"Ruined Apartments"	"Ruined Apartments"	"Misc"
+Ruined Restaurant	"Ruined Restaurant"	"Ruined Restaurant"	"Misc"
 Qytat Plaza	"Qytat Plaza"	"Qytat Plaza"	"Misc"
 Shifting Room	"Shifting Room"	"Shifting Room"	"Misc"
 Museum Foyer	"Museum Foyer"	"Museum Foyer"	"Museum"
@@ -90,6 +91,7 @@ Island Pier	"Island Pier"	"Island Pier"	"Seaside"
 Kai's Campsite	"Kai's Campsite"	"Kai's Campsite"	"Seaside"
 Pirate Island	"Pirate Island"	"Pirate Island"	"Seaside"
 Viking Ship	"Viking Ship"	"Viking Ship"	"Seaside"
+Sinking Swamps	"Sinking Swamps"	"Sinking Swamps"	"Swamp"
 Stables Hotel	"Stables Hotel"	"Stables Hotel"	"The Stables"
 Master's Office	"Master's Office"	"Master's Office"	"The Stables"
 College Campus	"College Campus"	"College Campus"	"Tenvale College"
@@ -157,6 +159,7 @@ carry out destinationcheck:
 	let PrintedRedLightDistrict be 0;
 	let PrintedSeaside be 0;
 	let PrintedTheStables be 0;
+	let PrintedSwamp be 0;
 	let PrintedTenvaleCollege be 0;
 	let PrintedUrbanForest be 0;
 	let PrintedWarehouseDistrict be 0;
@@ -210,6 +213,9 @@ carry out destinationcheck:
 				-- "Seaside":
 					say "[if PrintedSeaside is 0][line break][bold type][NavList entry][roman type]: [else] | [end if][link][bracket][RoomName entry][close bracket][as]nav [NavText entry][end link]";
 					increment PrintedSeaside;
+				-- "Swamp":
+					say "[if PrintedSwamp is 0][line break][bold type][NavList entry][roman type]: [else] | [end if][link][bracket][RoomName entry][close bracket][as]nav [NavText entry][end link]";
+					increment PrintedSwamp;
 				-- "The Stables":
 					say "[if PrintedTheStables is 0][line break][bold type][NavList entry][roman type]: [else] | [end if][link][bracket][RoomName entry][close bracket][as]nav [NavText entry][end link]";
 					increment PrintedTheStables;
@@ -265,6 +271,7 @@ carry out navigating:
 	now Player is in noun;
 	follow the ngraphics_blank rule;
 	NavInEvent_Check noun;
+	now inasituation is false; [cleaning up possible open ended flags]
 
 NavCheckReturn is a truth state that varies.
 

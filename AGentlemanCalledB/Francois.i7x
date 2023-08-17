@@ -257,7 +257,7 @@ Instead of conversing the Francois:
 		ItemGain Dog Treats by 1;
 	else if Perception of Rex is 2:
 		say "     Realizing that Francois and his bakery must be the place Karen mentioned, you decide to explain your situation to Francois, recounting the entire story that led to your meeting Karen and your intention to help her escape. 'Mon Dieu, poor Karen,' Francois replies solemnly after hearing your tale, 'but at least it is not too late [if Libido of Francois >= 3]for you, mon petit chou[else]to repay mon héro[end if].' Without another word Francois gets to work, gathering a few supplies before starting in earnest. Soon the entire bakery is filled with the warm scents of his work, and you find your mouth watering[if BodyName of Player is not listed in the infections of CanineList and FaceName of Player is not listed in infections of CanineList], despite knowing they are snacks intended for dogs[end if]. Eventually Francois finishes his work and returns with a small paper bag filled with fresh treats. [if BodyName of Player is listed in the infections of CanineList or FaceName of Player is listed in infections of CanineList or hunger of Player > 60]The enticing scent wafting from the bag in your hands proves to be too much, and you eagerly fish a treat out. Francois simply grins at you as he watches you enjoy a sample of his work. Still licking the last few crumbs of your snack from your lips, you[else]You[end if] stow the bag away in your pack and give Francois your regards before deciding on your next move.";
-		now HP of Karen is 3;
+		now Perception of Rex is 3;
 		ItemGain Dog Treats by 1;
 	else if HP of Francois is 0:
 		say "     'I must thank you again, mon ami[if Player is purefemale]e[end if],' Francois says as he steps around the counter, 'but perhaps I could ask another favor of you? I have a desire to create, to expand my art, and there must be so many exotic and interesting new flavors out in this city now. Oh how I would love to experiment with them, but sadly, I am no fighter. I fear I cannot go out there to gather these new ingredients myself, but you, mon [if Player is purefemale]héroïne[else]héro[end if], seem more than capable of surviving out there. If you bring back any potential ingredients you find, I would love to bake something for you[if Player is male], and perhaps I could 'reward' you in other ways as well,' he says, licking his lips as his eyes stray to your groin. 'Just[else]. Just[end if] bring back anything you find and let me know you would like me to [link]bake[as]bake Francois[end link] for you.";
@@ -883,8 +883,7 @@ to say lollicockGet:
 				now Cock of Player is "[one of]candy[or]confectionary[or]red candy[or]canine candy[as decreasingly likely outcomes]";
 		else:
 			say "a rumbling builds in your belly. Clearly your body doesn't agree with something about the treat.";
-		decrease hunger of Player by 5;
-		if hunger of Player < 0, now hunger of Player is 0;
+		PlayerEat 5;
 		if lollicockCheck is 0:
 			say "     When your stomach finally stops its groaning, you look up to see Francois staring back at you, his previous happy expression somewhat dampened as a result of your reaction. You do you best to assure him that his dish was quite tasty, despite your body's apparent distaste, which helps to brighten his mood again.";
 		else:
@@ -958,8 +957,7 @@ to say boysenberry blossom Use:
 		increase Cock Length of Player by a random number from 1 to 2;
 		Follow the cock descr rule;
 		say " you savor the fruity pastry as a warm tingling wells up in your belly, slowly spreading across your body. The sensation focuses on your groin, your [if Cock Count of Player is 1][one of]cock[or]penis[or]shaft[or]maleness[at random] [one of]engorging[or]swelling[or]throbbing[at random] as it gains[else][one of]cocks[or]penises[or]shafts[or]malenesses[at random] [one of]engorging[or]swelling[or]throbbing[at random] as they gain[end if] in length, becoming [descr]";
-	decrease hunger of Player by 5;
-	if hunger of Player < 0, now hunger of Player is 0;
+	PlayerEat 5;
 
 bleuettonne is a grab object.
 bleuettonne has a usedesc "[bleuettonne Use]".
@@ -979,8 +977,7 @@ to say bleuettonne Use:
 		BallsGrow Player by 1;
 		Follow the cock descr rule;
 		say " as you savor the mingling chocolate and fruit flavors a warm tingling wells up in your belly, slowly spreading across your body. The sensation focuses on your groin as your [one of]balls[or]orbs[or]cum factories[at random] [one of]tingle[or]churn audibly[or]throb[at random] and grow larger, your skin becoming taut with the expansion, leaving you with [Ball Size Adjective of Player] [Balls]";
-	decrease hunger of Player by 5;
-	if hunger of Player < 0, now hunger of Player is 0;
+	PlayerEat 5;
 
 crème abondante is a grab object.
 crème abondante has a usedesc "[crème abondante Use]".
@@ -1005,8 +1002,7 @@ to say crème abondante Use:
 			follow the breast descr rule;
 			say " become [descr] [one of]orbs[or]breasts[or]jugs[or]tits[at random]";
 		say ".";
-	decrease hunger of Player by 5;
-	if hunger of Player < 0, now hunger of Player is 0;
+	PlayerEat 5;
 
 muffin muffin is a grab object.
 muffin muffin has a usedesc "[muffin muffin Use]".
@@ -1028,8 +1024,7 @@ to say muffin muffin Use:
 			increase Cunt Tightness of Player by 1;
 		Follow the cunt descr rule;
 		say ". As you swallow the last bite, a warm tingling wells up in your belly, slowly spreading across your body. The sensation focuses on your groin, your [if Cunt Count of Player is 1][one of]cunt[or]pussy[or]vagina[or]cleft[at random] [one of]engorging[or]swelling[or]throbbing[at random] as it grows[else][one of]cunts[or]pussies[or]vaginas[or]clefts[at random] [one of]engorging[or]swelling[or]throbbing[at random] as they grow[end if], becoming [descr].";
-	decrease hunger of Player by 5;
-	if hunger of Player < 0, now hunger of Player is 0;
+	PlayerEat 5;
 
 lollicock is a grab object.
 lollicock has a usedesc "[lollicock Use]".
@@ -1065,8 +1060,7 @@ to say lollicock Use:
 				now Cock of Player is "[one of]candy[or]confectionary[or]red candy[or]canine candy[as decreasingly likely outcomes]";
 		else:
 			say "you are filled with a pleasant warmth, a subtle afterglow filling your body after the tasty treat.";
-	decrease hunger of Player by 5;
-	if hunger of Player < 0, now hunger of Player is 0;
+	PlayerEat 5;
 
 dragon moelleux is a grab object. It is not temporary. It is fast.
 Usedesc of dragon moelleux is "[dragonmoelleuxuse]".
@@ -1144,8 +1138,7 @@ the scent of gingerbread is "The gingerbread cookie smells like cinnamon and gin
 to say gingerbread Use:
 	say "You bite into the cookie with a satisfying crunch, devouring the small gingerbread man in a few quick bites.";
 	gingerbreadinfect;
-	decrease hunger of Player by 3;
-	if hunger of Player < 0, now hunger of Player is 0;
+	PlayerEat 3;
 
 to gingerbreadinfect:
 	repeat with y running from 1 to number of filled rows in Table of Random Critters:
@@ -1173,7 +1166,7 @@ to say cheesecake Use:
 			if cheesecakemode is 1 and player is cheesecakebodied:
 				say "     After your large serving of the delicious cake, your belly rumbles as your cheesecake body shifts and swells, becoming plump and Rubenesque.";
 			now cheesecakemode is 0;
-			decrease hunger of Player by 3;
+			PlayerEat 3;
 		else:
 			say "     Keeping your gluttony in check, you pull only one slice of the tempting cheesecake from your bag, carefully unwrapping it and savoring the rich strawberry flavor in a few small bites.";
 			cheesecakeinfect;
@@ -1188,8 +1181,7 @@ to say cheesecake Use:
 		if cheesecakemode is 0 and player is cheesecakebodied:
 			say "     Indulging in only a small serving of the rich cheesecake, your belly rumbles as your plump confectionary body slims down to become thin and sexy.";
 		now cheesecakemode is 1;
-	decrease hunger of Player by 3;
-	if hunger of Player < 0, now hunger of Player is 0;
+	PlayerEat 3;
 
 to cheesecakeinfect:
 	repeat with y running from 1 to number of filled rows in Table of Random Critters:
