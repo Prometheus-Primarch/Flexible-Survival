@@ -231,6 +231,7 @@ Include Hyena Gang by Stripes.
 Include Junkyard and Warehouse by Wahn.
 Include Kitsune Hideaway by Shadowwolf94.
 Include Lair Of The Lupines by Gherod.
+Include Last_Chance_Map by Sundered Dragon.
 Include Mall Community Center by Wahn.
 Include Mall Residents by Rikaeus.
 Include Medical Checkups by Stripes.
@@ -269,6 +270,7 @@ Include Ancient Tome by Wahn.
 Include Apartment 319 by Kaleem Mcintyre.
 Include Assorted Events by Stripes.
 Include Avatar of Hope by Prometheus.
+Include Addicted Breeder by Voidsnaps.
 Include Beach Events by Sarokcat.
 Include Black Pearl by Guest Writers.
 Include Bouncy Castle by Stripes.
@@ -591,6 +593,7 @@ Include Mannequin by Wahn.
 Include Manticore by Kaleem mcintyre.
 Include Mareslut by Sarokcat.
 Include Margay by Stripes.
+Include Margay Taur by Sundered Dragon.
 Include Maternity Lamia By Blue Bishop.
 Include Math Teacher by Stripes.
 Include Megakitty by Stripes.
@@ -688,6 +691,7 @@ Include Stallionboi by Fuxi.
 Include Succubus by Sarokcat.
 Include Sugar Ferret by Stripes.
 Include Sugar Glider by AGentlemanCalledB.
+Include Swamp Goblin by Voidsnaps.
 Include Taurus by Defth.
 Include Teddy Bear by Sarokcat.
 Include Tenrec by StripeGuy.
@@ -734,6 +738,7 @@ Part 4 - NPCs
 Include Absinthe by Bigfish15079.
 Include Ace by Aureas Gigas.
 Include Adam by Wahn.
+Include Addicted Breeder by Voidsnaps.
 Include Aeca by Wahn.
 Include Aerana by Gherod.
 Include Alex by Stripes.
@@ -759,6 +764,8 @@ Include Arthur by Luneth.
 Include Anastasia by Stripes.
 Include Aster by Qazarar.
 Include Atticus by Wahn.
+Include Augustus_Drake by Sundered Dragon.
+Include Ava by Sundered Dragon.
 Include Azari by Dys.
 Include Baron by Voidsnaps.
 Include Bastet by Wahn.
@@ -869,6 +876,7 @@ Include Inflatable Orca by Song.
 Include Inflatable Otter Suit by Song.
 Include Informant by Kaleem mcintyre.
 Include Jana by Kirov.
+Include Janaz by Voidsnaps.
 Include Janice by Sarokcat.
 Include Jake by Rikaeus.
 Include Jay by Wahn.
@@ -885,6 +893,7 @@ Include Kai by Luneth.
 Include Kara by Sarokcat.
 Include Karen by Prometheus.
 Include Katherine by Kirov.
+Include Kathy by Sundered Dragon.
 Include Kerr & Talov by Wahn.
 Include Kerry by Voidsnaps.
 Include Kosk by Voidsnaps.
