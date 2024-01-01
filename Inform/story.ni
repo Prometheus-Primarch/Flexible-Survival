@@ -369,6 +369,7 @@ Include Random Events by Guest Writers.
 Include Rane Events by Wahn.
 Include Recordings by Wahn.
 Include Red Events by Stripes.
+Include Rock And A Hard Place by Voidsnaps.
 Include Rubber Sneakers by Kernog.
 Include Satyr Frat by Wahn.
 Include Save the Dame by Kaleem Mcintyre.
@@ -554,6 +555,7 @@ Include Human Infections by Wahn.
 Include Hydra Beast by Stripes.
 Include Hyena Matriarch by Stripes.
 Include Hyperskunk by Stripes.
+Include Hypno Spider by Soggi.
 Include Imp by Wahn.
 Include Impala by UrsaOmega.
 Include Incubus by Stripes.
