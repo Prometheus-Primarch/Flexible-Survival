@@ -387,6 +387,7 @@ Include Stable Related Events by Sarokcat.
 Include Stable Related Quests by Sarokcat.
 Include Sugar Feud by AGentlemanCalledB.
 Include Sunbathing Gator by Voidsnaps.
+Include Swamp Storyline by Voidsnaps.
 Include TFTG Feats by Luneth.
 Include Tidepool Event by Guest Writers.
 Include Toy Store by Song.
@@ -472,6 +473,7 @@ Include Donkeyman by Sarokcat n Verath.
 Include Donkeywoman by Sarokcat n Verath.
 Include Draco-Mantis Infections by Prometheus.
 Include Dracovixentaur by Stripes.
+Include Dragon Breeder by Sundered Dragon.
 Include Dragontaur by Stripes.
 Include Dragon Pool Toy by Hina Vache.
 Include Drone Wasp by Nuku Valente.
@@ -747,6 +749,7 @@ Include Aerana by Gherod.
 Include Alex by Stripes.
 Include Alpha by Wahn.
 Include Arcanologist by Taelyn.
+Include Argos by Voidsnaps.
 Include Bad Alexandra by Wahn.
 Include Allen by Wahn.
 Include Alexandra Breeding by Wahn.
@@ -762,7 +765,6 @@ Include Anthony by Wahn.
 Include Anton by Wahn.
 Include Araqiel by Gherod.
 Include Ares by Wahn.
-Include Argos by Voidsnaps.
 Include Ariel by Emerald.
 Include Arthur by Luneth.
 Include Anastasia by Stripes.
@@ -848,6 +850,7 @@ Include Frank by Luneth.
 Include Friesian Twin Isaac by Wahn.
 Include Friesian Twin Karel by Wahn.
 Include G-Shep Squad by Rikaeus.
+Include Galaxite by Sundered Dragon.
 Include Genevieve by Prometheus.
 Include Garrett by SgtPepper234.
 Include Gerty by Qazarar.
@@ -876,6 +879,7 @@ Include Hyper Squirrel by Nuku Valente.
 Include HypnoGeeks by Luneth.
 Include Icarus by Luneth.
 Include Ice Fox by Wahn.
+Include Ignacio by Voidsnaps.
 Include Inflatable Orca by Song.
 Include Inflatable Otter Suit by Song.
 Include Informant by Kaleem mcintyre.
@@ -898,6 +902,7 @@ Include Kara by Sarokcat.
 Include Karen by Prometheus.
 Include Katherine by Kirov.
 Include Kathy by Sundered Dragon.
+Include Keiran by Voidsnaps.
 Include Kerr & Talov by Wahn.
 Include Kerry by Voidsnaps.
 Include Kosk by Voidsnaps.
@@ -926,6 +931,7 @@ Include Mary by Luneth.
 Include Master Mind by Stripes.
 Include Master-of-Hell-Quest by Luneth.
 Include Matriarch NPC by Stripes.
+Include Matteo by Voidsnaps.
 Include Meredith by Prometheus.
 Include Micaela by Stripes.
 Include Midnight by Luneth.
@@ -975,6 +981,7 @@ Include Ryan by Fuxi.
 Include Sally by Stripes.
 Include Sakura Sato by Rikaeus.
 Include Sam by Stripes.
+Include Sandy by Voidsnaps.
 Include Santa Claws by Wahn.
 Include Sarah by Wahn.
 Include Sascha by Voidsnaps.
