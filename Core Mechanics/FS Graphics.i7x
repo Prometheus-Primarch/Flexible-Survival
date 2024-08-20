@@ -2063,6 +2063,8 @@ title	icon(figure name)	artist	backgroundcolor	formatrule
 "Squire_smile_undies_shirt_seethrough_icon"	Figure of Squire_smile_undies_shirt_seethrough_icon	"SteppeCrow"	g-White	"normal"
 "Squire_smile_soft_icon"	Figure of Squire_smile_soft_icon	"SteppeCrow"	g-White	"normal"
 "Squire_smile_hard_icon"	Figure of Squire_smile_hard_icon	"SteppeCrow"	g-White	"normal"
+"Sturm_full_body"	Figure of Sturm_full_body_icon	"Gherod"	g-dark-gray	"normal"
+"Sturm_full_body_hard"	Figure of Sturm_full_body_hard_icon	"Gherod"	g-dark-gray	"normal"
 "Succubus"	Figure of Succubus_clothed_icon	"Kupo Klein"	g-white	"normal"
 "Sugar Glider"	Figure of SugarGlider_icon	"Xilrayne"	g-black	"normal"
 "Susan_face"	Figure of Susan_face_icon	"SineAlas"	g-black	"normal"
